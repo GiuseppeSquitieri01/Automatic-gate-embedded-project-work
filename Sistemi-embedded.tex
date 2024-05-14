@@ -92,9 +92,18 @@
 \newpage
 
 \section{Progettazione del sistema}
-Testo della sezione 1.
+
+Questa sezione approfondisce la metodologia di progettazione adottata per sviluppare il sistema, delineando i processi, le strategie e gli approcci utilizzati per garantire un'architettura robusta e un funzionamento ottimale. \\\\
+In questa fase di progettazione, vengono utilizzati diversi diagrammi UML (Unified Modeling Language) per fornire una rappresentazione visuale dell'architettura e del funzionamento del sistema. Questi diagrammi sono strumenti essenziali per comunicare in modo chiaro e conciso la struttura 
+e le interazioni all'interno del sistema.
+\\\\
+Attraverso l'analisi dettagliata della progettazione, si mira a garantire che il sistema soddisfi appieno le esigenze degli utenti e che sia in grado di fornire le funzionalità desiderate in modo efficiente, sicuro e affidabile.
 \subsection{User stories}
-testo user stories
+Le user stories rappresentano una componente essenziale della fase di progettazione, fornendo una panoramica diretta e comprensibile delle funzionalità richieste dal punto di vista dell'utente. 
+\\\\
+Queste narrazioni brevi sono strumenti efficaci per catturare le esigenze degli utenti finali e guidare lo sviluppo del sistema in modo centrato sull'utente. Ogni user story è accompagnata da criteri di accettazione chiari e obiettivi, che stabiliscono in modo inequivocabile quando una determinata funzionalità può essere considerata completa e soddisfacente per l'utente. 
+\\\\
+Questo approccio aiuta a garantire che il processo di progettazione si concentri sulle reali esigenze degli utenti e fornisce un solido punto di riferimento per la fase di testing, consentendo di valutare in modo efficace il grado di conformità del sistema alle aspettative degli utenti finali.
 \subsubsection{US1:}
 Come utente, voglio essere in grado di aprire il cancello premendo il pulsante B1.
 \begin{itemize}
@@ -114,42 +123,72 @@ Come utente, voglio poter chiudere il cancello premendo il pulsante B1.
     \end{enumerate}
 \end{itemize}
 \subsubsection{US3:}
-testo user stories 3
+Come utente, voglio poter regolare il tempo di chiusura automatica del cancello.
 \begin{itemize}
     \item Criteri di accettazione
+    \begin{enumerate}
+        \item Premere il pulsante B2 aumenta il tempo di chiusura automatica del cancello.
+        \item Il tempo di chiusura automatica varia da 10 a 120 secondi.
+        \item Quando il tempo massimo (120 secondi) è raggiunto e si preme nuovamente il pulsante B2, il tempo ritorna a 10 secondi.
+    \end{enumerate}
 \end{itemize}
 \subsubsection{US4:}
-testo user stories 4
+Come utente, voglio poter regolare il tempo di lavoro del cancello.
 \begin{itemize}
     \item Criteri di accettazione
+    \begin{enumerate}
+        \item Premere il pulsante B3 aumenta il tempo di lavoro del cancello.
+        \item Il tempo di lavoro varia da 10 a 120 secondi.
+        \item Quando il tempo massimo (120 secondi) è raggiunto e si preme nuovamente il pulsante B3, il tempo ritorna a 10 secondi.
+    \end{enumerate}
 \end{itemize}
 \subsubsection{US5:}
-testo user stories 5
+Come utente, voglio che il cancello si riapra se viene rilevata la presenza dal sensore P1 di un ostacolo durante la fase di chiusura.
 \begin{itemize}
     \item Criteri di accettazione
+    \begin{enumerate}
+        \item Se il sensore P1 rileva un ostacolo durante la chiusura del cancello, il cancello si riapre automaticamente.
+        \item Il comando di riapertura del cancello è attivato solo se il sensore P1 è attivo.
+    \end{enumerate}
 \end{itemize}
 \subsubsection{US6:}
-testo user stories 6
+Come utente, voglio che il cancello non si apra o si chiuda se il sensore di presenza P1 rileva la presenza di un ostacolo.
 \begin{itemize}
     \item Criteri di accettazione
+    \begin{enumerate}
+        \item Se il sensore P1 rileva un ostacolo durante la richiesta di apertura o chiusura del cancello, il comando viene ignorato.
+        \item Il dispositivo continua a monitorare il sensore P1 durante l'intero processo di apertura o chiusura.
+    \end{enumerate}
 \end{itemize}
 \subsubsection{US7:}
-testo user stories 7
+Come utente, voglio che il cancello entri in uno stato di errore se il sensore di chiusura P2 non si attiva durante la fase di chiusura.
 \begin{itemize}
     \item Criteri di accettazione
+    \begin{enumerate}
+        \item Se il sensore P2 non si attiva durante la fase di chiusura entro il tempo di lavoro, il dispositivo entra in uno stato di errore.
+        \item Il dispositivo segnala lo stato di errore accendendo il led rosso.
+    \end{enumerate}
 \end{itemize}
 \subsubsection{US8:}
-testo user stories 8
+Come utente, voglio che il cancello si consideri chiuso solo se il sensore di chiusura P2 è attivo.
 \begin{itemize}
     \item Criteri di accettazione
+    \begin{enumerate}
+        \item Il cancello si considera chiuso solo se il sensore di chiusura P2 è attivo.
+        \item Il dispositivo non accetta nuovi comandi di chiusura fino a quando il sensore P2 non è attivo.
+    \end{enumerate}
 \end{itemize}
 \subsubsection{US9:}
-testo user stories 9
+Come utente, voglio che il dispositivo mi fornisca segnalazioni luminose per indicare lo stato del cancello.
 \begin{itemize}
     \item Criteri di accettazione
+    \begin{enumerate}
+        \item Il led giallo lampeggia durante l'apertura o la chiusura del cancello.
+        \item Il led rosso si accende se il cancello non si chiude entro 10 secondi dalla fine della fase di lavoro.
+        \item Il led verde lampeggia se un ostacolo è presente davanti al sensore P1 durante la richiesta di apertura o chiusura del cancello.
+    \end{enumerate}
 \end{itemize}
-\subsubsection{US10:}
-testo user stories 10
+\newpage
 
 
 
