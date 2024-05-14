@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.6)  14 MAY 2024 12:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.6)  14 MAY 2024 12:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -340,7 +340,7 @@ Package hyperref Info: Link coloring OFF on input line 76.
 \openout3 = `Sistemi-embedded.out'.
 
 \c@lstlisting=\count300
-<logo_uni.png, id=91, 225.84375pt x 225.84375pt>
+<logo_uni.png, id=95, 225.84375pt x 225.84375pt>
 File: logo_uni.png Graphic file (type png)
 <use logo_uni.png>
 Package pdftex.def Info: logo_uni.png  used on input line 80.
@@ -367,26 +367,26 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.92 \newpage
-              [1] [2] [3] (Sistemi-embedded.aux)
+              [1] [2] [3] [4] (Sistemi-embedded.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
 Package rerunfilecheck Info: File `Sistemi-embedded.out' has not changed.
-(rerunfilecheck)             Checksum: 97A4601D82799507EF669CE390FB80C4;2436.
+(rerunfilecheck)             Checksum: BE6AD9A94DD47EF1BFC2FE1744362109;2582.
  ) 
 Here is how much of TeX's memory you used:
- 15900 strings out of 474369
- 273931 string characters out of 5750330
+ 15916 strings out of 474369
+ 274155 string characters out of 5750330
  1934754 words of memory out of 5000000
- 38077 multiletter control sequences out of 15000+600000
- 563537 words of font info for 54 fonts, out of 8000000 for 9000
+ 38086 multiletter control sequences out of 15000+600000
+ 563874 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,79p,449b,459s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Sistemi-embedded.pdf (4 pages, 85615 bytes).
+ 75i,7n,79p,449b,491s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\giuse\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on Sistemi-embedded.pdf (5 pages, 89830 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
- 182 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 175 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 190 words of extra memory for PDF output out of 10000 (max. 10000000)
 
