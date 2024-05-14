@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.6)  14 MAY 2024 14:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.6)  14 MAY 2024 14:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -185,10 +185,32 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip53
+) (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2024/04/20 v24.4 The Babel package
+\babel@savecnt=\count279
+\U@D=\dimen155
+\l@unhyphenated=\language79
+ (C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count280
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\giuse\AppData\Roaming\MiKTeX\tex/latex/babel-italian\italian.ldf
+Language: italian 2024/01/03 v.1.5.00 Italian support for the babel system
+\it@lettering=\count281
+\it@doublequoteactive=\count282
+\it@ISOcompliance=\count283
+)) (C:\Program Files\MiKTeX\tex/generic/babel/locale/it\babel-italian.tex
+Package babel Info: Importing font and identification data for italian
+(babel)             from babel-it.ini. Reported on input line 11.
 ) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks23
-\pgfutil@tempdima=\dimen155
-\pgfutil@tempdimb=\dimen156
+\pgfutil@tempdima=\dimen156
+\pgfutil@tempdimb=\dimen157
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box51
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
@@ -199,52 +221,52 @@ Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
  (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks26
 ))) (C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex
-\pgf@x=\dimen157
-\pgf@xa=\dimen158
-\pgf@xb=\dimen159
-\pgf@xc=\dimen160
-\pgf@y=\dimen161
-\pgf@ya=\dimen162
-\pgf@yb=\dimen163
-\pgf@yc=\dimen164
-\c@pgf@counta=\count279
-\c@pgf@countb=\count280
-\c@pgf@countc=\count281
-\c@pgf@countd=\count282
+\pgf@x=\dimen158
+\pgf@xa=\dimen159
+\pgf@xb=\dimen160
+\pgf@xc=\dimen161
+\pgf@y=\dimen162
+\pgf@ya=\dimen163
+\pgf@yb=\dimen164
+\pgf@yc=\dimen165
+\c@pgf@counta=\count284
+\c@pgf@countb=\count285
+\c@pgf@countc=\count286
+\c@pgf@countd=\count287
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen165
-\pgfmath@count=\count283
+\pgfmath@dimen=\dimen166
+\pgfmath@count=\count288
 \pgfmath@box=\box52
 \pgfmath@toks=\toks27
 \pgfmath@stack@operand=\toks28
 \pgfmath@stack@operation=\toks29
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count284
+\c@pgfmathroundto@lastzeros=\count289
 ))) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen166
-\pgffor@skip=\dimen167
+\pgffor@iter=\dimen167
+\pgffor@skip=\dimen168
 \pgffor@stack=\toks30
 \pgffor@toks=\toks31
 )) (C:\Program Files\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count285
+\lst@mode=\count290
 \lst@gtempboxa=\box53
 \lst@token=\toks32
-\lst@length=\count286
-\lst@currlwidth=\dimen168
-\lst@column=\count287
-\lst@pos=\count288
-\lst@lostspace=\dimen169
-\lst@width=\dimen170
-\lst@newlines=\count289
-\lst@lineno=\count290
-\lst@maxwidth=\dimen171
+\lst@length=\count291
+\lst@currlwidth=\dimen169
+\lst@column=\count292
+\lst@pos=\count293
+\lst@lostspace=\dimen170
+\lst@width=\dimen171
+\lst@newlines=\count294
+\lst@lineno=\count295
+\lst@maxwidth=\dimen172
  (C:\Program Files\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2024/03/11 1.10a (Carsten Heinz)
 ) (C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/03/11 1.10a (Carsten Heinz)
-\c@lstnumber=\count291
-\lst@skipnumbers=\count292
+\c@lstnumber=\count296
+\lst@skipnumbers=\count297
 \lst@framebox=\box54
 ) (C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2024/03/11 1.10a listings configuration
@@ -258,41 +280,41 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
  (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-04-11 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count293
+\l__color_backend_stack_int=\count298
 \l__pdf_internal_box=\box55
 ) (Sistemi-embedded.aux)
 \openout1 = `Sistemi-embedded.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count294
-\scratchdimen=\dimen172
+\scratchcounter=\count299
+\scratchdimen=\dimen173
 \scratchbox=\box56
-\nofMPsegments=\count295
-\nofMParguments=\count296
+\nofMPsegments=\count300
+\nofMParguments=\count301
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count297
-\MPscratchDim=\dimen173
-\MPnumerator=\count298
-\makeMPintoPDFobject=\count299
+\MPscratchCnt=\count302
+\MPscratchDim=\dimen174
+\MPnumerator=\count303
+\makeMPintoPDFobject=\count304
 \everyMPtoPDFconversion=\toks34
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -334,30 +356,41 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 76.
+Package hyperref Info: Link coloring OFF on input line 77.
 (Sistemi-embedded.out) (Sistemi-embedded.out)
 \@outlinefile=\write3
 \openout3 = `Sistemi-embedded.out'.
 
-\c@lstlisting=\count300
+LaTeX Info: Redefining \it@ocap on input line 77.
+LaTeX Info: Redefining \it@ccap on input line 77.
+
+
+File italian.ldf warning: 
+italian.ldf    With OT1 encoding guillemets are poorly faked
+italian.ldf    Use T1 encoding
+italian.ldf    or specify a font with command \CaporaliFrom
+italian.ldf    See the documentation concerning the babel-italian typesetting
+italian.ldf    on input line 77.
+
+\c@lstlisting=\count305
 <logo_uni.png, id=91, 225.84375pt x 225.84375pt>
 File: logo_uni.png Graphic file (type png)
 <use logo_uni.png>
-Package pdftex.def Info: logo_uni.png  used on input line 80.
+Package pdftex.def Info: logo_uni.png  used on input line 81.
 (pdftex.def)             Requested size: 266.14978pt x 266.18315pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 80.
+(Font)              <14.4> on input line 81.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 80.
- [1
+(Font)              <7> on input line 81.
+[1
 
 {C:/Users/giuse/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logo_uni.png>] (Sistemi-embedded.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 2.
+(Font)              <12> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 2.
+(Font)              <8> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 2.
+(Font)              <6> on input line 4.
 )
 \tf@toc=\write4
 \openout4 = `Sistemi-embedded.toc'.
@@ -366,24 +399,24 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.92 \newpage
+l.93 \newpage
               [1]
-Underfull \hbox (badness 10000) in paragraph at lines 96--101
+Underfull \hbox (badness 10000) in paragraph at lines 97--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--101
+Underfull \hbox (badness 10000) in paragraph at lines 97--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--107
+Underfull \hbox (badness 10000) in paragraph at lines 103--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--107
+Underfull \hbox (badness 10000) in paragraph at lines 103--108
 
  []
 
@@ -396,17 +429,17 @@ Package rerunfilecheck Info: File `Sistemi-embedded.out' has not changed.
 (rerunfilecheck)             Checksum: E9DD6A2D53B192443FB97018A11F8D5B;2488.
  ) 
 Here is how much of TeX's memory you used:
- 15933 strings out of 474369
- 274241 string characters out of 5750330
+ 17040 strings out of 474369
+ 294263 string characters out of 5750330
  1936754 words of memory out of 5000000
- 38086 multiletter control sequences out of 15000+600000
+ 39171 multiletter control sequences out of 15000+600000
  563874 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,79p,466b,585s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,79p,466b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\giuse\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Sistemi-embedded.pdf (6 pages, 96091 bytes).
+Output written on Sistemi-embedded.pdf (6 pages, 96562 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
+ 198 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
  182 words of extra memory for PDF output out of 10000 (max. 10000000)
 

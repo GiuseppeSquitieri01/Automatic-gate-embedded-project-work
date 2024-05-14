@@ -5,6 +5,7 @@
 \usepackage{ccicons}  % Per i simboli Creative Commons
 \usepackage{geometry} % Per personalizzare i margini
 \usepackage{hyperref} % Per i link
+\usepackage[italian]{babel}
 \usepackage{pgffor}
 \usepackage{listings}
 \usepackage{color}
@@ -109,8 +110,9 @@ Come utente, voglio essere in grado di aprire il cancello premendo il pulsante B
 \begin{itemize}
     \item Criteri di accettazione
     \begin{enumerate}
-        \item Il cancello si apre quando l'utente preme il pulsante B1.
-        \item Se il cancello è in fase di apertura o è già aperto, premere il pulsante B1 attiva la fase di chiusura.
+        \item Il cancello si apre quando l'utente preme il pulsante B1 mentre è chiuso.
+        \item Se il cancello è già aperto, premere il pulsante B1 attiva la fase di chiusura.
+        \item Se il cancello è in fase di apertura premere il pulsante B1 attiva la fase di chiusura.
     \end{enumerate}
 \end{itemize}
 \subsubsection{US2:}
@@ -118,8 +120,9 @@ Come utente, voglio poter chiudere il cancello premendo il pulsante B1.
 \begin{itemize}
     \item Criteri di accettazione
     \begin{enumerate}
-        \item Il cancello si chiude quando l'utente preme il pulsante B1 mentre è aperto o in fase di apertura.
-        \item Se il cancello è in fase di chiusura o è già chiuso, premere il pulsante B1 attiva la fase di apertura.
+        \item Il cancello si chiude quando l'utente preme il pulsante B1 mentre è aperto.
+        \item Se il cancello è già chiuso, premere il pulsante B1 attiva la fase di apertura.
+        \item Se il cancello è in fase di chiusura premere il pulsante B1 attiva la fase di apertura.
     \end{enumerate}
 \end{itemize}
 \subsubsection{US3:}
@@ -161,11 +164,11 @@ Come utente, voglio che il cancello non si apra o si chiuda se il sensore di pre
     \end{enumerate}
 \end{itemize}
 \subsubsection{US7:}
-Come utente, voglio che il cancello entri in uno stato di errore se il sensore di chiusura P2 non si attiva durante la fase di chiusura.
+Come utente, voglio che il cancello entri in uno stato di errore se il sensore di chiusura P2 non si attiva entro il tempo di lavoro durante la fase di chiusura.
 \begin{itemize}
     \item Criteri di accettazione
     \begin{enumerate}
-        \item Se il sensore P2 non si attiva durante la fase di chiusura entro il tempo di lavoro, il dispositivo entra in uno stato di errore.
+        \item Il dispositivo entra in uno stato di errore se il sensore P2 non si attiva entro il tempo di lavoro durante la fase di chiusura.
         \item Il dispositivo segnala lo stato di errore accendendo il led rosso.
     \end{enumerate}
 \end{itemize}
@@ -183,9 +186,9 @@ Come utente, voglio che il dispositivo mi fornisca segnalazioni luminose per ind
 \begin{itemize}
     \item Criteri di accettazione
     \begin{enumerate}
-        \item Il led giallo lampeggia durante l'apertura o la chiusura del cancello.
+        \item Il led giallo lampeggia con una frequenza di 0.5Hz durante l'apertura o la chiusura del cancello.
         \item Il led rosso si accende se il cancello non si chiude entro 10 secondi dalla fine della fase di lavoro.
-        \item Il led verde lampeggia se un ostacolo è presente davanti al sensore P1 durante la richiesta di apertura o chiusura del cancello.
+        \item Il led verde lampeggia per 30 secondi con frequenza di 1Hz se un ostacolo è presente davanti al sensore P1 durante la richiesta di apertura o chiusura del cancello.
     \end{enumerate}
 \end{itemize}
 \newpage
