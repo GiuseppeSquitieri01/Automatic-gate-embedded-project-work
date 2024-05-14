@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.6)  14 MAY 2024 11:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.6)  14 MAY 2024 11:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -263,24 +263,24 @@ File: l3backend-pdftex.def 2024-04-11 L3 backend support: PDF output (pdfTeX)
 ) (Sistemi-embedded.aux)
 \openout1 = `Sistemi-embedded.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count294
@@ -334,50 +334,59 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 75.
+Package hyperref Info: Link coloring OFF on input line 76.
 (Sistemi-embedded.out) (Sistemi-embedded.out)
 \@outlinefile=\write3
 \openout3 = `Sistemi-embedded.out'.
 
 \c@lstlisting=\count300
-<logo_uni.png, id=19, 225.84375pt x 225.84375pt>
+<logo_uni.png, id=23, 225.84375pt x 225.84375pt>
 File: logo_uni.png Graphic file (type png)
 <use logo_uni.png>
-Package pdftex.def Info: logo_uni.png  used on input line 79.
+Package pdftex.def Info: logo_uni.png  used on input line 80.
 (pdftex.def)             Requested size: 266.14978pt x 266.18315pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 79.
+(Font)              <14.4> on input line 80.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 79.
-LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 12.0pt on input line 81.
+(Font)              <7> on input line 80.
  [1
 
-{C:/Users/giuse/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logo_uni.png>]
+{C:/Users/giuse/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logo_uni.png>] (Sistemi-embedded.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+)
+\tf@toc=\write4
+\openout4 = `Sistemi-embedded.toc'.
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.99 \end{document}
-                    [1] (Sistemi-embedded.aux)
+l.92 \newpage
+              [1] [2] (Sistemi-embedded.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
 Package rerunfilecheck Info: File `Sistemi-embedded.out' has not changed.
-(rerunfilecheck)             Checksum: 0D8E15A68D52C786D0AFAB77DA28F1B8;332.
+(rerunfilecheck)             Checksum: E6168CC957CDA6666FD7147F986CD496;409.
  ) 
 Here is how much of TeX's memory you used:
- 15837 strings out of 474369
- 272792 string characters out of 5750330
+ 15865 strings out of 474369
+ 273213 string characters out of 5750330
  1931754 words of memory out of 5000000
- 38044 multiletter control sequences out of 15000+600000
- 560823 words of font info for 46 fonts, out of 8000000 for 9000
+ 38060 multiletter control sequences out of 15000+600000
+ 563537 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,79p,449b,465s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/giuse/AppData/Roaming/MiKTeX/fonts/type1/public/ccicons/ccicons.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Sistemi-embedded.pdf (2 pages, 76461 bytes).
+ 75i,7n,79p,449b,459s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on Sistemi-embedded.pdf (3 pages, 71444 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 6 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 64 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
