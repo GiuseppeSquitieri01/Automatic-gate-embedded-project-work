@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1715864280.37634 "c:/Users/alfon/OneDrive/Desktop/Università Magistrale/Algoritmi e Protocolli per la Sicurezza/Sistemi-embedded/Sistemi-embedded.tex" "Sistemi-embedded.pdf" "Sistemi-embedded" 1715864282.03126 0
+["pdflatex"] 1715868061.78727 "c:/Users/alfon/OneDrive/Desktop/Università Magistrale/Algoritmi e Protocolli per la Sicurezza/Sistemi-embedded/Sistemi-embedded.tex" "Sistemi-embedded.pdf" "Sistemi-embedded" 1715868063.79374 0
   "C:/Users/alfon/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1715864276.24836 80938 11adfb72b14af111a4e7f381261df7b8 ""
   "C:/Users/alfon/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1714998633.3931 14064 dcd80b1caa2bba8cd09e0704fb1753af ""
   "C:/Users/alfon/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1714841044.75782 24236005 bff7b405342294944722520a4d87f4ab ""
@@ -106,10 +106,10 @@
   "C:/Users/alfon/AppData/Local/Programs/MiKTeX/tex/latex/titling/titling.sty" 1252048308 7358 95ac619994bd30d405a74f3eca431c84 ""
   "C:/Users/alfon/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/alfon/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "Sistemi-embedded.aux" 1715864281.74385 2710 9dfe1fd0f2de5f44cb563d13d4030331 "pdflatex"
-  "Sistemi-embedded.out" 1715864281.74885 2312 31a112b6c910d7e5aa505be511dd9c28 "pdflatex"
-  "Sistemi-embedded.toc" 1715864281.75347 1686 06bf6957a924dc50396d24f9b7cd3835 "pdflatex"
-  "c:/Users/alfon/OneDrive/Desktop/Università Magistrale/Algoritmi e Protocolli per la Sicurezza/Sistemi-embedded/Sistemi-embedded.tex" 1715864263.88633 9317 9c45ec2ed61bf843c96839f071927b78 ""
+  "Sistemi-embedded.aux" 1715868063.29581 2831 abaefdbcef0dfe77521a5bb54c0bab5a "pdflatex"
+  "Sistemi-embedded.out" 1715868063.30278 2400 6fc16f52c492340bd9b815bfe89f9d46 "pdflatex"
+  "Sistemi-embedded.toc" 1715868063.30946 1766 7a85b4b660d07f7b1c9e18f414ca83d3 "pdflatex"
+  "c:/Users/alfon/OneDrive/Desktop/Università Magistrale/Algoritmi e Protocolli per la Sicurezza/Sistemi-embedded/Sistemi-embedded.tex" 1715868057.77415 9958 31d8f8b4573a58ac40770feb37116bd0 ""
   "logo_uni.png" 1715803766.42878 18890 3a0ae3c8d89ee4bc95cd3415c5a2586d ""
   (generated)
   "Sistemi-embedded.aux"

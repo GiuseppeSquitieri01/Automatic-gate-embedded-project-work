@@ -182,8 +182,21 @@ in modo tale da sapere che il cancello non rimanga aperto.
     \item Criteri di accettazione
     \begin{enumerate}
         \item Il led rosso segnale stato di errore accendendosi se il sensore P2 non si attiva entro 10 secondi dopo il tempo di lavoro durante la fase di chiusura.
+        \item Lo stato di errore persiste fino a quando il sensore P2 non si attiva.
     \end{enumerate}
 \end{itemize}
+\subsubsection{US8:}
+Come utente, \\
+voglio che quando il cancello è aperto e passa il tempo di chiusura, esso passa nella fase di chiusura\\
+in modo tale da non dover premere il pulsante B1 per richiuderlo.
+\begin{itemize}
+    \item Criteri di accettazione
+    \begin{enumerate}
+        \item Quando il cancello è aperto e il tempo di chiusura è passato il cancello passa alla fase di chiusura.
+        \item Quando il cancello è aperto e il tempo di chiusura il led giallo segnala la fase di chiusura.
+    \end{enumerate}
+\end{itemize}
+
 \newpage
 
 
