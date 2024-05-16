@@ -160,55 +160,28 @@ in modo tale da non provocare nessun danno.
 \begin{itemize}
     \item Criteri di accettazione
     \begin{enumerate}
-        \item Se il sensore P1 rileva un ostacolo durante la chiusura del cancello, il cancello si riapre automaticamente.
-        \item l led verde lampeggia per 30 secondi con frequenza di 1Hz se un ostacolo è presente davanti al sensore P1 durante la richiesta di apertura o chiusura
-        del cancello
+        \item Se il sensore P1 rileva un ostacolo durante la chiusura del cancello, il cancello ritorna in fase di apertura.
     \end{enumerate}
 \end{itemize}
 \subsubsection{US6:}
 Come utente, \\
-voglio che il cancello non si apra o si chiuda se il sensore di presenza P1 rileva la presenza di un ostacolo,\\
-in modo tale.
+voglio che il cancello non si apra o si chiuda se il sensore di presenza P1 rileva la presenza di un ostacolo e premo il pulsante B1,\\
+in modo tale da non provocare nessun danno.
 \begin{itemize}
     \item Criteri di accettazione
     \begin{enumerate}
         \item Se il sensore P1 rileva un ostacolo durante la richiesta di apertura o chiusura del cancello, il comando viene ignorato.
-        \item Il dispositivo continua a monitorare il sensore P1 durante l'intero processo di apertura o chiusura.
-    \end{enumerate}
+        \item Il led verde lampeggia per 30 secondi con frequenza di 1Hz quando il pulsante B1 viene premuto
+   \end{enumerate}
 \end{itemize}
 \subsubsection{US7:}
 Come utente, \\
-voglio che il cancello entri in uno stato di errore se il sensore di chiusura P2 non si attiva entro il tempo di lavoro durante la fase di chiusura,\\
-in modo tale.
+voglio che il cancello entri in uno stato di errore se il sensore di chiusura P2 non si attiva entro 10 secondi dopo il tempo di lavoro del cancello che è in fase di chiusura,\\
+in modo tale da sapere che il cancello non rimanga aperto.
 \begin{itemize}
     \item Criteri di accettazione
     \begin{enumerate}
-        \item Il dispositivo entra in uno stato di errore se il sensore P2 non si attiva entro il tempo di lavoro durante la fase di chiusura.
-        \item Il dispositivo segnala lo stato di errore accendendo il led rosso.
-    \end{enumerate}
-\end{itemize}
-\subsubsection{US8:}
-Come utente, \\
-voglio che il cancello si consideri chiuso solo se il sensore di chiusura P2 è attivo,\\
-in modo tale.
-\begin{itemize}
-    \item Criteri di accettazione
-    \begin{enumerate}
-        \item Il cancello si considera chiuso solo se il sensore di chiusura P2 è attivo.
-        \item Il dispositivo non accetta nuovi comandi di chiusura fino a quando il sensore P2 non è attivo.
-    \end{enumerate}
-\end{itemize}
-\subsubsection{US9:}
-Come utente, \\
-voglio che il dispositivo mi fornisca segnalazioni luminose per indicare lo stato del cancello,\\
-in modo tale.
-\begin{itemize}
-    \item Criteri di accettazione
-    \begin{enumerate}
-        \item Il led giallo lampeggia con una frequenza di 0.5Hz durante l'apertura o la chiusura del cancello.
-        \item Il led rosso si accende se il cancello non si chiude entro 10 secondi dalla fine della fase di lavoro.
-        \item Il led verde lampeggia per 30 secondi con frequenza di 1Hz se un ostacolo è presente davanti al sensore P1 durante la richiesta di apertura o chiusura del cancello.
-        \item Tutti i led sono accesi quando il cancello è aperto.
+        \item Il led rosso segnale stato di errore accendendosi se il sensore P2 non si attiva entro 10 secondi dopo il tempo di lavoro durante la fase di chiusura.
     \end{enumerate}
 \end{itemize}
 \newpage
