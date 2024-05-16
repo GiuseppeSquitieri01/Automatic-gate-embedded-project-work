@@ -3,22 +3,22 @@
 \contentsline {section}{\numberline {1}Progettazione del sistema}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}User stories}{2}{subsection.1.1}%
 \contentsline {subsubsection}{\numberline {1.1.1}US1:}{2}{subsubsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.2}US2:}{2}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.2}US2:}{3}{subsubsection.1.1.2}%
 \contentsline {subsubsection}{\numberline {1.1.3}US3:}{3}{subsubsection.1.1.3}%
 \contentsline {subsubsection}{\numberline {1.1.4}US4:}{3}{subsubsection.1.1.4}%
-\contentsline {subsubsection}{\numberline {1.1.5}US5:}{3}{subsubsection.1.1.5}%
-\contentsline {subsubsection}{\numberline {1.1.6}US6:}{3}{subsubsection.1.1.6}%
+\contentsline {subsubsection}{\numberline {1.1.5}US5:}{4}{subsubsection.1.1.5}%
+\contentsline {subsubsection}{\numberline {1.1.6}US6:}{4}{subsubsection.1.1.6}%
 \contentsline {subsubsection}{\numberline {1.1.7}US7:}{4}{subsubsection.1.1.7}%
 \contentsline {subsubsection}{\numberline {1.1.8}US8:}{4}{subsubsection.1.1.8}%
-\contentsline {subsubsection}{\numberline {1.1.9}US9:}{4}{subsubsection.1.1.9}%
-\contentsline {subsection}{\numberline {1.2}Use case diagram}{5}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Activity diagrams}{5}{subsection.1.3}%
-\contentsline {subsubsection}{\numberline {1.3.1}Scenario 1}{5}{subsubsection.1.3.1}%
-\contentsline {subsubsection}{\numberline {1.3.2}Scenario 2}{5}{subsubsection.1.3.2}%
-\contentsline {subsubsection}{\numberline {1.3.3}Scenario 3}{5}{subsubsection.1.3.3}%
-\contentsline {subsubsection}{\numberline {1.3.4}Scenario 4}{5}{subsubsection.1.3.4}%
-\contentsline {subsubsection}{\numberline {1.3.5}Scenario 5}{5}{subsubsection.1.3.5}%
-\contentsline {subsubsection}{\numberline {1.3.6}Scenario 6}{5}{subsubsection.1.3.6}%
-\contentsline {subsubsection}{\numberline {1.3.7}Scenario 7}{5}{subsubsection.1.3.7}%
-\contentsline {subsection}{\numberline {1.4}State diagram}{5}{subsection.1.4}%
-\contentsline {section}{Elenco delle figure}{5}{section*.2}%
+\contentsline {subsubsection}{\numberline {1.1.9}US9:}{5}{subsubsection.1.1.9}%
+\contentsline {subsection}{\numberline {1.2}Use case diagram}{6}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Activity diagrams}{6}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Scenario 1}{6}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Scenario 2}{6}{subsubsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.3}Scenario 3}{6}{subsubsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {1.3.4}Scenario 4}{6}{subsubsection.1.3.4}%
+\contentsline {subsubsection}{\numberline {1.3.5}Scenario 5}{6}{subsubsection.1.3.5}%
+\contentsline {subsubsection}{\numberline {1.3.6}Scenario 6}{6}{subsubsection.1.3.6}%
+\contentsline {subsubsection}{\numberline {1.3.7}Scenario 7}{6}{subsubsection.1.3.7}%
+\contentsline {subsection}{\numberline {1.4}State diagram}{6}{subsection.1.4}%
+\contentsline {section}{Elenco delle figure}{6}{section*.2}%

@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1715860351.27268 "c:/Users/giuse/OneDrive/Documenti/GitHub/sistemi-embedded/Sistemi-embedded.tex" "Sistemi-embedded.pdf" "Sistemi-embedded" 1715860353.33974 0
+["pdflatex"] 1715863595.64805 "c:/Users/giuse/OneDrive/Documenti/GitHub/sistemi-embedded/Sistemi-embedded.tex" "Sistemi-embedded.pdf" "Sistemi-embedded" 1715863597.09552 0
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/tcrm1200.tfm" 993062508 1444 95ffe0f19b974d50849790c8225c7ef7 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -106,11 +106,11 @@
   "C:/Users/giuse/AppData/Roaming/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/giuse/AppData/Roaming/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/giuse/AppData/Roaming/MiKTeX/tex/latex/titling/titling.sty" 1252048308 7358 95ac619994bd30d405a74f3eca431c84 ""
-  "Sistemi-embedded.aux" 1715860353 2952 6cf738d2c46be046398e32613c2ae09e "pdflatex"
-  "Sistemi-embedded.out" 1715860353 2488 e9dd6a2d53b192443fb97018a11f8d5b "pdflatex"
-  "Sistemi-embedded.tex" 1715860351 9808 8369ceb750c7f20041bf8b287e9e40ab ""
-  "Sistemi-embedded.toc" 1715860353 1846 0c5641299ce5aaf22d60efd2a0ee4228 "pdflatex"
-  "c:/Users/giuse/OneDrive/Documenti/GitHub/sistemi-embedded/Sistemi-embedded.tex" 1715860351 9808 8369ceb750c7f20041bf8b287e9e40ab ""
+  "Sistemi-embedded.aux" 1715863596 2952 01c69243a07d2486cc33d1f74df090ad "pdflatex"
+  "Sistemi-embedded.out" 1715863596 2488 e9dd6a2d53b192443fb97018a11f8d5b "pdflatex"
+  "Sistemi-embedded.tex" 1715863594 10648 3de673d1f9c130557ff9e3fd39dcd06c ""
+  "Sistemi-embedded.toc" 1715863596 1846 f52b7b41ac89426383a9e99bf8a05927 "pdflatex"
+  "c:/Users/giuse/OneDrive/Documenti/GitHub/sistemi-embedded/Sistemi-embedded.tex" 1715863594 10648 3de673d1f9c130557ff9e3fd39dcd06c ""
   "logo_uni.png" 1714994543 18890 f0685e3a05ed16739cb7f6c2c4915746 ""
   (generated)
   "Sistemi-embedded.aux"

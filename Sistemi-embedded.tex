@@ -106,27 +106,33 @@ Queste narrazioni brevi sono strumenti efficaci per catturare le esigenze degli 
 \\\\
 Questo approccio aiuta a garantire che il processo di progettazione si concentri sulle reali esigenze degli utenti e fornisce un solido punto di riferimento per la fase di testing, consentendo di valutare in modo efficace il grado di conformità del sistema alle aspettative degli utenti finali.
 \subsubsection{US1:}
-Come utente, voglio essere in grado di aprire il cancello premendo il pulsante B1.
+Come utente, \\
+voglio essere in grado di aprire il cancello quando è chiuso o in fase di chiusura premendo il pulsante B1, \\
+in modo tale da pote entrare.
 \begin{itemize}
-    \item Criteri di accettazione
+    \item Criterio di accettazione
     \begin{enumerate}
-        \item Il cancello si apre quando l'utente preme il pulsante B1 mentre è chiuso.
-        \item Se il cancello è già aperto, premere il pulsante B1 attiva la fase di chiusura.
-        \item Se il cancello è in fase di apertura premere il pulsante B1 attiva la fase di chiusura.
+        \item Quando l'utente preme il pulsante B1 e il cancello è chiuso quest'ultimo va in fase di apertura.
+        \item Quando l'utente preme il pulsante B1 e il cancello è in fase di chiusura quest'ultimo va in fase di apertura.
+        \item Quando il cancello è in fase di apertura il led giallo lampeggia con una frequenza di 0.5Hz, dopo la fase di apertura tutti i led sono accesi.
     \end{enumerate}
 \end{itemize}
 \subsubsection{US2:}
-Come utente, voglio poter chiudere il cancello premendo il pulsante B1.
+Come utente, \\
+voglio essere in grado di chiudere il cancello quando è aperto o in fase di apertura premendo il pulsante B1, \\
+in modo tale da poter chiudere la casa.
 \begin{itemize}
-    \item Criteri di accettazione
+    \item Criterio di accettazione
     \begin{enumerate}
-        \item Il cancello si chiude quando l'utente preme il pulsante B1 mentre è aperto.
-        \item Se il cancello è già chiuso, premere il pulsante B1 attiva la fase di apertura.
-        \item Se il cancello è in fase di chiusura premere il pulsante B1 attiva la fase di apertura.
+        \item Quando l'utente preme il pulsante B1 e il cancello è aperto quest'ultimo va in fase di chiusura.
+        \item Quando l'utente preme il pulsante B1 e il cancello è in fase di apertura quest'ultimo va in fase di chiusura.
+        \item Quando il cancello è in fase di chiusura il led giallo lampeggia con una frequenza di 0.5Hz, dopo la fase di chiusura tutti i led spenti.
     \end{enumerate}
 \end{itemize}
 \subsubsection{US3:}
-Come utente, voglio poter regolare il tempo di chiusura automatica del cancello.
+Come utente, \\
+voglio poter regolare, premendo il pulsante B2, il tempo di chiusura automatica del cancello,\\
+in modo tale che quando passa il tempo che ho scelto il cancello si chiude quando è aperto.
 \begin{itemize}
     \item Criteri di accettazione
     \begin{enumerate}
@@ -136,7 +142,9 @@ Come utente, voglio poter regolare il tempo di chiusura automatica del cancello.
     \end{enumerate}
 \end{itemize}
 \subsubsection{US4:}
-Come utente, voglio poter regolare il tempo di lavoro del cancello.
+Come utente, \\
+voglio poter regolare, premendo il pulsante B3, il tempo di lavoro del cancello,\\
+in modo tale da decidere la durata della fase di chiusura e apertura.
 \begin{itemize}
     \item Criteri di accettazione
     \begin{enumerate}
@@ -146,16 +154,21 @@ Come utente, voglio poter regolare il tempo di lavoro del cancello.
     \end{enumerate}
 \end{itemize}
 \subsubsection{US5:}
-Come utente, voglio che il cancello si riapra se viene rilevata la presenza dal sensore P1 di un ostacolo durante la fase di chiusura.
+Come utente, \\
+voglio che il cancello si riapra se viene rilevata la presenza dal sensore P1 di un ostacolo durante la fase di chiusura,\\
+in modo tale da non provocare nessun danno.
 \begin{itemize}
     \item Criteri di accettazione
     \begin{enumerate}
         \item Se il sensore P1 rileva un ostacolo durante la chiusura del cancello, il cancello si riapre automaticamente.
-        \item Il comando di riapertura del cancello è attivato solo se il sensore P1 è attivo.
+        \item l led verde lampeggia per 30 secondi con frequenza di 1Hz se un ostacolo è presente davanti al sensore P1 durante la richiesta di apertura o chiusura
+        del cancello
     \end{enumerate}
 \end{itemize}
 \subsubsection{US6:}
-Come utente, voglio che il cancello non si apra o si chiuda se il sensore di presenza P1 rileva la presenza di un ostacolo.
+Come utente, \\
+voglio che il cancello non si apra o si chiuda se il sensore di presenza P1 rileva la presenza di un ostacolo,\\
+in modo tale.
 \begin{itemize}
     \item Criteri di accettazione
     \begin{enumerate}
@@ -164,7 +177,9 @@ Come utente, voglio che il cancello non si apra o si chiuda se il sensore di pre
     \end{enumerate}
 \end{itemize}
 \subsubsection{US7:}
-Come utente, voglio che il cancello entri in uno stato di errore se il sensore di chiusura P2 non si attiva entro il tempo di lavoro durante la fase di chiusura.
+Come utente, \\
+voglio che il cancello entri in uno stato di errore se il sensore di chiusura P2 non si attiva entro il tempo di lavoro durante la fase di chiusura,\\
+in modo tale.
 \begin{itemize}
     \item Criteri di accettazione
     \begin{enumerate}
@@ -173,7 +188,9 @@ Come utente, voglio che il cancello entri in uno stato di errore se il sensore d
     \end{enumerate}
 \end{itemize}
 \subsubsection{US8:}
-Come utente, voglio che il cancello si consideri chiuso solo se il sensore di chiusura P2 è attivo.
+Come utente, \\
+voglio che il cancello si consideri chiuso solo se il sensore di chiusura P2 è attivo,\\
+in modo tale.
 \begin{itemize}
     \item Criteri di accettazione
     \begin{enumerate}
@@ -182,7 +199,9 @@ Come utente, voglio che il cancello si consideri chiuso solo se il sensore di ch
     \end{enumerate}
 \end{itemize}
 \subsubsection{US9:}
-Come utente, voglio che il dispositivo mi fornisca segnalazioni luminose per indicare lo stato del cancello.
+Come utente, \\
+voglio che il dispositivo mi fornisca segnalazioni luminose per indicare lo stato del cancello,\\
+in modo tale.
 \begin{itemize}
     \item Criteri di accettazione
     \begin{enumerate}
