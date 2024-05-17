@@ -218,6 +218,13 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 OUTPUT Sistemi-embedded.toc
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
+INPUT .\usa_case_diagram.PNG
+INPUT .\usa_case_diagram.PNG
+INPUT .\usa_case_diagram.PNG
+INPUT .\usa_case_diagram.PNG
+INPUT .\usa_case_diagram.PNG
+INPUT .\usa_case_diagram.PNG
+INPUT .\usa_case_diagram.PNG
 INPUT Sistemi-embedded.aux
 INPUT .\Sistemi-embedded.out
 INPUT .\Sistemi-embedded.out
