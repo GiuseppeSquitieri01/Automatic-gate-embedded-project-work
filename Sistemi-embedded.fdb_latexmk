@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1715942938.78942 "c:/Users/giuse/OneDrive/Documenti/GitHub/sistemi-embedded/Sistemi-embedded.tex" "Sistemi-embedded.pdf" "Sistemi-embedded" 1715942940.48761 0
+["pdflatex"] 1716199562.36656 "c:/Users/giuse/OneDrive/Documenti/GitHub/sistemi-embedded/Sistemi-embedded.tex" "Sistemi-embedded.pdf" "Sistemi-embedded" 1716199564.5528 0
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/tcrm1200.tfm" 993062508 1444 95ffe0f19b974d50849790c8225c7ef7 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -106,13 +106,19 @@
   "C:/Users/giuse/AppData/Roaming/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/giuse/AppData/Roaming/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/giuse/AppData/Roaming/MiKTeX/tex/latex/titling/titling.sty" 1252048308 7358 95ac619994bd30d405a74f3eca431c84 ""
-  "Sistemi-embedded.aux" 1715942940 3020 3bf2eedbad68749ee36c71e758e882f3 "pdflatex"
-  "Sistemi-embedded.out" 1715942940 2400 6fc16f52c492340bd9b815bfe89f9d46 "pdflatex"
-  "Sistemi-embedded.tex" 1715942935 10429 dd7fd324c5f33e310c7792b0c047e3e3 ""
-  "Sistemi-embedded.toc" 1715942940 1766 284c5ff76a49af2aff6f771378188ae6 "pdflatex"
-  "c:/Users/giuse/OneDrive/Documenti/GitHub/sistemi-embedded/Sistemi-embedded.tex" 1715942935 10429 dd7fd324c5f33e310c7792b0c047e3e3 ""
+  "Sistemi-embedded.aux" 1716199564 5748 59659be7699c981f45c8a81c9a45f21b "pdflatex"
+  "Sistemi-embedded.out" 1716199564 5290 b27cffba74d8306305aa63954fd68abd "pdflatex"
+  "Sistemi-embedded.tex" 1716199560 14279 fcf2bb9e8bd052fba38e9f27eefe5546 ""
+  "Sistemi-embedded.toc" 1716199564 2876 059b8df3b73f3dcebd7653a5e289a811 "pdflatex"
+  "c:/Users/giuse/OneDrive/Documenti/GitHub/sistemi-embedded/Sistemi-embedded.tex" 1716199560 14279 fcf2bb9e8bd052fba38e9f27eefe5546 ""
   "logo_uni.png" 1714994543 18890 f0685e3a05ed16739cb7f6c2c4915746 ""
   "usa_case_diagram.PNG" 1715942435 90720 932ff7157e084cd5d122c10dc0391cb9 ""
+  "use_case_us1.PNG" 1716199173 29904 2391d5af9fdece49e51dfb5eeecf1362 ""
+  "use_case_us2.PNG" 1716199187 29686 ef1dfb7ae90dd8c93cf1f11f4d5609bf ""
+  "use_case_us5.PNG" 1716196284 23998 6d8931d2bf601c9aa41212677a15987e ""
+  "use_case_us6.PNG" 1716196662 13177 26f8922d5231cf55c235f9598be83202 ""
+  "use_case_us7.PNG" 1716196702 14432 f15e2ca53a8a8b942d6c2d4872cc7038 ""
+  "use_case_us8.PNG" 1716196726 11151 b6dca50863d25cb162c6be0d7d21a323 ""
   (generated)
   "Sistemi-embedded.aux"
   "Sistemi-embedded.log"
