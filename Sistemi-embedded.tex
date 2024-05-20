@@ -206,22 +206,36 @@ Nel seguente capitolo esamineremo i vari casi d'uso relativi a ciascuna user sto
 
 \subsubsection{Apertura cancello [US1]}
 Questo caso d'uso, che modella US1, ha come attori l'utente e il cancello e descrive la situazione in cui l'utente desidera aprire il cancello, sia quando è chiuso che quando si sta chiudendo. L'apertura viene segnalata tramite l'illuminazione del relativo LED giallo. Il cancello aperto vine segnalato dagli appositi LED verde, giallo e rosso tutti accesi.
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.6\textwidth,height=5.2cm]{use_case_us1.PNG}
-    \caption{USE CASE user stories 1.}
-    \label{fig:use_case_us5}
-\end{figure}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.6\textwidth,height=5.2cm]{use_case_us1.PNG}
+        \caption{USE CASE user stories 1.}
+        \label{fig:use_case_us1}
+    \end{figure}
 \subsubsection{Chiusura cancello [US2]}
 Questo caso d'uso, che modella US2, ha come attori l'utente e il cancello e descrive la situazione in cui l'utente desidera chiudere il cancello, sia quando è aperto che quando si sta aprendo. L'apertura viene segnalata tramite l'illuminazione del relativo LED giallo. Il cancello chiuso vine segnalato dagli appositi LED verde, giallo e rosso tutti spenti.
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.6\textwidth,height=5.2cm]{use_case_us2.PNG}
-    \caption{USE CASE user stories 2.}
-    \label{fig:use_case_us5}
-\end{figure}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.6\textwidth,height=5.2cm]{use_case_us2.PNG}
+        \caption{USE CASE user stories 2.}
+        \label{fig:use_case_us2}
+    \end{figure}
 \subsubsection{Regolazione tempo di chiusra [US3]}
-\subsubsection{Regolazione tempo di lavoro [US5]}
+Questo caso d'uso, che modella US3, ha come attore l'utente, che tramite la pressione di un pulsante, può aumentare ciclicamente di 10 secondi, da un minimo di 10 a un massimo di 120, il tempo di chiusura automatica del cancello.
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.8\textwidth]{use_case_us3.PNG}
+        \caption{USE CASE user stories 3.}
+        \label{fig:use_case_us3}
+    \end{figure}
+\subsubsection{Regolazione tempo di lavoro [US4]}
+Questo caso d'uso, che modella US4, ha come attore l'utente, che tramite la pressione di un pulsante, può aumentare ciclicamente di 10 secondi, da un minimo di 10 a un massimo di 120, il tempo di lavoro del cancello.
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.8\textwidth]{use_case_us4.PNG}
+        \caption{USE CASE user stories 4.}
+        \label{fig:use_case_us4}
+    \end{figure}
 \subsubsection{Riapertura ostacolo [US5]}
 Questo caso d'uso, che modella US5, ha come attori l'utente e il cancello. Descrive la situazione in cui il cancello si sta chiudendo e successivamente arriva un ostacolo davanti a esso (sotto il sensore P1), causando la riapertura del cancello.
     \begin{figure}[h]
@@ -230,31 +244,32 @@ Questo caso d'uso, che modella US5, ha come attori l'utente e il cancello. Descr
         \caption{USE CASE user stories 5.}
         \label{fig:use_case_us5}
     \end{figure}
+\newpage
 \subsubsection{Ingora comando ostacolo [US6]}
 Questo caso d'uso, che modella US6, ha come attore l'utente che richiede l'apertura. Tuttavia, se è presente un ostacolo davanti al sensore P1, il comando viene ignorato. Tale situazione viene segnalata dall'attivazione del relativo LED verde per 30 secondi.
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.8\textwidth]{use_case_us6.PNG}
-    \caption{USE CASE user stories 6.}
-    \label{fig:use_case_us5}
-\end{figure}
-\newpage
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.8\textwidth]{use_case_us6.PNG}
+        \caption{USE CASE user stories 6.}
+        \label{fig:use_case_us6}
+    \end{figure}
+
 \subsubsection{Stato errore sensore P2 [US7]}
 Questo caso d'uso, che modella US7, ha come attore il cancello, che entra in uno stato di allarme se non si chiude entro il tempo di lavoro più 10 secondi. La situazione di allarme viene segnalata dall'attivazione del relativo LED rosso.
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.8\textwidth]{use_case_us7.PNG}
-    \caption{USE CASE user stories 7.}
-    \label{fig:use_case_us5}
-\end{figure}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.8\textwidth]{use_case_us7.PNG}
+        \caption{USE CASE user stories 7.}
+        \label{fig:use_case_us7}
+    \end{figure}
 \subsubsection{Chiusura automatica è [US8]}
 Questo caso d'uso, che modella US8, ha come attore il cancello, il quale chiude automaticamente il cancello dopo che è trascorso il tempo di lavoro.
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.8\textwidth]{use_case_us8.PNG}
-    \caption{USE CASE user stories 8.}
-    \label{fig:use_case_us5}
-\end{figure}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.8\textwidth]{use_case_us8.PNG}
+        \caption{USE CASE user stories 8.}
+        \label{fig:use_case_us8}
+    \end{figure}
 
 \newpage
 \subsubsection{Use Case generale}

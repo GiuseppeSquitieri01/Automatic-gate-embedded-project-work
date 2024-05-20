@@ -14,9 +14,9 @@
 \contentsline {subsubsection}{\numberline {1.2.1}Apertura cancello [US1]}{5}{subsubsection.1.2.1}%
 \contentsline {subsubsection}{\numberline {1.2.2}Chiusura cancello [US2]}{5}{subsubsection.1.2.2}%
 \contentsline {subsubsection}{\numberline {1.2.3}Regolazione tempo di chiusra [US3]}{6}{subsubsection.1.2.3}%
-\contentsline {subsubsection}{\numberline {1.2.4}Regolazione tempo di lavoro [US5]}{6}{subsubsection.1.2.4}%
+\contentsline {subsubsection}{\numberline {1.2.4}Regolazione tempo di lavoro [US4]}{6}{subsubsection.1.2.4}%
 \contentsline {subsubsection}{\numberline {1.2.5}Riapertura ostacolo [US5]}{6}{subsubsection.1.2.5}%
-\contentsline {subsubsection}{\numberline {1.2.6}Ingora comando ostacolo [US6]}{6}{subsubsection.1.2.6}%
+\contentsline {subsubsection}{\numberline {1.2.6}Ingora comando ostacolo [US6]}{7}{subsubsection.1.2.6}%
 \contentsline {subsubsection}{\numberline {1.2.7}Stato errore sensore P2 [US7]}{7}{subsubsection.1.2.7}%
 \contentsline {subsubsection}{\numberline {1.2.8}Chiusura automatica è [US8]}{7}{subsubsection.1.2.8}%
 \contentsline {subsubsection}{\numberline {1.2.9}Use Case generale}{8}{subsubsection.1.2.9}%
