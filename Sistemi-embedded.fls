@@ -281,6 +281,10 @@ INPUT .\usa_case_diagram.PNG
 INPUT .\usa_case_diagram.PNG
 INPUT .\usa_case_diagram.PNG
 INPUT .\usa_case_diagram.PNG
+INPUT .\Sistemi-embedded.lof
+INPUT .\Sistemi-embedded.lof
+INPUT Sistemi-embedded.lof
+OUTPUT Sistemi-embedded.lof
 INPUT Sistemi-embedded.aux
 INPUT .\Sistemi-embedded.out
 INPUT .\Sistemi-embedded.out

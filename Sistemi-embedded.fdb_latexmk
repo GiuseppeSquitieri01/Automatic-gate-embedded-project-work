@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1716200266.5245 "c:/Users/giuse/OneDrive/Documenti/GitHub/sistemi-embedded/Sistemi-embedded.tex" "Sistemi-embedded.pdf" "Sistemi-embedded" 1716200268.30214 0
+["pdflatex"] 1716207775.94186 "c:/Users/giuse/OneDrive/Documenti/GitHub/sistemi-embedded/Sistemi-embedded.tex" "Sistemi-embedded.pdf" "Sistemi-embedded" 1716207778.0996 0
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/tcrm1200.tfm" 993062508 1444 95ffe0f19b974d50849790c8225c7ef7 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -106,11 +106,12 @@
   "C:/Users/giuse/AppData/Roaming/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/giuse/AppData/Roaming/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/giuse/AppData/Roaming/MiKTeX/tex/latex/titling/titling.sty" 1252048308 7358 95ac619994bd30d405a74f3eca431c84 ""
-  "Sistemi-embedded.aux" 1716200268 6164 7601a948f078f8296deec24489f13ec6 "pdflatex"
-  "Sistemi-embedded.out" 1716200268 5290 839f1b6898648b64d8810dac31b5455a "pdflatex"
-  "Sistemi-embedded.tex" 1716200263 15260 2a506b3a1fcabaf78151ef095d35a0ec ""
-  "Sistemi-embedded.toc" 1716200268 2876 343e42ccaad9c19d71d39f5a55de9bfd "pdflatex"
-  "c:/Users/giuse/OneDrive/Documenti/GitHub/sistemi-embedded/Sistemi-embedded.tex" 1716200263 15260 2a506b3a1fcabaf78151ef095d35a0ec ""
+  "Sistemi-embedded.aux" 1716207777 6169 e0fe33ab91da62e080742b832f710392 "pdflatex"
+  "Sistemi-embedded.lof" 1716207777 898 d4f5e18f819ea82022b60fc178e8820b "pdflatex"
+  "Sistemi-embedded.out" 1716207777 5294 5cc50edc572af7f1ab3f818d1d45489c "pdflatex"
+  "Sistemi-embedded.tex" 1716207773 15256 a9d06313c6b29baf64c02cf10f71f991 ""
+  "Sistemi-embedded.toc" 1716207777 2881 2c0ac1d01f75849d01a50f323cf08549 "pdflatex"
+  "c:/Users/giuse/OneDrive/Documenti/GitHub/sistemi-embedded/Sistemi-embedded.tex" 1716207773 15256 a9d06313c6b29baf64c02cf10f71f991 ""
   "logo_uni.png" 1714994543 18890 f0685e3a05ed16739cb7f6c2c4915746 ""
   "usa_case_diagram.PNG" 1715942435 90720 932ff7157e084cd5d122c10dc0391cb9 ""
   "use_case_us1.PNG" 1716199173 29904 2391d5af9fdece49e51dfb5eeecf1362 ""
@@ -123,6 +124,7 @@
   "use_case_us8.PNG" 1716196726 11151 b6dca50863d25cb162c6be0d7d21a323 ""
   (generated)
   "Sistemi-embedded.aux"
+  "Sistemi-embedded.lof"
   "Sistemi-embedded.log"
   "Sistemi-embedded.out"
   "Sistemi-embedded.pdf"

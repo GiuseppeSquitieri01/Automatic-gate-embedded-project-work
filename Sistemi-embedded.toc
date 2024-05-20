@@ -29,4 +29,4 @@
 \contentsline {subsubsection}{\numberline {1.3.6}Scenario 6}{9}{subsubsection.1.3.6}%
 \contentsline {subsubsection}{\numberline {1.3.7}Scenario 7}{9}{subsubsection.1.3.7}%
 \contentsline {subsection}{\numberline {1.4}State diagram}{9}{subsection.1.4}%
-\contentsline {section}{Elenco delle figure}{9}{section*.2}%
+\contentsline {section}{Elenco delle figure}{10}{subsection.1.4}%
