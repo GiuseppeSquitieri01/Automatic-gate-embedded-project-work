@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.4)  20 MAY 2024 18:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.4)  21 MAY 2024 16:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -282,7 +282,11 @@ Package color Info: Driver file: pdftex.def on input line 149.
 File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count297
 \l__pdf_internal_box=\box55
-) (Sistemi-embedded.aux)
+) (Sistemi-embedded.aux
+
+LaTeX Warning: Label `fig:immagine' multiply defined.
+
+)
 \openout1 = `Sistemi-embedded.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
@@ -373,7 +377,7 @@ italian.ldf    See the documentation concerning the babel-italian typesetting
 italian.ldf    on input line 77.
 
 \c@lstlisting=\count304
-<logo_uni.png, id=110, 225.84375pt x 225.84375pt>
+<logo_uni.png, id=111, 225.84375pt x 225.84375pt>
 File: logo_uni.png Graphic file (type png)
 <use logo_uni.png>
 Package pdftex.def Info: logo_uni.png  used on input line 81.
@@ -421,56 +425,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--109
  []
 
 [2] [3] [4]
-<use_case_us1.PNG, id=183, 395.67825pt x 290.88675pt>
+<use_case_us1.PNG, id=184, 395.67825pt x 290.88675pt>
 File: use_case_us1.PNG Graphic file (type png)
 <use use_case_us1.PNG>
 Package pdftex.def Info: use_case_us1.PNG  used on input line 212.
 (pdftex.def)             Requested size: 266.15962pt x 147.95967pt.
-<use_case_us2.PNG, id=185, 383.63326pt x 278.84175pt>
+<use_case_us2.PNG, id=186, 383.63326pt x 278.84175pt>
 File: use_case_us2.PNG Graphic file (type png)
 <use use_case_us2.PNG>
 Package pdftex.def Info: use_case_us2.PNG  used on input line 220.
 (pdftex.def)             Requested size: 266.1531pt x 147.95985pt.
-<use_case_us3.PNG, id=186, 416.757pt x 74.679pt>
+<use_case_us3.PNG, id=187, 416.757pt x 74.679pt>
 File: use_case_us3.PNG Graphic file (type png)
 <use use_case_us3.PNG>
 Package pdftex.def Info: use_case_us3.PNG  used on input line 228.
 (pdftex.def)             Requested size: 354.86412pt x 63.5891pt.
  [5 <./use_case_us1.PNG> <./use_case_us2.PNG>]
-<use_case_us4.PNG, id=195, 415.5525pt x 65.64525pt>
+<use_case_us4.PNG, id=196, 415.5525pt x 65.64525pt>
 File: use_case_us4.PNG Graphic file (type png)
 <use use_case_us4.PNG>
 Package pdftex.def Info: use_case_us4.PNG  used on input line 236.
 (pdftex.def)             Requested size: 354.86412pt x 56.06013pt.
-<use_case_us5.PNG, id=196, 610.07925pt x 122.25674pt>
+<use_case_us5.PNG, id=197, 610.07925pt x 122.25674pt>
 File: use_case_us5.PNG Graphic file (type png)
 <use use_case_us5.PNG>
 Package pdftex.def Info: use_case_us5.PNG  used on input line 244.
 (pdftex.def)             Requested size: 354.86412pt x 71.11415pt.
  [6 <./use_case_us3.PNG> <./use_case_us4.PNG> <./use_case_us5.PNG>]
-<use_case_us6.PNG, id=208, 407.121pt x 118.041pt>
+<use_case_us6.PNG, id=209, 407.121pt x 118.041pt>
 File: use_case_us6.PNG Graphic file (type png)
 <use use_case_us6.PNG>
 Package pdftex.def Info: use_case_us6.PNG  used on input line 253.
 (pdftex.def)             Requested size: 354.86412pt x 102.89474pt.
-<use_case_us7.PNG, id=209, 394.47375pt x 109.00725pt>
+<use_case_us7.PNG, id=210, 394.47375pt x 109.00725pt>
 File: use_case_us7.PNG Graphic file (type png)
 <use use_case_us7.PNG>
 Package pdftex.def Info: use_case_us7.PNG  used on input line 262.
 (pdftex.def)             Requested size: 354.86412pt x 98.06236pt.
-<use_case_us8.PNG, id=210, 400.49625pt x 82.50826pt>
+<use_case_us8.PNG, id=211, 400.49625pt x 82.50826pt>
 File: use_case_us8.PNG Graphic file (type png)
 <use use_case_us8.PNG>
 Package pdftex.def Info: use_case_us8.PNG  used on input line 270.
 (pdftex.def)             Requested size: 354.86412pt x 73.11105pt.
  [7 <./use_case_us6.PNG> <./use_case_us7.PNG> <./use_case_us8.PNG>]
-<usa_case_diagram.PNG, id=221, 696.201pt x 393.8715pt>
+<usa_case_diagram.PNG, id=222, 696.201pt x 393.8715pt>
 File: usa_case_diagram.PNG Graphic file (type png)
 <use usa_case_diagram.PNG>
 Package pdftex.def Info: usa_case_diagram.PNG  used on input line 280.
 (pdftex.def)             Requested size: 487.9429pt x 426.81728pt.
  [8 <./usa_case_diagram.PNG>]
-<Scenario_1.jpg, id=228, 600.2425pt x 774.895pt>
+<Scenario_1.jpg, id=229, 600.2425pt x 774.895pt>
 File: Scenario_1.jpg Graphic file (type jpg)
 <use Scenario_1.jpg>
 Package pdftex.def Info: Scenario_1.jpg  used on input line 303.
@@ -480,7 +484,7 @@ Package pdftex.def Info: Scenario_1.jpg  used on input line 303.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9]
-<Scenario_2.jpg, id=244, 618.31pt x 810.02625pt>
+<Scenario_2.jpg, id=245, 618.31pt x 810.02625pt>
 File: Scenario_2.jpg Graphic file (type jpg)
 <use Scenario_2.jpg>
 Package pdftex.def Info: Scenario_2.jpg  used on input line 323.
@@ -490,7 +494,7 @@ Package pdftex.def Info: Scenario_2.jpg  used on input line 323.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [10 <./Scenario_1.jpg>]
-<Scenario_3.jpg, id=255, 649.42625pt x 659.46375pt>
+<Scenario_3.jpg, id=256, 649.42625pt x 659.46375pt>
 File: Scenario_3.jpg Graphic file (type jpg)
 <use Scenario_3.jpg>
 Package pdftex.def Info: Scenario_3.jpg  used on input line 344.
@@ -500,7 +504,7 @@ Package pdftex.def Info: Scenario_3.jpg  used on input line 344.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [11 <./Scenario_2.jpg>]
-<Scenario_4.jpg, id=266, 580.1675pt x 788.9475pt>
+<Scenario_4.jpg, id=267, 580.1675pt x 788.9475pt>
 File: Scenario_4.jpg Graphic file (type jpg)
 <use Scenario_4.jpg>
 Package pdftex.def Info: Scenario_4.jpg  used on input line 362.
@@ -509,30 +513,41 @@ Package pdftex.def Info: Scenario_4.jpg  used on input line 362.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12 <./Scenario_3.jpg>] (Sistemi-embedded.lof)
-\tf@lof=\write5
-\openout5 = `Sistemi-embedded.lof'.
+[12 <./Scenario_3.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 378--380
 
- [13 <./Scenario_4.jpg>] [14] (Sistemi-embedded.aux)
+ []
+
+[13 <./Scenario_4.jpg>]
+<state_diagram0.png, id=283, 1278.27562pt x 661.72218pt>
+File: state_diagram0.png Graphic file (type png)
+<use state_diagram0.png>
+Package pdftex.def Info: state_diagram0.png  used on input line 394.
+(pdftex.def)             Requested size: 399.21791pt x 206.6564pt.
+ [14 <./state_diagram0.png>] (Sistemi-embedded.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `Sistemi-embedded.out' has not changed.
-(rerunfilecheck)             Checksum: 2C7989756F92614A8C8C4808B3944A1A;4877.
+(rerunfilecheck)             Checksum: 8D0D12BB33AD74C0315BB9472052559A;4872.
  ) 
 Here is how much of TeX's memory you used:
- 17204 strings out of 474424
- 301321 string characters out of 5741740
+ 17206 strings out of 474424
+ 301276 string characters out of 5741740
  1936496 words of memory out of 5000000
- 39229 multiletter control sequences out of 15000+600000
+ 39234 multiletter control sequences out of 15000+600000
  563874 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,9n,79p,522b,571s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\alfon\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Sistemi-embedded.pdf (15 pages, 554178 bytes).
+Output written on Sistemi-embedded.pdf (15 pages, 634105 bytes).
 PDF statistics:
- 341 PDF objects out of 1000 (max. 8388607)
+ 330 PDF objects out of 1000 (max. 8388607)
  100 named destinations out of 1000 (max. 500000)
- 287 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 292 words of extra memory for PDF output out of 10000 (max. 10000000)
 

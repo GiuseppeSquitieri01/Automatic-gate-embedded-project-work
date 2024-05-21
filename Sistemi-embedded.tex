@@ -346,7 +346,7 @@ Lo scenario, presentato in Figura ..., descrive le attività quando il cancello 
     
 \end{figure}
 
-
+\newpage
 \subsection{Scenario 4}
 Questo scenario, presentato in Figura ..., descrive le azioni che l’utente compie per regolare il tempo di apertura e chiusura (tempo di lavoro) del cancello elettrico utilizzando il pulsante B3:
 
@@ -363,10 +363,39 @@ Questo scenario, presentato in Figura ..., descrive le azioni che l’utente com
     \caption{Scenario 1: Regolazione del Tempo di Lavoro}
     
 \end{figure}
-\subsection{State diagram}
-Testo dello state diagram.
 
 \newpage
+\subsection{State diagram}
+Nell'ultima parte di questa relazione si illustra lo state diagram che ha lo scopo di descrivere quali sono i vari stati in cui il sistema si può trovare. Lo state diagram è utile per chiarire il comportamento del cancello rispetto agli eventi interni ed esterni che possono essere interpretati diversamente a seconda dello stato in cui si trova.
+I principali stati del cancello automatico descritto nei capitoli precedenti sono:
+\begin{itemize}
+    \item{CLOSING,} è lo stato iniziale del sistema.
+    \item{CLOSE,} è lo stato che si raggiunge quando la seconda fotocellula è occupata, tutti i led sono spenti. Quando il sistema di trova in questo stato è possibile impostare il tempo di lavoro e quello di chiusura.
+    \item{OPENING,} è lo stato di apertura durante il quale in led giallo lampeggia.
+    \item{OPEN,} è lo stato in cui il cancello è aperto e tutti i led sono accesi.
+\end{itemize}
+
+In parallelo a questi stati ci sono gli stati \textbf{B1}, \textbf{B2} e \textbf{B3}, che "ascoltano" i fronti di salita provenienti dai rispettivi bottoni.
+Si ricorda che B1 permette di richiedere l'apertura o la chiusura, B2 imposta il tempo di chiusura e, infine, B3 imposta il tempo di lavoro.\\
+
+Gli altri stati che non sono elencati sopra sono importanti in quanto gestiscono situazioni di errore ed emergenza. Sono elencati qui:
+
+\begin{itemize}
+    \item{EMERGENCY\_P1\_CLOSED,} è uno stato che viene raggiunto nel caso in sui si richiede l'apertura del cancello, ma il sensore P1 è impegnato. l led verde lampeggia per 30 sec.
+    \item{EMERGENCY\_P1\_OPEN,} è corrispettivo dello stato precedente nel caso in cui si richiede la chiusura del cancello mentre P1 è impegnato. Il led verde lampeggia per 30 sec.
+    \item{EMERGENCY,} viene raggiunto nel caso in cui P2 non viene impegnato entro il tempo di lavoro. Il sistema esce da questo stato dopo 10 secondi oppure quando viene impegnato P2.
+    \item{EMERGENCY\_LED}, viene raggiunto se lo stato \textbf{EMERGENCY} permane per più di 10 secondi. In questo stato viene attivato il led rosso.
+\end{itemize}
+
+Di seguito sono illustrati il diagramma di stato di un pulsante che vale anche per gli altri, e successivamente è illustrato lo schema generico del cancello automatico. E' stata inserita un'immagine che rappresenta anche lo stato \textbf{CLOSED} in particolare. Questo stato comprende che gli stati per aumentare il tempo di lavoro e quello di chiusura.
+
+\begin{figure}[h] % 'h' significa "here", posiziona l'immagine qui
+    \centering % Centra l'immagine
+    \includegraphics[width=0.9\textwidth]{state_diagram0.png} % Inserisce l'immagine con una larghezza del 50% del testo
+    \caption{Use case diagram} % Aggiunge una didascalia
+    \label{fig:immagine} % Aggiunge un'etichetta per riferimenti incrociati
+\end{figure}
+%\newpage
 \addcontentsline{toc}{section}{Elenco delle figure}
-\listoffigures
+%\listoffigures
 \end{document}

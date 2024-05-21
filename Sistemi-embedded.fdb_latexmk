@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1716222254.46304 "c:/Users/alfon/OneDrive/Desktop/Università Magistrale/Algoritmi e Protocolli per la Sicurezza/Sistemi-embedded/Sistemi-embedded.tex" "Sistemi-embedded.pdf" "Sistemi-embedded" 1716222257.20619 0
-  "C:/Users/alfon/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1715864276.24836 80938 11adfb72b14af111a4e7f381261df7b8 ""
+["pdflatex"] 1716303286.59377 "c:/Users/alfon/OneDrive/Desktop/Università Magistrale/Algoritmi e Protocolli per la Sicurezza/Sistemi-embedded/Sistemi-embedded.tex" "Sistemi-embedded.pdf" "Sistemi-embedded" 1716303289.21484 0
+  "C:/Users/alfon/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1716235065.52107 80938 11adfb72b14af111a4e7f381261df7b8 ""
   "C:/Users/alfon/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1714998633.3931 14064 dcd80b1caa2bba8cd09e0704fb1753af ""
   "C:/Users/alfon/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1714841044.75782 24236005 bff7b405342294944722520a4d87f4ab ""
   "C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1200.tfm" 993062508 1444 95ffe0f19b974d50849790c8225c7ef7 ""
@@ -110,12 +110,12 @@
   "Scenario_2.jpg" 1716221302.38922 69492 2796cab0102213115c1e24b4bccd048d ""
   "Scenario_3.jpg" 1716221302.22007 34624 0fcf16b5532823b0d54a096deab90585 ""
   "Scenario_4.jpg" 1716221302.22757 48035 37cc3c468b22223ab664928a2db52d4f ""
-  "Sistemi-embedded.aux" 1716222256.79997 6354 bc00f59bdaed5e398bafd2ff103b2a67 "pdflatex"
-  "Sistemi-embedded.lof" 1716222256.82313 1347 21e776833f8312b3bdc67bf966d6b4d4 "pdflatex"
-  "Sistemi-embedded.out" 1716222256.81125 4877 2c7989756f92614a8c8c4808b3944a1a "pdflatex"
-  "Sistemi-embedded.toc" 1716222256.82313 2576 34b4d78f0195158529871de98f5a9563 "pdflatex"
-  "c:/Users/alfon/OneDrive/Desktop/Università Magistrale/Algoritmi e Protocolli per la Sicurezza/Sistemi-embedded/Sistemi-embedded.tex" 1716222250.19216 19802 e201d8a997c44ac21d6d471961fa3660 ""
+  "Sistemi-embedded.aux" 1716303288.87017 6544 d83dc0be82d1d6fe8ac7ec7907755882 "pdflatex"
+  "Sistemi-embedded.out" 1716303288.87471 4872 8d0d12bb33ad74c0315bb9472052559a "pdflatex"
+  "Sistemi-embedded.toc" 1716303288.88127 2571 5f04dd1d1f759fab7fedfd9236139801 "pdflatex"
+  "c:/Users/alfon/OneDrive/Desktop/Università Magistrale/Algoritmi e Protocolli per la Sicurezza/Sistemi-embedded/Sistemi-embedded.tex" 1716303282.53921 22631 4504492194e7ae6c091dde36a0b35718 ""
   "logo_uni.png" 1715803766.42878 18890 3a0ae3c8d89ee4bc95cd3415c5a2586d ""
+  "state_diagram0.png" 1716292728.0249 106529 e8ec151e9120b460eadea1f48addc69f ""
   "usa_case_diagram.PNG" 1715964513.35244 90720 7297cb356012f60af306ab478a01b2b3 ""
   "use_case_us1.PNG" 1716221229.29547 29904 a69df51325419fb2e746adb2877560b6 ""
   "use_case_us2.PNG" 1716221229.32054 29686 658b43455b648f6f866a853a513a9b7f ""
@@ -127,7 +127,6 @@
   "use_case_us8.PNG" 1716221229.43657 11151 7263104c887bd216ed03e8fbc8feaec6 ""
   (generated)
   "Sistemi-embedded.aux"
-  "Sistemi-embedded.lof"
   "Sistemi-embedded.log"
   "Sistemi-embedded.out"
   "Sistemi-embedded.pdf"

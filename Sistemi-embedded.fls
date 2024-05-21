@@ -309,10 +309,13 @@ INPUT .\Scenario_4.jpg
 INPUT .\Scenario_4.jpg
 INPUT .\Scenario_4.jpg
 INPUT .\Scenario_4.jpg
-INPUT .\Sistemi-embedded.lof
-INPUT .\Sistemi-embedded.lof
-INPUT Sistemi-embedded.lof
-OUTPUT Sistemi-embedded.lof
+INPUT .\state_diagram0.png
+INPUT .\state_diagram0.png
+INPUT .\state_diagram0.png
+INPUT .\state_diagram0.png
+INPUT .\state_diagram0.png
+INPUT .\state_diagram0.png
+INPUT .\state_diagram0.png
 INPUT Sistemi-embedded.aux
 INPUT .\Sistemi-embedded.out
 INPUT .\Sistemi-embedded.out
