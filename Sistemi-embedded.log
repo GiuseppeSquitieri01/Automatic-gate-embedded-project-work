@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.4)  21 MAY 2024 19:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.4)  21 MAY 2024 20:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -598,11 +598,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) ha
                                                   \__shipout_drop_firstpage_...
 l.407 \end{landscape}
                       <./state_diagram0.png>]
-<state_diagram1.png, id=294, 887.56593pt x 388.45125pt>
+<state_diagram1.png, id=294, 1001.99344pt x 442.65375pt>
 File: state_diagram1.png Graphic file (type png)
 <use state_diagram1.png>
 Package pdftex.def Info: state_diagram1.png  used on input line 411.
-(pdftex.def)             Requested size: 443.57848pt x 194.13623pt.
+(pdftex.def)             Requested size: 443.57848pt x 195.96376pt.
 <state_diagram2.png, id=295, 837.88031pt x 393.72093pt>
 File: state_diagram2.png Graphic file (type png)
 <use state_diagram2.png>
@@ -642,7 +642,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,7n,79p,522b,571s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\alfon\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Sistemi-embedded.pdf (18 pages, 677637 bytes).
+Output written on Sistemi-embedded.pdf (18 pages, 687818 bytes).
 PDF statistics:
  366 PDF objects out of 1000 (max. 8388607)
  106 named destinations out of 1000 (max. 500000)
