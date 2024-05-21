@@ -9,6 +9,8 @@
 \usepackage{pgffor}
 \usepackage{listings}
 \usepackage{color}
+\usepackage{float}
+\usepackage{pdflscape}
 
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
@@ -202,70 +204,72 @@ in modo tale da non dover premere il pulsante B1 per richiuderlo.
 
 
 
-\subsection{Use case diagram}
-Nel seguente capitolo esamineremo i vari casi d'uso relativi a ciascuna user story. Ogni caso d'uso rappresenta un'azione compiuta da un attore per interagire con il sistema esterno. All'interno di tali casi d'uso, troveremo l'utente 'Gennaro' che compie le azioni e il sistema, che è il cancello.
+\section{Use case diagram}
+Nel seguente capitolo esamineremo i vari casi d'uso relativi a ciascuna user story. Ogni caso d'uso rappresenta un'azione compiuta da un attore per interagire con il sistema esterno. All'interno di tali casi d'uso, troveremo l'utente 'Gennaro' che compie le azioni interagendo con il sistema che è il cancello automatico.
 
-\subsubsection{Apertura cancello [US1]}
+\subsection{Apertura cancello [US1]}
 Questo caso d'uso, che modella US1, ha come attori l'utente e il cancello e descrive la situazione in cui l'utente desidera aprire il cancello, sia quando è chiuso che quando si sta chiudendo. L'apertura viene segnalata tramite l'illuminazione del relativo LED giallo. Il cancello aperto vine segnalato dagli appositi LED verde, giallo e rosso tutti accesi.
-    \begin{figure}[h]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=0.6\textwidth,height=5.2cm]{use_case_us1.PNG}
-        \caption{USE CASE user stories 1.}
+        \caption{USE CASE user story 1.}
         \label{fig:use_case_us1}
     \end{figure}
-\subsubsection{Chiusura cancello [US2]}
+    
+\subsection{Chiusura cancello [US2]}
 Questo caso d'uso, che modella US2, ha come attori l'utente e il cancello e descrive la situazione in cui l'utente desidera chiudere il cancello, sia quando è aperto che quando si sta aprendo. L'apertura viene segnalata tramite l'illuminazione del relativo LED giallo. Il cancello chiuso vine segnalato dagli appositi LED verde, giallo e rosso tutti spenti.
-    \begin{figure}[h]
-        \centering
-        \includegraphics[width=0.6\textwidth,height=5.2cm]{use_case_us2.PNG}
-        \caption{USE CASE user stories 2.}
-        \label{fig:use_case_us2}
-    \end{figure}
-\subsubsection{Regolazione tempo di chiusra [US3]}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth,height=5.2cm]{use_case_us2.PNG}
+    \caption{USE CASE user story 2.}
+    \label{fig:use_case_us2}
+\end{figure}
+
+\subsection{Regolazione tempo di chiusura [US3]}
 Questo caso d'uso, che modella US3, ha come attore l'utente, che tramite la pressione di un pulsante, può aumentare ciclicamente di 10 secondi, da un minimo di 10 a un massimo di 120, il tempo di chiusura automatica del cancello.
-    \begin{figure}[h]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=0.8\textwidth]{use_case_us3.PNG}
-        \caption{USE CASE user stories 3.}
+        \caption{USE CASE user story 3.}
         \label{fig:use_case_us3}
     \end{figure}
-\subsubsection{Regolazione tempo di lavoro [US4]}
+\subsection{Regolazione tempo di lavoro [US4]}
 Questo caso d'uso, che modella US4, ha come attore l'utente, che tramite la pressione di un pulsante, può aumentare ciclicamente di 10 secondi, da un minimo di 10 a un massimo di 120, il tempo di lavoro del cancello.
-    \begin{figure}[h]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=0.8\textwidth]{use_case_us4.PNG}
-        \caption{USE CASE user stories 4.}
+        \caption{USE CASE user story 4.}
         \label{fig:use_case_us4}
     \end{figure}
-\subsubsection{Riapertura ostacolo [US5]}
+\subsection{Riapertura ostacolo [US5]}
 Questo caso d'uso, che modella US5, ha come attori l'utente e il cancello. Descrive la situazione in cui il cancello si sta chiudendo e successivamente arriva un ostacolo davanti a esso (sotto il sensore P1), causando la riapertura del cancello.
-    \begin{figure}[h]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=0.8\textwidth]{use_case_us5.PNG}
-        \caption{USE CASE user stories 5.}
+        \caption{USE CASE user story 5.}
         \label{fig:use_case_us5}
     \end{figure}
 \newpage
-\subsubsection{Ingora comando ostacolo [US6]}
+\subsection{Ingora comando ostacolo [US6]}
 Questo caso d'uso, che modella US6, ha come attore l'utente che richiede l'apertura. Tuttavia, se è presente un ostacolo davanti al sensore P1, il comando viene ignorato. Tale situazione viene segnalata dall'attivazione del relativo LED verde per 30 secondi.
     \begin{figure}[h]
         \centering
         \includegraphics[width=0.8\textwidth]{use_case_us6.PNG}
-        \caption{USE CASE user stories 6.}
+        \caption{USE CASE user story 6.}
         \label{fig:use_case_us6}
     \end{figure}
 
-\subsubsection{Stato errore sensore P2 [US7]}
+\subsection{Stato errore sensore P2 [US7]}
 Questo caso d'uso, che modella US7, ha come attore il cancello, che entra in uno stato di allarme se non si chiude entro il tempo di lavoro più 10 secondi. La situazione di allarme viene segnalata dall'attivazione del relativo LED rosso.
-    \begin{figure}[h]
-        \centering
-        \includegraphics[width=0.8\textwidth]{use_case_us7.PNG}
-        \caption{USE CASE user stories 7.}
-        \label{fig:use_case_us7}
-    \end{figure}
-\subsubsection{Chiusura automatica è [US8]}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{use_case_us7.PNG}
+    \caption{USE CASE user stories 7.}
+    \label{fig:use_case_us7}
+\end{figure}
+\subsection{Chiusura automatica è [US8]}
 Questo caso d'uso, che modella US8, ha come attore il cancello, il quale chiude automaticamente il cancello dopo che è trascorso il tempo di lavoro.
-    \begin{figure}[h]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=0.8\textwidth]{use_case_us8.PNG}
         \caption{USE CASE user stories 8.}
@@ -273,14 +277,16 @@ Questo caso d'uso, che modella US8, ha come attore il cancello, il quale chiude 
     \end{figure}
 
 \newpage
+\begin{landscape}
 \subsubsection{Use Case generale}
 In questo diagramma dei casi d'uso generale possiamo vedere tutte le azioni che l'utente può compiere per interagire con il sistema, così come le azioni automatiche del sistema che si attivano anche senza la presenza dell'utente.
-\begin{figure}[h] % 'h' significa "here", posiziona l'immagine qui
+\begin{figure}[H] % 'h' significa "here", posiziona l'immagine qui
     \centering % Centra l'immagine
-    \includegraphics[width=1.1\textwidth, height=15cm, angle=270]{usa_case_diagram.PNG} % Inserisce l'immagine con una larghezza del 50% del testo
+    \includegraphics[width=1.1\textwidth]{usa_case_diagram.PNG} % Inserisce l'immagine con una larghezza del 50% del testo
     \caption{Use case diagram} % Aggiunge una didascalia
-    \label{fig:immagine} % Aggiunge un'etichetta per riferimenti incrociati
+    \label{fig:General Use Case DIagram} % Aggiunge un'etichetta per riferimenti incrociati
 \end{figure}
+\end{landscape}
 
 \newpage
 \section{Activity Diagrams}
@@ -298,7 +304,7 @@ Viene presentato in Figura ... il flusso di azioni che l’utente compie per l�
     \item L'utente può premere di nuovo il pulsante B1 per chiudere il cancello o attendere che passi il tempo di chiusura precedentemente impostato.
 \end{enumerate}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width = 0.7 \textwidth ]{Scenario_1.jpg}
     \caption{Scenario 1: Apertura e Chiusura Cancello.}
@@ -365,17 +371,19 @@ Questo scenario, presentato in Figura ..., descrive le azioni che l’utente com
 \end{figure}
 
 \newpage
-\subsection{State diagram}
-Nell'ultima parte di questa relazione si illustra lo state diagram che ha lo scopo di descrivere quali sono i vari stati in cui il sistema si può trovare. Lo state diagram è utile per chiarire il comportamento del cancello rispetto agli eventi interni ed esterni che possono essere interpretati diversamente a seconda dello stato in cui si trova.
+
+\section{State diagram}
+Nell'ultima parte di questa relazione si illustra lo State Diagram che ha lo scopo di descrivere quali sono i vari stati in cui il sistema si può trovare. Lo state diagram è utile per chiarire il comportamento del cancello rispetto agli eventi interni ed esterni che possono essere interpretati diversamente a seconda dello stato in cui si trova.
 I principali stati del cancello automatico descritto nei capitoli precedenti sono:
 \begin{itemize}
     \item{CLOSING,} è lo stato iniziale del sistema.
-    \item{CLOSE,} è lo stato che si raggiunge quando la seconda fotocellula è occupata, tutti i led sono spenti. Quando il sistema di trova in questo stato è possibile impostare il tempo di lavoro e quello di chiusura.
-    \item{OPENING,} è lo stato di apertura durante il quale in led giallo lampeggia.
+    \item{CLOSE,} è lo stato che si raggiunge quando la seconda fotocellula (P2) è occupata durante il quale tutti i led sono spenti. Quando il sistema si trova in questo stato è possibile impostare il tempo di lavoro e quello di chiusura da 10 a 120 secondi.
+    \item{OPENING,} è lo stato di apertura del cancello durante il quale in led giallo lampeggia.
     \item{OPEN,} è lo stato in cui il cancello è aperto e tutti i led sono accesi.
 \end{itemize}
 
-In parallelo a questi stati ci sono gli stati \textbf{B1}, \textbf{B2} e \textbf{B3}, che "ascoltano" i fronti di salita provenienti dai rispettivi bottoni.
+In parallelo a questi ci sono gli stati \textbf{B1}, \textbf{B2} e 
+\textbf{B3}, che "ascoltano" i fronti di salita provenienti dai rispettivi bottoni.
 Si ricorda che B1 permette di richiedere l'apertura o la chiusura, B2 imposta il tempo di chiusura e, infine, B3 imposta il tempo di lavoro.\\
 
 Gli altri stati che non sono elencati sopra sono importanti in quanto gestiscono situazioni di errore ed emergenza. Sono elencati qui:
@@ -388,14 +396,30 @@ Gli altri stati che non sono elencati sopra sono importanti in quanto gestiscono
 \end{itemize}
 
 Di seguito sono illustrati il diagramma di stato di un pulsante che vale anche per gli altri, e successivamente è illustrato lo schema generico del cancello automatico. E' stata inserita un'immagine che rappresenta anche lo stato \textbf{CLOSED} in particolare. Questo stato comprende che gli stati per aumentare il tempo di lavoro e quello di chiusura.
+\newpage
+\begin{landscape}
+\begin{figure}[h] % 'h' significa "here", posiziona l'immagine qui
+    \centering % Centra l'immagine
+    \includegraphics[width=1.5\textwidth]{state_diagram0.png} % Inserisce l'immagine con una larghezza del 50% del testo
+    \caption{State Diagram} % Aggiunge una didascalia
+    \label{fig:General State Diagram} % Aggiunge un'etichetta per riferimenti incrociati
+\end{figure}
+\end{landscape}
 
 \begin{figure}[h] % 'h' significa "here", posiziona l'immagine qui
     \centering % Centra l'immagine
-    \includegraphics[width=0.9\textwidth]{state_diagram0.png} % Inserisce l'immagine con una larghezza del 50% del testo
-    \caption{Use case diagram} % Aggiunge una didascalia
-    \label{fig:immagine} % Aggiunge un'etichetta per riferimenti incrociati
+    \includegraphics[width=1\textwidth]{state_diagram1.png} % Inserisce l'immagine con una larghezza del 50% del testo
+    \caption{State Diagram} % Aggiunge una didascalia
+    \label{fig:CLOSED State} % Aggiunge un'etichetta per riferimenti incrociati
 \end{figure}
-%\newpage
+
+\begin{figure}[h] % 'h' significa "here", posiziona l'immagine qui
+    \centering % Centra l'immagine
+    \includegraphics[width=1\textwidth]{state_diagram2.png} % Inserisce l'immagine con una larghezza del 50% del testo
+    \caption{State Diagram} % Aggiunge una didascalia
+    \label{fig:Button State} % Aggiunge un'etichetta per riferimenti incrociati
+\end{figure}
+\newpage
 \addcontentsline{toc}{section}{Elenco delle figure}
-%\listoffigures
+\listoffigures
 \end{document}
