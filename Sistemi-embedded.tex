@@ -283,23 +283,86 @@ In questo diagramma dei casi d'uso generale possiamo vedere tutte le azioni che 
 \end{figure}
 
 \newpage
-\subsection{Activity diagrams}
-Testo dell'Activity diagram.
-\subsubsection{Scenario 1}
-Testo dello scenario 1
-\subsubsection{Scenario 2}
-Testo dello scenario 2
-\subsubsection{Scenario 3}
-Testo dello scenario 3
-\subsubsection{Scenario 4}
-Testo dello scenario 4
-\subsubsection{Scenario 5}
-Testo dello scenario 5
-\subsubsection{Scenario 6}
-Testo dello scenario 6
-\subsubsection{Scenario 7}
-Testo dello scenario 7
+\section{Activity Diagrams}
+Continuiamo con la presentazione di alcuni diagrammi di attività, strumenti visivi che illustrano il flusso di controllo e le operazioni eseguite dal sistema. Questi diagrammi sono fondamentali per comprendere i vari processi interni del sistema e le loro interconnessioni.
+La modellazione degli activity diagrams è stata realizzata su diversi scenari, ognuno dei quali rappresenta un tipico funzionamento del sistema in base alle varie situazioni possibili. A seguire, saranno presentate le descrizioni di ciascuno scenario insieme ai relativi diagrammi di attività.
 
+\subsection{Scenario 1}
+Viene presentato in Figura ... il flusso di azioni che l’utente compie per l’apertura del cancello elettrico, dalla fase iniziale della pressione del pulsante, all’apertura completa e infine alla chiusura:
+
+\begin{enumerate}
+    \item Per avviare il processo di apertura, l’utente preme il pulsante B1.
+    \item Una volta premuto il pulsante, il cancello inizia la fase di apertura e il LED giallo lampeggia.
+    \item Il cancello continua ad aprirsi fino al completamento del tempo di lavoro impostato.
+    \item Una volta che il cancello è completamente aperto, tutti i LED si accendono.
+    \item L'utente può premere di nuovo il pulsante B1 per chiudere il cancello o attendere che passi il tempo di chiusura precedentemente impostato.
+\end{enumerate}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = 0.7 \textwidth ]{Scenario_1.jpg}
+    \caption{Scenario 1: Apertura e Chiusura Cancello.}
+    
+\end{figure}
+
+\subsection{Scenario 2}
+Questo scenario, presentato in Figura ..., descrive le azioni per l’apertura del cancello elettrico, dalla fase iniziale della pressione del pulsante, all’apertura completa e infine alla chiusura, considerando che venga rilevato un ostacolo durante queste fasi:
+\begin{enumerate}
+    \item Per avviare il processo di apertura, l’utente preme il pulsante B1.
+    \item Una volta premuto il pulsante, il cancello inizia la fase di apertura e il LED giallo lampeggia se non è presente un ostacolo davanti al sensore P1, altrimenti il comando deve essere ripetuto.
+    \item Il cancello continua ad aprirsi fino al completamento del tempo di lavoro.
+    \item Una volta che il cancello è completamente aperto, tutti i LED si accendono.
+    \item L'utente può premere di nuovo il pulsante B1 per chiudere il cancello o attendere che passi il tempo di chiusura precedentemente impostato.
+    \item Il cancello entra in fase di chiusura.
+    \item Se il sensore P1 rileva la presenza di un ostacolo durante la chiusura, il cancello interrompe la chiusura e inizia la fase di apertura.
+    \item L’utente può rimuovere l’ostacolo e il cancello può essere nuovamente chiuso premendo il pulsante B1 o attendendo il tempo di chiusura automatica.
+\end{enumerate}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = 0.7 \textwidth ]{Scenario_2.jpg}
+    \caption{Scenario 2: Apertura e Chiusura con Ostacoli.}
+    
+\end{figure}
+
+\subsection{Scenario 3}
+Lo scenario, presentato in Figura ..., descrive le attività quando il cancello entra in uno stato di errore se non si chiude entro il tempo di lavoro previsto. Nel seguito verrà presentato il flusso di azioni associato allo scenario corrente:
+
+\begin{enumerate}
+    \item Il sistema viene attivato.
+    \item L'utente preme il pulsante di apertura (B1).
+    \item Il cancello inizia la fase di apertura.
+    \item La fase di apertura termina.
+    \item Il cancello passa alla fase di chiusura.
+    \item Il tempo di lavoro impostato viene superato senza che il sensore P2 rilevi la chiusura completa.
+    \item Il LED rosso si accende per notificare lo stato di errore.
+    \item L’utente deve intervenire per risolvere il problema e riportare il sistema in uno stato operativo normale.
+\end{enumerate}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = 0.7 \textwidth]{Scenario_3.jpg}
+    \caption{Scenario 3: Stato di Errore.}
+    
+\end{figure}
+
+
+\subsection{Scenario 4}
+Questo scenario, presentato in Figura ..., descrive le azioni che l’utente compie per regolare il tempo di apertura e chiusura (tempo di lavoro) del cancello elettrico utilizzando il pulsante B3:
+
+\begin{enumerate}
+    \item L’utente decide di regolare il tempo di apertura e chiusura (tempo di lavoro).
+    \item Per impostare il tempo di apertura e chiusura, l’utente preme ripetutamente il pulsante B3.
+    \item Ogni pressione del pulsante B3 aumenta il tempo di lavoro di 10 secondi.
+    \item Una volta impostato il tempo desiderato, l’utente termina l’operazione e il cancello utilizzerà il tempo impostato per le operazioni di apertura e chiusura.
+\end{enumerate}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = 0.7 \textwidth]{Scenario_4.jpg}
+    \caption{Scenario 1: Regolazione del Tempo di Lavoro}
+    
+\end{figure}
 \subsection{State diagram}
 Testo dello state diagram.
 
