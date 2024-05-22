@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.6)  22 MAY 2024 11:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.6)  22 MAY 2024 11:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -529,11 +529,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has
                                                   \__shipout_drop_firstpage_...
 l.297 \newpage
                <./use_case_us9.PNG>]
-<usa_case_diagram.PNG, id=240, 696.201pt x 393.8715pt>
+<usa_case_diagram.PNG, id=240, 769.6755pt x 439.6425pt>
 File: usa_case_diagram.PNG Graphic file (type png)
 <use usa_case_diagram.PNG>
 Package pdftex.def Info: usa_case_diagram.PNG  used on input line 303.
-(pdftex.def)             Requested size: 621.00716pt x 351.33183pt.
+(pdftex.def)             Requested size: 598.83365pt x 342.07451pt.
  [9
 
 
@@ -641,18 +641,18 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
 Package rerunfilecheck Info: File `Sistemi-embedded.out' has not changed.
-(rerunfilecheck)             Checksum: 4E358D54CE54A0458BCA33B928D53343;5168.
+(rerunfilecheck)             Checksum: C3B8D33EDB518D33A37D78E0788C46A5;5186.
  ) 
 Here is how much of TeX's memory you used:
  17390 strings out of 474369
- 301174 string characters out of 5750330
+ 301166 string characters out of 5750330
  1937754 words of memory out of 5000000
  39445 multiletter control sequences out of 15000+600000
  563874 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,7n,79p,463b,534s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\giuse\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Sistemi-embedded.pdf (19 pages, 725262 bytes).
+Output written on Sistemi-embedded.pdf (19 pages, 740462 bytes).
 PDF statistics:
  388 PDF objects out of 1000 (max. 8388607)
  111 named destinations out of 1000 (max. 500000)

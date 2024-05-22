@@ -20,8 +20,8 @@
 \contentsline {subsection}{\numberline {2.6}Ignora comando ostacolo [US6]}{7}{subsection.2.6}%
 \contentsline {subsection}{\numberline {2.7}Stato errore sensore P2 [US7]}{7}{subsection.2.7}%
 \contentsline {subsection}{\numberline {2.8}Chiusura automatica è [US8]}{7}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}Chiusura automatica è [US8]}{8}{subsection.2.9}%
-\contentsline {subsubsection}{\numberline {2.9.1}Use Case generale}{9}{subsubsection.2.9.1}%
+\contentsline {subsection}{\numberline {2.9}Chiusura automatica [US9]}{8}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Use Case Diagram generale}{9}{subsection.2.10}%
 \contentsline {section}{\numberline {3}Activity Diagrams}{10}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Scenario 1}{10}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Scenario 2}{11}{subsection.3.2}%
