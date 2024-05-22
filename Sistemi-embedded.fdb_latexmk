@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1716365270.93063 "c:/Users/giuse/OneDrive/Documenti/GitHub/sistemi-embedded/Sistemi-embedded.tex" "Sistemi-embedded.pdf" "Sistemi-embedded" 1716365273.61063 0
+["pdflatex"] 1716367179.22242 "c:/Users/giuse/OneDrive/Documenti/GitHub/sistemi-embedded/Sistemi-embedded.tex" "Sistemi-embedded.pdf" "Sistemi-embedded" 1716367181.87801 0
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/tcrm1200.tfm" 993062508 1444 95ffe0f19b974d50849790c8225c7ef7 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -114,12 +114,12 @@
   "Scenario_2.jpg" 1716297901 69492 7a345ac25df83f1c0a8d26ca63be9c4d ""
   "Scenario_3.jpg" 1716297901 34624 0fcf16b5532823b0d54a096deab90585 ""
   "Scenario_4.jpg" 1716297901 48035 abd47b495cbf4c2a7c5acdc71a22a520 ""
-  "Sistemi-embedded.aux" 1716365273 6831 33133a2f18333cbc84c9f077149730af "pdflatex"
-  "Sistemi-embedded.lof" 1716365273 1593 d01777f08a498e2553e15d9b0724a970 "pdflatex"
-  "Sistemi-embedded.out" 1716365273 4769 902d58c074768102d1e9236d54cd07b0 "pdflatex"
-  "Sistemi-embedded.tex" 1716365267 23501 a4ccd629bac7c7a735ab84ecdfd12db4 ""
-  "Sistemi-embedded.toc" 1716365273 2473 c91a11cb9381572b34e8b54d5df46c8c "pdflatex"
-  "c:/Users/giuse/OneDrive/Documenti/GitHub/sistemi-embedded/Sistemi-embedded.tex" 1716365267 23501 a4ccd629bac7c7a735ab84ecdfd12db4 ""
+  "Sistemi-embedded.aux" 1716367181 6972 ae5b9faf0f88c13e1217f8a9b89a7f7a "pdflatex"
+  "Sistemi-embedded.lof" 1716367181 1593 d01777f08a498e2553e15d9b0724a970 "pdflatex"
+  "Sistemi-embedded.out" 1716367181 4963 23290b169e8652ceedc3248c2ec35bea "pdflatex"
+  "Sistemi-embedded.tex" 1716367175 23662 018d10517402ac81415d540aeddb0965 ""
+  "Sistemi-embedded.toc" 1716367181 2573 5dab540249951e8dc0b7fb818cb8090d "pdflatex"
+  "c:/Users/giuse/OneDrive/Documenti/GitHub/sistemi-embedded/Sistemi-embedded.tex" 1716367175 23662 018d10517402ac81415d540aeddb0965 ""
   "logo_uni.png" 1714994543 18890 f0685e3a05ed16739cb7f6c2c4915746 ""
   "state_diagram0.png" 1716365088 106529 8daa5c55d1cd991aad3af1fbe2748d57 ""
   "state_diagram1.png" 1716365088 43308 b183d97892e98e29c4c9294a077fc5ba ""

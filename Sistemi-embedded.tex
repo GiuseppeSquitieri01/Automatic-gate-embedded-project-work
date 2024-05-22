@@ -97,23 +97,22 @@
 
 \section{Progettazione del sistema}
 
-Questa sezione approfondisce la metodologia di progettazione adottata per sviluppare il sistema, delineando i processi, le strategie e gli approcci utilizzati per garantire un'architettura robusta e un funzionamento ottimale. \\\\
+Questa sezione approfondisce la metodologia di progettazione adottata per sviluppare il sistema in esame, delineando i processi, le strategie e gli approcci utilizzati per garantire un'architettura robusta e un funzionamento ottimale. \\\\
 In questa fase di progettazione, vengono utilizzati diversi diagrammi UML (Unified Modeling Language) per fornire una rappresentazione visuale dell'architettura e del funzionamento del sistema. Questi diagrammi sono strumenti essenziali per comunicare in modo chiaro e conciso la struttura 
 e le interazioni all'interno del sistema.
-\\\\
-Attraverso l'analisi dettagliata della progettazione, si mira a garantire che il sistema soddisfi appieno le esigenze degli utenti e che sia in grado di fornire le funzionalità desiderate in modo efficiente, sicuro e affidabile.
+\\
 \subsection{User stories}
 Le user stories rappresentano una componente essenziale della fase di progettazione, fornendo una panoramica diretta e comprensibile delle funzionalità richieste dal punto di vista dell'utente. 
 \\\\
-Queste narrazioni brevi sono strumenti efficaci per catturare le esigenze degli utenti finali e guidare lo sviluppo del sistema in modo centrato sull'utente. Ogni user story è accompagnata da criteri di accettazione chiari e obiettivi, che stabiliscono in modo inequivocabile quando una determinata funzionalità può essere considerata completa e soddisfacente per l'utente. 
+Queste narrazioni brevi sono strumenti per catturare le esigenze degli utenti finali e guidare lo sviluppo del sistema in modo centrato sull'utente. Ogni user story è accompagnata da criteri di accettazione chiari e obiettivi, che stabiliscono in modo inequivocabile quando una determinata funzionalità può essere considerata completa e soddisfacente per l'utente. 
 \\\\
-Questo approccio aiuta a garantire che il processo di progettazione si concentri sulle reali esigenze degli utenti e fornisce un solido punto di riferimento per la fase di testing, consentendo di valutare in modo efficace il grado di conformità del sistema alle aspettative degli utenti finali.
+Questo approccio fornisce un solido punto di riferimento per la fase di testing, consentendo di valutare in modo efficace il grado di conformità del sistema alle aspettative degli utenti finali.
 \subsubsection{US1: Apertura cancello}
 Come utente, \\
 voglio essere in grado di aprire il cancello quando è chiuso o in fase di chiusura premendo il pulsante B1, \\
 in modo tale da pote entrare.
 \begin{itemize}
-    \item Criterio di accettazione
+    \item Criteri di accettazione
     \begin{enumerate}
         \item Quando l'utente preme il pulsante B1 e il cancello è chiuso quest'ultimo va in fase di apertura.
         \item Quando l'utente preme il pulsante B1 e il cancello è in fase di chiusura quest'ultimo va in fase di apertura.
@@ -122,10 +121,10 @@ in modo tale da pote entrare.
 \end{itemize}
 \subsubsection{US2: Chiusura cancello}
 Come utente, \\
-voglio essere in grado di chiudere il cancello quando è aperto o in fase di apertura premendo il pulsante B1, \\
+voglio essere in grado di chiudere il cancello quando è aperto o è in fase di apertura premendo il pulsante B1, \\
 in modo tale da poter chiudere la casa.
 \begin{itemize}
-    \item Criterio di accettazione
+    \item Criteri di accettazione
     \begin{enumerate}
         \item Quando l'utente preme il pulsante B1 e il cancello è aperto quest'ultimo va in fase di chiusura.
         \item Quando l'utente preme il pulsante B1 e il cancello è in fase di apertura quest'ultimo va in fase di chiusura.
@@ -135,7 +134,7 @@ in modo tale da poter chiudere la casa.
 \subsubsection{US3: Regolazione tempo di chiusura}
 Come utente, \\
 voglio poter regolare, premendo il pulsante B2, il tempo di chiusura automatica del cancello,\\
-in modo tale che quando passa il tempo che ho scelto il cancello si chiude quando è aperto.
+in modo tale che quando è scaduto tempo preimpostato il cancello passa in uno stato di chiusura.
 \begin{itemize}
     \item Criteri di accettazione
     \begin{enumerate}
@@ -168,7 +167,7 @@ in modo tale da non provocare nessun danno.
 \end{itemize}
 \subsubsection{US6: Ignora comando ostacolo}
 Come utente, \\
-voglio che il cancello non si apra o si chiuda se il sensore di presenza P1 rileva la presenza di un ostacolo e premo il pulsante B1,\\
+voglio che il cancello non si apra o si chiuda quando lo richiedo con il pulsante B1 se il sensore di presenza P1 rileva la presenza di un ostacolo, \\
 in modo tale da non provocare nessun danno.
 \begin{itemize}
     \item Criteri di accettazione
@@ -180,7 +179,7 @@ in modo tale da non provocare nessun danno.
 \subsubsection{US7: Stato di errore sensore P2}
 Come utente, \\
 voglio che il cancello entri in uno stato di errore se il sensore di chiusura P2 non si attiva entro 10 secondi dopo il tempo di lavoro del cancello che è in fase di chiusura,\\
-in modo tale da sapere che il cancello non rimanga aperto.
+in modo tale da notificare uno stato di errore.
 \begin{itemize}
     \item Criteri di accettazione
     \begin{enumerate}
@@ -199,6 +198,18 @@ in modo tale da non dover premere il pulsante B1 per richiuderlo.
         \item Quando il cancello è aperto e passa il tempo di chiusura il led giallo lampeggia con una frequenza di 0.5Hz segnalando la fase di chiusura.
     \end{enumerate}
 \end{itemize}
+
+\subsubsection{US9: Accensione cancello}
+Come utente, \\
+voglio che quando si accende il sistema il cancello se è aperto passa in uno stato di chiusura se P1 non è attivo\\
+in modo tale che il cancello vada in uno stato iniziale.
+\begin{itemize}
+    \item Criteri di accettazione
+    \begin{enumerate}
+        \item Quando il sistema è appena acceso se il cancello è aperto, quest'ultimo passa in uno stato di chiusura automatica.
+    \end{enumerate}
+\end{itemize}
+
 
 \newpage
 
