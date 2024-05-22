@@ -20,11 +20,12 @@
 \contentsline {subsection}{\numberline {2.6}Ignora comando ostacolo [US6]}{7}{subsection.2.6}%
 \contentsline {subsection}{\numberline {2.7}Stato errore sensore P2 [US7]}{7}{subsection.2.7}%
 \contentsline {subsection}{\numberline {2.8}Chiusura automatica è [US8]}{7}{subsection.2.8}%
-\contentsline {subsubsection}{\numberline {2.8.1}Use Case generale}{8}{subsubsection.2.8.1}%
-\contentsline {section}{\numberline {3}Activity Diagrams}{9}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Scenario 1}{9}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Scenario 2}{10}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Scenario 3}{11}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Scenario 4}{13}{subsection.3.4}%
-\contentsline {section}{\numberline {4}State diagram}{14}{section.4}%
-\contentsline {section}{Elenco delle figure}{17}{figure.16}%
+\contentsline {subsection}{\numberline {2.9}Chiusura automatica [US9]}{8}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Use Case Diagram generale}{9}{subsection.2.10}%
+\contentsline {section}{\numberline {3}Activity Diagrams}{10}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Scenario 1}{10}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Scenario 2}{11}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Scenario 3}{12}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Scenario 4}{14}{subsection.3.4}%
+\contentsline {section}{\numberline {4}State diagram}{15}{section.4}%
+\contentsline {section}{Elenco delle figure}{18}{figure.17}%

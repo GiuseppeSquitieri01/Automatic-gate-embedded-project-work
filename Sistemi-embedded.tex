@@ -287,15 +287,23 @@ Questo caso d'uso, che modella US8, ha come attore il cancello, il quale chiude 
         \label{fig:use_case_us8}
     \end{figure}
 
+\subsection{Chiusura automatica [US9]}
+Questo caso d'uso, che modella US9, ha come attore il cancello. Quando viene acceso, entra nella fase di chiusura se il sensore P2 non è attivo, ovvero se il cancello è aperto e il sensore P1 non è attivo.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{use_case_us9.jpg}
+        \caption{USE CASE user stories 9.}
+        \label{fig:use_case_us9}
+    \end{figure}
 \newpage
 \begin{landscape}
-\subsubsection{Use Case generale}
+\subsection{Use Case Diagram generale}
 In questo diagramma dei casi d'uso generale possiamo vedere tutte le azioni che l'utente può compiere per interagire con il sistema, così come le azioni automatiche del sistema che si attivano anche senza la presenza dell'utente.
 \begin{figure}[H] % 'h' significa "here", posiziona l'immagine qui
     \centering % Centra l'immagine
-    \includegraphics[width=1.4\textwidth]{usa_case_diagram.PNG} % Inserisce l'immagine con una larghezza del 50% del testo
+    \includegraphics[width=1.35\textwidth]{usa_case_diagram.jpg} % Inserisce l'immagine con una larghezza del 50% del testo
     \caption{Use case diagram} % Aggiunge una didascalia
-    \label{fig:General Use Case DIagram} % Aggiunge un'etichetta per riferimenti incrociati
+    \label{fig:General Use Case Diagram} % Aggiunge un'etichetta per riferimenti incrociati
 \end{figure}
 \end{landscape}
 
@@ -305,7 +313,7 @@ Continuiamo con la presentazione di alcuni diagrammi di attività, strumenti vis
 La modellazione degli activity diagrams è stata realizzata su diversi scenari, ognuno dei quali rappresenta un tipico funzionamento del sistema in base alle varie situazioni possibili. A seguire, saranno presentate le descrizioni di ciascuno scenario insieme ai relativi diagrammi di attività.
 
 \subsection{Scenario 1}
-Viene presentato in Figura ... il flusso di azioni che l’utente compie per l’apertura del cancello elettrico, dalla fase iniziale della pressione del pulsante, all’apertura completa e infine alla chiusura:
+Viene presentato in Figura 10 il flusso di azioni che l’utente compie per l’apertura del cancello automatico, dalla fase iniziale della pressione del pulsante, all’apertura completa e infine alla chiusura:
 
 \begin{enumerate}
     \item Per avviare il processo di apertura, l’utente preme il pulsante B1.
@@ -323,7 +331,7 @@ Viene presentato in Figura ... il flusso di azioni che l’utente compie per l�
 \end{figure}
 
 \subsection{Scenario 2}
-Questo scenario, presentato in Figura ..., descrive le azioni per l’apertura del cancello elettrico, dalla fase iniziale della pressione del pulsante, all’apertura completa e infine alla chiusura, considerando che venga rilevato un ostacolo durante queste fasi:
+Questo scenario, presentato in Figura 11, descrive le azioni per l’apertura del cancello automatico, dalla fase iniziale della pressione del pulsante, all’apertura completa e infine alla chiusura, considerando che venga rilevato un ostacolo durante queste fasi:
 \begin{enumerate}
     \item Per avviare il processo di apertura, l’utente preme il pulsante B1.
     \item Una volta premuto il pulsante, il cancello inizia la fase di apertura e il LED giallo lampeggia se non è presente un ostacolo davanti al sensore P1, altrimenti il comando deve essere ripetuto.
@@ -343,7 +351,7 @@ Questo scenario, presentato in Figura ..., descrive le azioni per l’apertura d
 \end{figure}
 
 \subsection{Scenario 3}
-Lo scenario, presentato in Figura ..., descrive le attività quando il cancello entra in uno stato di errore se non si chiude entro il tempo di lavoro previsto. Nel seguito verrà presentato il flusso di azioni associato allo scenario corrente:
+Lo scenario, presentato in Figura 12, descrive le attività quando il cancello entra in uno stato di errore se non si chiude entro il tempo di lavoro previsto. Nel seguito verrà presentato il flusso di azioni associato allo scenario corrente:
 
 \begin{enumerate}
     \item Il sistema viene attivato.
@@ -352,7 +360,7 @@ Lo scenario, presentato in Figura ..., descrive le attività quando il cancello 
     \item La fase di apertura termina.
     \item Il cancello passa alla fase di chiusura.
     \item Il tempo di lavoro impostato viene superato senza che il sensore P2 rilevi la chiusura completa.
-    \item Il LED rosso si accende per notificare lo stato di errore.
+    \item Il LED rosso si accende per notificare lo stato di errore dopo 10 secondi.
     \item L’utente deve intervenire per risolvere il problema e riportare il sistema in uno stato operativo normale.
 \end{enumerate}
 
@@ -365,7 +373,7 @@ Lo scenario, presentato in Figura ..., descrive le attività quando il cancello 
 
 \newpage
 \subsection{Scenario 4}
-Questo scenario, presentato in Figura ..., descrive le azioni che l’utente compie per regolare il tempo di apertura e chiusura (tempo di lavoro) del cancello elettrico utilizzando il pulsante B3:
+Questo scenario, presentato in Figura 13, descrive le azioni che l’utente compie per regolare il tempo di apertura e chiusura (tempo di lavoro) del cancello automatico utilizzando il pulsante B3:
 
 \begin{enumerate}
     \item L’utente decide di regolare il tempo di apertura e chiusura (tempo di lavoro).
@@ -377,7 +385,7 @@ Questo scenario, presentato in Figura ..., descrive le azioni che l’utente com
 \begin{figure}[h]
     \centering
     \includegraphics[width = 0.7 \textwidth]{Scenario_4.jpg}
-    \caption{Scenario 1: Regolazione del Tempo di Lavoro}
+    \caption{Scenario 4: Regolazione del Tempo di Lavoro}
     
 \end{figure}
 
@@ -400,7 +408,7 @@ Si ricorda che B1 permette di richiedere l'apertura o la chiusura, B2 imposta il
 Gli altri stati che non sono elencati sopra sono importanti in quanto gestiscono situazioni di errore ed emergenza. Sono elencati qui:
 
 \begin{itemize}
-    \item{EMERGENCY\_P1\_CLOSED,} è uno stato che viene raggiunto nel caso in sui si richiede l'apertura del cancello, ma il sensore P1 è impegnato. l led verde lampeggia per 30 sec.
+    \item{EMERGENCY\_P1\_CLOSED,} è uno stato che viene raggiunto nel caso in sui si richiede l'apertura del cancello, ma il sensore P1 è impegnato. Il led verde lampeggia per 30 sec.
     \item{EMERGENCY\_P1\_OPEN,} è corrispettivo dello stato precedente nel caso in cui si richiede la chiusura del cancello mentre P1 è impegnato. Il led verde lampeggia per 30 sec.
     \item{EMERGENCY,} viene raggiunto nel caso in cui P2 non viene impegnato entro il tempo di lavoro. Il sistema esce da questo stato dopo 10 secondi oppure quando viene impegnato P2.
     \item{EMERGENCY\_LED}, viene raggiunto se lo stato \textbf{EMERGENCY} permane per più di 10 secondi. In questo stato viene attivato il led rosso.
@@ -412,7 +420,7 @@ Di seguito sono illustrati il diagramma di stato di un pulsante che vale anche p
 \begin{figure}[h] % 'h' significa "here", posiziona l'immagine qui
     \centering % Centra l'immagine
     \includegraphics[width=1.5\textwidth]{state_diagram0.png} % Inserisce l'immagine con una larghezza del 50% del testo
-    \caption{State Diagram} % Aggiunge una didascali
+    \caption{General State Diagram} % Aggiunge una didascali
     \label{fig:General State Diagram} % Aggiunge un'etichetta per riferimenti incrociati
 \end{figure}
 \end{landscape}
@@ -420,14 +428,14 @@ Di seguito sono illustrati il diagramma di stato di un pulsante che vale anche p
 \begin{figure}[h] % 'h' significa "here", posiziona l'immagine qui
     \centering % Centra l'immagine
     \includegraphics[width=1\textwidth]{state_diagram1.png} % Inserisce l'immagine con una larghezza del 50% del testo
-    \caption{State Diagram} % Aggiunge una didascalia
+    \caption{CLOSED State} % Aggiunge una didascalia
     \label{fig:CLOSED State} % Aggiunge un'etichetta per riferimenti incrociati
 \end{figure}
 
 \begin{figure}[h] % 'h' significa "here", posiziona l'immagine qui
     \centering % Centra l'immagine
     \includegraphics[width=1\textwidth]{state_diagram2.png} % Inserisce l'immagine con una larghezza del 50% del testo
-    \caption{State Diagram} % Aggiunge una didascalia
+    \caption{Button State} % Aggiunge una didascalia
     \label{fig:Button State} % Aggiunge un'etichetta per riferimenti incrociati
 \end{figure}
 \newpage
