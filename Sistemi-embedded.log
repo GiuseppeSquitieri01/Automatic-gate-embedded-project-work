@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.6)  22 MAY 2024 10:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.6)  22 MAY 2024 11:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -388,7 +388,7 @@ italian.ldf    See the documentation concerning the babel-italian typesetting
 italian.ldf    on input line 79.
 
 \c@lstlisting=\count306
-<logo_uni.png, id=115, 225.84375pt x 225.84375pt>
+<logo_uni.png, id=119, 225.84375pt x 225.84375pt>
 File: logo_uni.png Graphic file (type png)
 <use logo_uni.png>
 Package pdftex.def Info: logo_uni.png  used on input line 83.
@@ -436,17 +436,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--110
  []
 
 [2] [3] [4]
-<use_case_us1.PNG, id=190, 395.67825pt x 290.88675pt>
+<use_case_us1.PNG, id=195, 395.67825pt x 290.88675pt>
 File: use_case_us1.PNG Graphic file (type png)
 <use use_case_us1.PNG>
 Package pdftex.def Info: use_case_us1.PNG  used on input line 225.
 (pdftex.def)             Requested size: 266.15962pt x 147.95967pt.
-<use_case_us2.PNG, id=192, 383.63326pt x 278.84175pt>
+<use_case_us2.PNG, id=197, 383.63326pt x 278.84175pt>
 File: use_case_us2.PNG Graphic file (type png)
 <use use_case_us2.PNG>
 Package pdftex.def Info: use_case_us2.PNG  used on input line 234.
 (pdftex.def)             Requested size: 266.1531pt x 147.95985pt.
-<use_case_us3.PNG, id=193, 416.757pt x 74.679pt>
+<use_case_us3.PNG, id=198, 416.757pt x 74.679pt>
 File: use_case_us3.PNG Graphic file (type png)
 <use use_case_us3.PNG>
 Package pdftex.def Info: use_case_us3.PNG  used on input line 243.
@@ -462,12 +462,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has
                                                   \__shipout_drop_firstpage_...
 l.246     \end{figure}
                        <./use_case_us1.PNG> <./use_case_us2.PNG>]
-<use_case_us4.PNG, id=202, 415.5525pt x 65.64525pt>
+<use_case_us4.PNG, id=207, 415.5525pt x 65.64525pt>
 File: use_case_us4.PNG Graphic file (type png)
 <use use_case_us4.PNG>
 Package pdftex.def Info: use_case_us4.PNG  used on input line 251.
 (pdftex.def)             Requested size: 354.86412pt x 56.06013pt.
-<use_case_us5.PNG, id=203, 610.07925pt x 122.25674pt>
+<use_case_us5.PNG, id=208, 610.07925pt x 122.25674pt>
 File: use_case_us5.PNG Graphic file (type png)
 <use use_case_us5.PNG>
 Package pdftex.def Info: use_case_us5.PNG  used on input line 259.
@@ -488,163 +488,173 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has
                                                   \__shipout_drop_firstpage_...
 l.263 \newpage
                <./use_case_us3.PNG> <./use_case_us4.PNG> <./use_case_us5.PNG>]
-<use_case_us6.PNG, id=215, 407.121pt x 118.041pt>
+<use_case_us6.PNG, id=220, 407.121pt x 118.041pt>
 File: use_case_us6.PNG Graphic file (type png)
 <use use_case_us6.PNG>
 Package pdftex.def Info: use_case_us6.PNG  used on input line 268.
 (pdftex.def)             Requested size: 354.86412pt x 102.89474pt.
-<use_case_us7.PNG, id=216, 394.47375pt x 109.00725pt>
+<use_case_us7.PNG, id=221, 394.47375pt x 109.00725pt>
 File: use_case_us7.PNG Graphic file (type png)
 <use use_case_us7.PNG>
 Package pdftex.def Info: use_case_us7.PNG  used on input line 277.
 (pdftex.def)             Requested size: 354.86412pt x 98.06236pt.
-<use_case_us8.PNG, id=217, 400.49625pt x 82.50826pt>
+<use_case_us8.PNG, id=222, 400.49625pt x 82.50826pt>
 File: use_case_us8.PNG Graphic file (type png)
 <use use_case_us8.PNG>
 Package pdftex.def Info: use_case_us8.PNG  used on input line 285.
 (pdftex.def)             Requested size: 354.86412pt x 73.11105pt.
+<use_case_us9.PNG, id=223, 729.32475pt x 208.98074pt>
+File: use_case_us9.PNG Graphic file (type png)
+<use use_case_us9.PNG>
+Package pdftex.def Info: use_case_us9.PNG  used on input line 293.
+(pdftex.def)             Requested size: 354.86412pt x 101.68398pt.
  [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.290 \newpage
-              
+l.296     \end{figure}
+                      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.290 \newpage
-              
+l.296     \end{figure}
+                      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.290 \newpage
-               <./use_case_us6.PNG> <./use_case_us7.PNG> <./use_case_us8.PNG>]
-<usa_case_diagram.PNG, id=228, 696.201pt x 393.8715pt>
-File: usa_case_diagram.PNG Graphic file (type png)
-<use usa_case_diagram.PNG>
-Package pdftex.def Info: usa_case_diagram.PNG  used on input line 296.
-(pdftex.def)             Requested size: 621.00716pt x 351.33183pt.
- [8
-
-
+l.296     \end{figure}
+                       <./use_case_us6.PNG> <./use_case_us7.PNG> <./use_case_us8.PNG>] [8
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.300 \end{landscape}
-                      <./usa_case_diagram.PNG>]
-<Scenario_1.jpg, id=235, 600.2425pt x 774.895pt>
-File: Scenario_1.jpg Graphic file (type jpg)
-<use Scenario_1.jpg>
-Package pdftex.def Info: Scenario_1.jpg  used on input line 320.
-(pdftex.def)             Requested size: 310.50357pt x 400.85489pt.
+l.297 \newpage
+               <./use_case_us9.PNG>]
+<usa_case_diagram.PNG, id=240, 696.201pt x 393.8715pt>
+File: usa_case_diagram.PNG Graphic file (type png)
+<use usa_case_diagram.PNG>
+Package pdftex.def Info: usa_case_diagram.PNG  used on input line 303.
+(pdftex.def)             Requested size: 621.00716pt x 351.33183pt.
  [9
 
-] [10
+
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.334     \item S
-                 e il sensore P1 rileva la presenza di un ostacolo durante l... <./Scenario_1.jpg>]
-<Scenario_2.jpg, id=255, 618.31pt x 810.02625pt>
-File: Scenario_2.jpg Graphic file (type jpg)
-<use Scenario_2.jpg>
-Package pdftex.def Info: Scenario_2.jpg  used on input line 340.
-(pdftex.def)             Requested size: 310.50357pt x 406.79196pt.
- [11
+l.307 \end{landscape}
+                      <./usa_case_diagram.PNG>]
+<Scenario_1.jpg, id=247, 600.2425pt x 774.895pt>
+File: Scenario_1.jpg Graphic file (type jpg)
+<use Scenario_1.jpg>
+Package pdftex.def Info: Scenario_1.jpg  used on input line 327.
+(pdftex.def)             Requested size: 310.50357pt x 400.85489pt.
+ [10
+
+] [11
 pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.352     \item L
-                 a fase di apertura termina. <./Scenario_2.jpg>]
-<Scenario_3.jpg, id=265, 649.42625pt x 659.46375pt>
-File: Scenario_3.jpg Graphic file (type jpg)
-<use Scenario_3.jpg>
-Package pdftex.def Info: Scenario_3.jpg  used on input line 361.
-(pdftex.def)             Requested size: 310.50357pt x 315.31136pt.
+l.341     \item S
+                 e il sensore P1 rileva la presenza di un ostacolo durante l... <./Scenario_1.jpg>]
+<Scenario_2.jpg, id=267, 618.31pt x 810.02625pt>
+File: Scenario_2.jpg Graphic file (type jpg)
+<use Scenario_2.jpg>
+Package pdftex.def Info: Scenario_2.jpg  used on input line 347.
+(pdftex.def)             Requested size: 310.50357pt x 406.79196pt.
  [12
 pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.366 \newpage
-               <./Scenario_3.jpg>]
-<Scenario_4.jpg, id=279, 580.1675pt x 788.9475pt>
-File: Scenario_4.jpg Graphic file (type jpg)
-<use Scenario_4.jpg>
-Package pdftex.def Info: Scenario_4.jpg  used on input line 379.
-(pdftex.def)             Requested size: 310.50357pt x 422.24525pt.
+l.359     \item L
+                 a fase di apertura termina. <./Scenario_2.jpg>]
+<Scenario_3.jpg, id=278, 649.42625pt x 659.46375pt>
+File: Scenario_3.jpg Graphic file (type jpg)
+<use Scenario_3.jpg>
+Package pdftex.def Info: Scenario_3.jpg  used on input line 368.
+(pdftex.def)             Requested size: 310.50357pt x 315.31136pt.
  [13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.384 \newpage
+l.373 \newpage
+               <./Scenario_3.jpg>]
+<Scenario_4.jpg, id=291, 580.1675pt x 788.9475pt>
+File: Scenario_4.jpg Graphic file (type jpg)
+<use Scenario_4.jpg>
+Package pdftex.def Info: Scenario_4.jpg  used on input line 386.
+(pdftex.def)             Requested size: 310.50357pt x 422.24525pt.
+ [14
+pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.391 \newpage
                <./Scenario_4.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 396--399
+Underfull \hbox (badness 10000) in paragraph at lines 403--406
 
  []
 
-[14]
-<state_diagram0.png, id=293, 1278.27562pt x 661.72218pt>
+[15]
+<state_diagram0.png, id=305, 1278.27562pt x 661.72218pt>
 File: state_diagram0.png Graphic file (type png)
 <use state_diagram0.png>
-Package pdftex.def Info: state_diagram0.png  used on input line 414.
+Package pdftex.def Info: state_diagram0.png  used on input line 421.
 (pdftex.def)             Requested size: 665.3677pt x 344.44081pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15
-pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.418 \end{landscape}
-                      <./state_diagram0.png>]
-<state_diagram1.png, id=300, 1001.99344pt x 442.65375pt>
-File: state_diagram1.png Graphic file (type png)
-<use state_diagram1.png>
-Package pdftex.def Info: state_diagram1.png  used on input line 422.
-(pdftex.def)             Requested size: 443.57848pt x 195.96376pt.
-<state_diagram2.png, id=301, 837.88031pt x 393.72093pt>
-File: state_diagram2.png Graphic file (type png)
-<use state_diagram2.png>
-Package pdftex.def Info: state_diagram2.png  used on input line 429.
-(pdftex.def)             Requested size: 443.57848pt x 208.4368pt.
- [16
-
-
-
+[16
 pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.433 \newpage
-              
+l.425 \end{landscape}
+                      <./state_diagram0.png>]
+<state_diagram1.png, id=312, 1001.99344pt x 442.65375pt>
+File: state_diagram1.png Graphic file (type png)
+<use state_diagram1.png>
+Package pdftex.def Info: state_diagram1.png  used on input line 429.
+(pdftex.def)             Requested size: 443.57848pt x 195.96376pt.
+<state_diagram2.png, id=313, 837.88031pt x 393.72093pt>
+File: state_diagram2.png Graphic file (type png)
+<use state_diagram2.png>
+Package pdftex.def Info: state_diagram2.png  used on input line 436.
+(pdftex.def)             Requested size: 443.57848pt x 208.4368pt.
+ [17
+
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.433 \newpage
+l.440 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.440 \newpage
                <./state_diagram1.png> <./state_diagram2.png>] (Sistemi-embedded.lof)
 \tf@lof=\write5
 \openout5 = `Sistemi-embedded.lof'.
 
- [17] (Sistemi-embedded.aux)
+ [18] (Sistemi-embedded.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
 Package rerunfilecheck Info: File `Sistemi-embedded.out' has not changed.
-(rerunfilecheck)             Checksum: 23290B169E8652CEEDC3248C2EC35BEA;4963.
+(rerunfilecheck)             Checksum: 4E358D54CE54A0458BCA33B928D53343;5168.
  ) 
 Here is how much of TeX's memory you used:
- 17378 strings out of 474369
- 300950 string characters out of 5750330
+ 17390 strings out of 474369
+ 301174 string characters out of 5750330
  1937754 words of memory out of 5000000
- 39436 multiletter control sequences out of 15000+600000
+ 39445 multiletter control sequences out of 15000+600000
  563874 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,7n,79p,463b,534s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\giuse\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Sistemi-embedded.pdf (18 pages, 688618 bytes).
+Output written on Sistemi-embedded.pdf (19 pages, 725262 bytes).
 PDF statistics:
- 372 PDF objects out of 1000 (max. 8388607)
- 108 named destinations out of 1000 (max. 500000)
- 310 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 388 PDF objects out of 1000 (max. 8388607)
+ 111 named destinations out of 1000 (max. 500000)
+ 323 words of extra memory for PDF output out of 10000 (max. 10000000)
 
