@@ -66,7 +66,7 @@
 
 \author{
     \textbf{Gruppo: 8} \\
-    \normalsize Marotta Giuseppe - 0622702302 - g.marotta@studenti.unisa.it\\
+    \normalsize Marotta Giuseppe - 0622702302 - g.marotta31@studenti.unisa.it\\
     \normalsize Rea Gaetano - 0622702190 - g.rea7@studenti.unisa.it\\
     \normalsize Squitieri Giuseppe - 0622702339 - g.squitieri8@studenti.unisa.it\\ 
     \normalsize Tramice Davide - 0622702194 - d.tramice@studenti.unisa.it\\ \\
@@ -394,10 +394,12 @@ Questo scenario, presentato in Figura ..., descrive le azioni che l’utente com
 Nell'ultima parte di questa relazione si illustra lo State Diagram che ha lo scopo di descrivere quali sono i vari stati in cui il sistema si può trovare. Lo state diagram è utile per chiarire il comportamento del cancello rispetto agli eventi interni ed esterni che possono essere interpretati diversamente a seconda dello stato in cui si trova.
 I principali stati del cancello automatico descritto nei capitoli precedenti sono:
 \begin{itemize}
-    \item{CLOSING,} è lo stato iniziale del sistema.
-    \item{CLOSE,} è lo stato che si raggiunge quando la seconda fotocellula (P2) è occupata durante il quale tutti i led sono spenti. Quando il sistema si trova in questo stato è possibile impostare il tempo di lavoro e quello di chiusura da 10 a 120 secondi.
-    \item{OPENING,} è lo stato di apertura del cancello durante il quale in led giallo lampeggia.
-    \item{OPEN,} è lo stato in cui il cancello è aperto e tutti i led sono accesi.
+    \item{\textbf{CLOSING,}} è lo stato iniziale del sistema.
+    \item{\textbf{CLOSED,}} è lo stato che si raggiunge quando la seconda fotocellula (P2) è occupata durante il quale tutti i led sono spenti. Quando il sistema si trova in questo stato è possibile impostare il tempo di lavoro e quello di chiusura da 10 a 120 secondi.
+    \item {\textbf{OPEN\_DUR\_SETTING,}} questo stato imposta il tempo che il cancello deve rimanere nello stato aperto se non si è richiesta la chiusura.
+    \item {\textbf{WORK\_DUR\_SETTING}} questo stato imposta il tempo che impiega il cancello ad aprirsi.
+    \item{\textbf{OPENING,}} è lo stato di apertura del cancello durante il quale in led giallo lampeggia.
+    \item{\textbf{OPEN,}} è lo stato in cui il cancello è aperto e tutti i led sono accesi.
 \end{itemize}
 
 In parallelo a questi ci sono gli stati \textbf{B1}, \textbf{B2} e 
@@ -407,10 +409,10 @@ Si ricorda che B1 permette di richiedere l'apertura o la chiusura, B2 imposta il
 Gli altri stati che non sono elencati sopra sono importanti in quanto gestiscono situazioni di errore ed emergenza. Sono elencati qui:
 
 \begin{itemize}
-    \item{EMERGENCY\_P1\_CLOSED,} è uno stato che viene raggiunto nel caso in sui si richiede l'apertura del cancello, ma il sensore P1 è impegnato. l led verde lampeggia per 30 sec.
-    \item{EMERGENCY\_P1\_OPEN,} è corrispettivo dello stato precedente nel caso in cui si richiede la chiusura del cancello mentre P1 è impegnato. Il led verde lampeggia per 30 sec.
-    \item{EMERGENCY,} viene raggiunto nel caso in cui P2 non viene impegnato entro il tempo di lavoro. Il sistema esce da questo stato dopo 10 secondi oppure quando viene impegnato P2.
-    \item{EMERGENCY\_LED}, viene raggiunto se lo stato \textbf{EMERGENCY} permane per più di 10 secondi. In questo stato viene attivato il led rosso.
+    \item{\textbf{EMERGENCY\_P1\_CLOSED,}} è uno stato che viene raggiunto nel caso in sui si richiede l'apertura del cancello, ma il sensore P1 è impegnato. l led verde lampeggia per 30 sec.
+    \item{\textbf{EMERGENCY\_P1\_OPEN,}} è corrispettivo dello stato precedente nel caso in cui si richiede la chiusura del cancello mentre P1 è impegnato. Il led verde lampeggia per 30 sec.
+    \item{\textbf{EMERGENCY,}} viene raggiunto nel caso in cui P2 non viene impegnato entro il tempo di lavoro. Il sistema esce da questo stato dopo 10 secondi oppure quando viene impegnato P2.
+    \item{\textbf{EMERGENCY\_LED}}, viene raggiunto se lo stato \textbf{EMERGENCY} permane per più di 10 secondi. In questo stato viene attivato il led rosso.
 \end{itemize}
 
 Di seguito sono illustrati il diagramma di stato di un pulsante che vale anche per gli altri, e successivamente è illustrato lo schema generico del cancello automatico. E' stata inserita un'immagine che rappresenta anche lo stato \textbf{CLOSED} in particolare. Questo stato comprende che gli stati per aumentare il tempo di lavoro e quello di chiusura.
@@ -419,7 +421,7 @@ Di seguito sono illustrati il diagramma di stato di un pulsante che vale anche p
 \begin{figure}[h] % 'h' significa "here", posiziona l'immagine qui
     \centering % Centra l'immagine
     \includegraphics[width=1.5\textwidth]{state_diagram0.png} % Inserisce l'immagine con una larghezza del 50% del testo
-    \caption{State Diagram} % Aggiunge una didascali
+    \caption{General State Diagram} % Aggiunge una didascali
     \label{fig:General State Diagram} % Aggiunge un'etichetta per riferimenti incrociati
 \end{figure}
 \end{landscape}
@@ -427,14 +429,14 @@ Di seguito sono illustrati il diagramma di stato di un pulsante che vale anche p
 \begin{figure}[h] % 'h' significa "here", posiziona l'immagine qui
     \centering % Centra l'immagine
     \includegraphics[width=1\textwidth]{state_diagram1.png} % Inserisce l'immagine con una larghezza del 50% del testo
-    \caption{State Diagram} % Aggiunge una didascalia
+    \caption{CLOSED State} % Aggiunge una didascalia
     \label{fig:CLOSED State} % Aggiunge un'etichetta per riferimenti incrociati
 \end{figure}
 
 \begin{figure}[h] % 'h' significa "here", posiziona l'immagine qui
     \centering % Centra l'immagine
     \includegraphics[width=1\textwidth]{state_diagram2.png} % Inserisce l'immagine con una larghezza del 50% del testo
-    \caption{State Diagram} % Aggiunge una didascalia
+    \caption{Button State} % Aggiunge una didascalia
     \label{fig:Button State} % Aggiunge un'etichetta per riferimenti incrociati
 \end{figure}
 \newpage
