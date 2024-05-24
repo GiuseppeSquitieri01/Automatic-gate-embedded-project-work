@@ -1,0 +1,100 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % Per includere immagini
+\usepackage{titling}  % Per personalizzare lo spazio del titolo
+\usepackage{ccicons}  % Per i simboli Creative Commons
+\usepackage{geometry} % Per personalizzare i margini
+\usepackage{hyperref} % Per i link
+\usepackage[italian]{babel}
+\usepackage{pgffor}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{float}
+\usepackage{pdflscape}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+% Imposta i margini della pagina
+\geometry{
+  top=2cm,
+  bottom=2cm,
+  left=3cm,
+  right=3cm
+}
+
+\lstset{
+  basicstyle=\ttfamily,
+  breaklines=true,
+  columns=fullflexible
+}
+
+\setlength{\droptitle}{-5em} % Sposta in alto il titolo
+
+\title{
+    \Large \textbf{UNIVERSITA' DI SALERNO} \\[0.5em]
+    \small DIPARTIMENTO DI INGEGNERIA DELL'INFORMAZIONE ED ELETTRICA E MATEMATICA APPLICATA\\[5em]
+    \includegraphics[width=0.6\textwidth]{logo_uni.png}\\[3em] % Logo dell'Università
+    \normalsize Laurea Magistrale in Ingegneria Informatica \\[1em]
+    \Large \textbf {Project work} \\[1em]
+    \large \textbf {Deliverable 2} \\ [1em]
+    \large {Sistemi Embedded} \\[1em]
+}
+
+\author{
+    \textbf{Gruppo: 8} \\
+    \normalsize Marotta Giuseppe - 0622702302 - g.marotta31@studenti.unisa.it\\
+    \normalsize Rea Gaetano - 0622702190 - g.rea7@studenti.unisa.it\\
+    \normalsize Squitieri Giuseppe - 0622702339 - g.squitieri8@studenti.unisa.it\\ 
+    \normalsize Tramice Davide - 0622702194 - d.tramice@studenti.unisa.it\\ \\
+    }
+
+\date{
+    ANNO ACCADEMICO 2023/2024 % Data
+}
+
+\begin{document}
+
+\begin{titlingpage} % Crea una pagina di titolo personalizzata
+\maketitle
+\thispagestyle{empty} % Rimuove il numero di pagina
+%\begin{center}
+    %\ccbyncnd % Simbolo Creative Commons
+%\end{center}
+\end{titlingpage}
+
+% Creazione di una nuova pagina
+\newpage
+
+% Aggiungi l'indice delle sezioni
+\tableofcontents
+
+
+\newpage
+
+
+
+\end{document}
