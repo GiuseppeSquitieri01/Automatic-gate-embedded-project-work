@@ -1,0 +1,179 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   23 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "is_c1_STATE_PROJECT_S3"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_EMERGENCY_P1_CLOSED"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "AUTOMATIC_GATE_LOGIC.AUTOMATIC_GATE.EMERGENCY_P1_CLOSED"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_AUTOMATIC_GATE"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "AUTOMATIC_GATE_LOGIC.AUTOMATIC_GATE"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_WORK_DUR_SETTING"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "AUTOMATIC_GATE_LOGIC.AUTOMATIC_GATE.CLOSED.WORK_DUR_SETTING"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_OPENING"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "AUTOMATIC_GATE_LOGIC.AUTOMATIC_GATE.OPENING"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_CLOSING"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "AUTOMATIC_GATE_LOGIC.AUTOMATIC_GATE.CLOSING"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_EMERGENCY_P1_OPEN"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "AUTOMATIC_GATE_LOGIC.AUTOMATIC_GATE.EMERGENCY_P1_OPEN"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_B1"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "AUTOMATIC_GATE_LOGIC.B1"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_B3"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "AUTOMATIC_GATE_LOGIC.B3"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_B2"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "AUTOMATIC_GATE_LOGIC.B2"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_OPEN_DUR_SETTING"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "AUTOMATIC_GATE_LOGIC.AUTOMATIC_GATE.CLOSED.OPEN_DUR_SETTING"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "WORK_DUR"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "WORK_DUR"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "OPEN_DUR"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "OPEN_DUR"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "sfEvent"\
+      Description  "ActiveChartEvent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_c1_STATE_PROJECT_S3"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_B1"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "AUTOMATIC_GATE_LOGIC.B1"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_B3"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "AUTOMATIC_GATE_LOGIC.B3"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_B2"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "AUTOMATIC_GATE_LOGIC.B2"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_AUTOMATIC_GATE"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "AUTOMATIC_GATE_LOGIC.AUTOMATIC_GATE"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_OPEN_DUR_SETTING"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "AUTOMATIC_GATE_LOGIC.AUTOMATIC_GATE.CLOSED.OPEN_DUR_SETTING"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_WORK_DUR_SETTING"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "AUTOMATIC_GATE_LOGIC.AUTOMATIC_GATE.CLOSED.WORK_DUR_SETTING"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i1"\
+      Description  "TemporalCounter"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i2"\
+      Description  "TemporalCounter"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction
