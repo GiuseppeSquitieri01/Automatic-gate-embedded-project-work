@@ -77,11 +77,8 @@
 }
 
 \begin{document}
-Dopo un'attenta revisione, ci siamo resi conto che i diagrammi attuali includono un numero eccessivo di casi differenti. Questo approccio, seppur inizialmente pensato per essere completo, ha reso la fase di test su Simulink Test estremamente complessa e difficile da gestire.
 
-Per rendere i test più efficaci e praticabili, abbiamo deciso di spezzare i diagrammi di attività in parti più piccole e specifiche. Questo permetterà di isolare e testare singolarmente i vari casi, facilitando l'identificazione di eventuali problemi e migliorando la qualità complessiva del progetto.
 
-Riteniamo che questa suddivisione ci consentirà di ottenere una validazione più accurata del sistema, garantendo al contempo una gestione più agevole dei test su Simulink Test.
 \begin{titlingpage} % Crea una pagina di titolo personalizzata
 \maketitle
 \thispagestyle{empty} % Rimuove il numero di pagina
@@ -99,6 +96,19 @@ Riteniamo che questa suddivisione ci consentirà di ottenere una validazione pi�
 
 \newpage
 
+\section{Testing}
+
+In questo capitolo verranno illustrate le modalita per effettuare il testing del sistema. Questa parte è fondamentale per assicurarsi che non ci siano errori concettuali all'interno del modello e consegnare alla fase implementativa un progetto completo e senza imprecisioni.\\
+Per testare lo State Model in Simulink si è utilizzato il tool Simulink Test che permette di descrivere procedure di testing in maniera agevole e soprattutto riproducibili. \\
+Di seguito verranno descritti tutti i casi di test eseguiti che coprono quasi totalmente il sistema.
+
+\subsection{Note al Testing}
+Dopo un'attenta revisione, ci siamo resi conto che gli Activity diagrams attuali includono un numero eccessivo di casi differenti. Questo approccio, seppur inizialmente pensato per essere completo, ha reso la fase di test su Simulink Test estremamente complessa e difficile da gestire.\\
+Per rendere i test più efficaci e praticabili, abbiamo deciso di spezzare i diagrammi di attività in parti più piccole e specifiche. Questo permetterà di isolare e testare singolarmente i vari casi, facilitando l'identificazione di eventuali problemi e migliorando la qualità complessiva del progetto.\\
+Riteniamo che questa suddivisione ci consentirà di ottenere una validazione più accurata del sistema, garantendo al contempo una gestione più agevole dei test su Simulink Test.
+
+\subsection{Test 1: Opening/Closing}
+In questo primo scenario testiamo il corretto funzionamento del sistema, dalla fase di chiusura fino a quando è chiuso e poi dalla fase di apertura fino a che non è completamente aperto. Questo test e molti dei successivi possono essere eseguiti molteplici volte ciclicamente.
 
 
 \end{document}

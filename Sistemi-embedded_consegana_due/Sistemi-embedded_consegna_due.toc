@@ -1,2 +1,5 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
+\contentsline {section}{\numberline {1}Testing}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Note al Testing}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Test 1: Opening/Closing}{2}{subsection.1.2}%
