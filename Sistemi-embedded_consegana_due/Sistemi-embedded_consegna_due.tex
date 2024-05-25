@@ -107,8 +107,73 @@ Dopo un'attenta revisione, ci siamo resi conto che gli Activity diagrams attuali
 Per rendere i test più efficaci e praticabili, abbiamo deciso di spezzare i diagrammi di attività in parti più piccole e specifiche. Questo permetterà di isolare e testare singolarmente i vari casi, facilitando l'identificazione di eventuali problemi e migliorando la qualità complessiva del progetto.\\
 Riteniamo che questa suddivisione ci consentirà di ottenere una validazione più accurata del sistema, garantendo al contempo una gestione più agevole dei test su Simulink Test.
 
-\subsection{Test 1: Opening/Closing}
+\subsection{Test Case1: Opening/Closing}
 In questo primo scenario testiamo il corretto funzionamento del sistema, dalla fase di chiusura fino a quando è chiuso e poi dalla fase di apertura fino a che non è completamente aperto. Questo test e molti dei successivi possono essere eseguiti molteplici volte ciclicamente.
 
+\begin{itemize}
+    \item Il cancello automatico parte da uno stato di chiusura in cui la fotocellula \textbf{P2} non rileva nulla. In questa fase viene testato il blinking del led giallo (yellow\_led).
+    \item La fotocellula viene occupata entro il tempo di lavoro e quindi il cancello passa nello stato \textbf{CLOSED}. In questo stato si controlla che tutti i led siano spenti.
+    \item Viene richiesta l'apertura del cancello generando un fronte di salita e poi uno di discesa con il segnale del pulsante \textbf{B1}
+    \item Il cancello passa nello stato di \textbf{OPENING} durante il quale viene di nuovo testato se il blinking avviene alla frequenza giusta.
+    \item Quando è passato il tempo di lavoro, inizialmente impostato a 10 secondi, si controlla che tutti i led siano accesi e che quindi il sistema si trova nello stato \textbf{OPEN}.
+    \item Quando il sistema è nello stato open si avvia un timer che quando è scaduto fa passare il sistema nello stato \textbf{CLOSING}
+    \item A questo punto si può ripartire dal primo punto e ripetere il test.
+\end{itemize}
 
+Di seguito in Figura ... è presente il test in Simulink Test.
+
+\subsection{Test Case 2: Opening emergency (P1 is ON)}
+
+Il secondo scenario testa l'entrata e le uscite da uno degli stati di emergenza del cancello automatico, in particolare quello nel quale entra dallo stato \textbf{CLOSED} quando viene richiesta l'apertura, ma il sensore \textbf{P1} è impegnato.
+
+\begin{itemize}
+    \item Il sistema parte dallo stato \textbf{CLOSING}, quindi per eseguire il test viene portato nello stato \textbf{CLOSE} attivando \textbf{P2}.
+    \item Viene controllato l'output del sistema in modo tale da assicurarsi che il cancello sia veramente chiuso.
+    \item Si attiva la fotocellula con il valore 1 e successivamente, come nel caso precedente, si richiede l'apertura tramite \textbf{B1}. Il risultato atteso è quello che il led verde (Green\_Led) lampeggi ad una frequenza di 1Hz per 30 secondi se P1 rimane attiva o che si ritorni nello stato \textbf{CLOSED} appena c'è un fronte di discesa.
+    \item Il primo caso di uscita testato è quello che utilizza il timer impostato a 30 sec.
+    \item Per testare la seconda uscita si forza il sistema a rientrare nello stato di emergenza e poi si disattiva \textbf{P1}.
+    \item Entrambi i test sono stati superati dal sistema.
+\end{itemize}
+
+In Figura ... è rappresentato il test nella sua interezza. Si noti come sarebbe stato dispendioso utilizzare due casi di test separati per un solo stato di emergenza raggiungibile.
+
+\subsection{Test Case 3: Closing emergency (P1 is ON)}
+
+Questo caso di test rappresenta una condizione di emergenza simile alla precedente, ma raggiungibile solo dallo stato \textbf{OPEN}. La descrizione è del tutto simile a quella sopra quindi si è scelto di ometterla. \\
+Di seguito è riportato il caso di test in Figura ... .\\
+Si sottolinea inoltre che la frequenza di lampeggio e le condizioni di uscita dallo stato di emergenza sono identiche al caso precedente.
+
+
+\subsection{Test Case 4: Obstacle during the Closing phase}
+
+Il test effettuato in questa sezione è molto importante nel caso in cui il sistema venisse implementato nel mondo reale, infatti controlla se il cancello automatico, che si suppone in fase di chiusura, si riapra nel caso venga rilevato un ostacolo davanti al sensore \textbf{P1}
+
+\begin{itemize}
+    \item Il sistema già parte nello stato \textbf{CLOSING} quindi non c'è bisogno di forzare alcuno stato.
+    \item Viene simulata la presenza di un ostacolo attivando \textbf{P1}.
+    \item Si controlla che il sistema continui ad avere il blinking del led giallo (yellow\_led) in uscita.
+    \item Infine possiamo capire che il sistema è passato dalla fase di chiusura a quella di apertura intercettando lo stato finale. Se tutti i ledi sono accesi allora il test va a buon fine. 
+    \item Dopo aver controllato che il sistema si trovi nello stato \textbf{OPEN} si genera l'evento che avvia la fase di chiusura, ovvero la pressione di \textbf{B1}. In questo modo il test può essere ripetuto diverse volte.
+\end{itemize}
+
+In Figura ... sono riportate le varie fasi in Simulink Test.
+
+\subsection{Test Case 5: Closing error (P2 is not ON)}
+In questo test viene verificato che il sistema raggiunge correttamente due stati di errore nel caso in cui la chiusura del cancello automatico non avvenga nei tempi previsti definiti dall'utente.
+
+\begin{itemize}
+    \item Lo stato in cui si parte è sempre quello di \textbf{CLOSING}, in questo scenario \textbf{P2} viene attivata dopo che è passato il tempo di lavoro.
+    \item Il sistema funzionante correttamente entra prima in un uno stato di errore per 10 secondi in cui tutti i led spenti.
+    \item Una volta verificato lo stato precedente e passati i 10 secondi il sistema attica il led rosso (red\_led). 
+    \item Successivamente si verifica che il sistema permane in questo stato fino a quando non viene attivato il sensore \textbf{P2}. Quando arriva il segnale il sistema passa nello stato \textbf{CLOSED}
+\end{itemize}
+
+Nella Figura ... è illustrato un caso di test. È importante notare che, sebbene questo test risulti parzialmente ridondante poiché include condizioni già verificate nei controlli precedenti, esso introduce anche nuove verifiche. Si è quindi deciso di mantenere la ripetizione per aumentare ulteriormente la sicurezza del sistema.
+
+\subsection{Test Case 6: }
+
+\subsection{Test Case 7: }
 \end{document}
+
+
+
