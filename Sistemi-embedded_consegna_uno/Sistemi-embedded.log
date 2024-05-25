@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.4)  23 MAY 2024 22:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.4)  25 MAY 2024 10:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/alfon/OneDrive/Desktop/Università Magistrale/Algoritmi e Protocolli per la Sicurezza/Sistemi-embedded/Sistemi-embedded.tex"
-(c:/Users/alfon/OneDrive/Desktop/Università Magistrale/Algoritmi e Protocolli per la Sicurezza/Sistemi-embedded/Sistemi-embedded.tex
+**"c:/Users/alfon/OneDrive/Desktop/Università Magistrale/Algoritmi e Protocolli per la Sicurezza/Sistemi-embedded/Sistemi-embedded_consegna_uno/Sistemi-embedded.tex"
+(c:/Users/alfon/OneDrive/Desktop/Università Magistrale/Algoritmi e Protocolli per la Sicurezza/Sistemi-embedded/Sistemi-embedded_consegna_uno/Sistemi-embedded.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
 (C:\Users\alfon\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -645,12 +645,12 @@ Package rerunfilecheck Info: File `Sistemi-embedded.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  17390 strings out of 474424
- 305383 string characters out of 5741740
+ 305713 string characters out of 5741740
  1937496 words of memory out of 5000000
  39390 multiletter control sequences out of 15000+600000
  563874 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,79p,519b,534s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,79p,549b,534s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\alfon\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 Output written on Sistemi-embedded.pdf (19 pages, 759224 bytes).
 PDF statistics:
