@@ -1,1 +1,0 @@
-var modelInfo = {model:"STATE_PROJECT"};var modelHierarchy=[{model:"STATE_PROJECT",relativePath:"_internal.html",parent:"null"},];
