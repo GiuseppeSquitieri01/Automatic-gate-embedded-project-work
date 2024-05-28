@@ -285,7 +285,7 @@ In questo primo scenario testiamo il corretto funzionamento del sistema, dalla f
     \item A questo punto si può ripartire dal primo punto e ripetere il test.
 \end{itemize}
 
-Di seguito in Figura ... è presente il test in Simulink Test.
+Di seguito in Figura 12 è presente il test in Simulink Test.
 
 \begin{figure}[H]
     
@@ -294,7 +294,7 @@ Di seguito in Figura ... è presente il test in Simulink Test.
     \caption{Test 1.}
     \label{fig:Test_1}
 \end{figure}
-
+\newpage
 \subsection{Test Case 2: Opening emergency (P1 is ON)}
 
 Il secondo scenario testa l'entrata e le uscite da uno degli stati di emergenza del cancello automatico, in particolare quello nel quale entra dallo stato \textbf{CLOSED} quando viene richiesta l'apertura, ma il sensore \textbf{P1} è impegnato.
@@ -308,7 +308,7 @@ Il secondo scenario testa l'entrata e le uscite da uno degli stati di emergenza 
     \item Entrambi i test sono stati superati dal sistema.
 \end{itemize}
 
-In Figura ... è rappresentato il test nella sua interezza. Si noti come sarebbe stato dispendioso utilizzare due casi di test separati per un solo stato di emergenza raggiungibile.
+In Figura 13 è rappresentato il test nella sua interezza. Si noti come sarebbe stato dispendioso utilizzare due casi di test separati per un solo stato di emergenza raggiungibile.
 
 \begin{figure}[H]
     
@@ -323,6 +323,7 @@ In Figura ... è rappresentato il test nella sua interezza. Si noti come sarebbe
 Questo caso di test rappresenta una condizione di emergenza simile alla precedente, ma raggiungibile solo dallo stato \textbf{OPEN}. La descrizione è del tutto simile a quella sopra quindi si è scelto di ometterla. \\
 Di seguito è riportato il caso di test in Figura ... .\\
 Si sottolinea inoltre che la frequenza di lampeggio e le condizioni di uscita dallo stato di emergenza sono identiche al caso precedente.
+
 \begin{figure}[H]
     
     \hspace{-2.3cm} % Sposta l'immagine di 2 cm a sinistra
@@ -344,7 +345,7 @@ Il test effettuato in questa sezione è molto importante nel caso in cui il sist
     \item Dopo aver controllato che il sistema si trovi nello stato \textbf{OPEN} si genera l'evento che avvia la fase di chiusura, ovvero la pressione di \textbf{B1}. In questo modo il test può essere ripetuto diverse volte.
 \end{itemize}
 
-In Figura ... sono riportate le varie fasi in Simulink Test.
+In Figura 15 sono riportate le varie fasi in Simulink Test.
 \begin{figure}[H]
     
     \hspace{-2.3cm} % Sposta l'immagine di 2 cm a sinistra
@@ -363,7 +364,7 @@ In questo test viene verificato che il sistema raggiunge correttamente due stati
     \item Successivamente si verifica che il sistema permane in questo stato fino a quando non viene attivato il sensore \textbf{P2}. Quando arriva il segnale il sistema passa nello stato \textbf{CLOSED}
 \end{itemize}
 
-Nella Figura ... è illustrato un caso di test. È importante notare che, sebbene questo test risulti parzialmente ridondante poiché include condizioni già verificate nei controlli precedenti, esso introduce anche nuove verifiche. Si è quindi deciso di mantenere la ripetizione per aumentare ulteriormente la sicurezza del sistema.
+Nella Figura 16 è illustrato un caso di test. È importante notare che, sebbene questo test risulti parzialmente ridondante poiché include condizioni già verificate nei controlli precedenti, esso introduce anche nuove verifiche. Si è quindi deciso di mantenere la ripetizione per aumentare ulteriormente la sicurezza del sistema.
 
 \begin{figure}[H]
     
@@ -373,7 +374,7 @@ Nella Figura ... è illustrato un caso di test. È importante notare che, sebben
     \label{fig:Test_5}
 \end{figure}
 
-
+\newpage
 \subsection{Test Case 6: }
 In questo test, viene verificato che l'impostazione del tempo di chiusura automatico e il tempo di lavoro funzionino in maniera ciclica. Una volta raggiunto il massimo tempo impostabile (120 secondi), ritorna al tempo iniziale (10 secondi).
 
@@ -397,6 +398,7 @@ In Figura 17 sono riportate le varie fasi in Simulink Test.
     \caption{Test 6.}
     \label{fig:Test_6}
 \end{figure}
+\newpage
 \subsection{Test Case 7: }
 In questo test, viene verificato che l'impostazione del tempo di chiusura automatico e il tempo di lavoro funzioni correttamente. I tempi vengono impostati da 10 a 120 secondi per entrambi i casi tramite i relativi pulsanti.
 

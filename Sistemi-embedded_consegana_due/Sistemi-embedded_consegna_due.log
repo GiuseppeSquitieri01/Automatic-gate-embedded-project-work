@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.6)  28 MAY 2024 13:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.6)  28 MAY 2024 13:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -552,8 +552,8 @@ Overfull \hbox (70.24455pt too wide) in paragraph at lines 292--294
 pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.306     \item I
-                 l primo caso di uscita testato è quello che utilizza il ti... <./Immagini_Test/Test_1_img.PNG>]
+l.297 \newpage
+               <./Immagini_Test/Test_1_img.PNG>]
 <Immagini_Test/Test_2_img.PNG, id=181, 1293.33188pt x 1135.24126pt>
 File: Immagini_Test/Test_2_img.PNG Graphic file (type png)
 <use Immagini_Test/Test_2_img.PNG>
@@ -568,10 +568,10 @@ Overfull \hbox (70.24455pt too wide) in paragraph at lines 315--317
 <Immagini_Test/Test_3_img.PNG, id=187, 1285.80376pt x 1495.08563pt>
 File: Immagini_Test/Test_3_img.PNG Graphic file (type png)
 <use Immagini_Test/Test_3_img.PNG>
-Package pdftex.def Info: Immagini_Test/Test_3_img.PNG  used on input line 329.
+Package pdftex.def Info: Immagini_Test/Test_3_img.PNG  used on input line 330.
 (pdftex.def)             Requested size: 576.65337pt x 670.52383pt.
 
-Overfull \hbox (70.24455pt too wide) in paragraph at lines 328--330
+Overfull \hbox (70.24455pt too wide) in paragraph at lines 329--331
 []  []
  []
 
@@ -579,7 +579,7 @@ Overfull \hbox (70.24455pt too wide) in paragraph at lines 328--330
 pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.333 
+l.334 
        <./Immagini_Test/Test_2_img.PNG>]
 Overfull \vbox (30.69817pt too high) has occurred while \output is active []
 
@@ -587,15 +587,15 @@ Overfull \vbox (30.69817pt too high) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.333 
+l.334 
        <./Immagini_Test/Test_3_img.PNG>]
 <Immagini_Test/Test_4_img.PNG, id=200, 1277.52281pt x 669.2503pt>
 File: Immagini_Test/Test_4_img.PNG Graphic file (type png)
 <use Immagini_Test/Test_4_img.PNG>
-Package pdftex.def Info: Immagini_Test/Test_4_img.PNG  used on input line 351.
+Package pdftex.def Info: Immagini_Test/Test_4_img.PNG  used on input line 352.
 (pdftex.def)             Requested size: 576.65337pt x 302.08914pt.
 
-Overfull \hbox (70.24455pt too wide) in paragraph at lines 350--352
+Overfull \hbox (70.24455pt too wide) in paragraph at lines 351--353
 []  []
  []
 
@@ -603,15 +603,15 @@ Overfull \hbox (70.24455pt too wide) in paragraph at lines 350--352
 pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.358 
+l.359 
        <./Immagini_Test/Test_4_img.PNG>]
 <Immagini_Test/Test_5_img.PNG, id=207, 1283.54532pt x 1052.43187pt>
 File: Immagini_Test/Test_5_img.PNG Graphic file (type png)
 <use Immagini_Test/Test_5_img.PNG>
-Package pdftex.def Info: Immagini_Test/Test_5_img.PNG  used on input line 371.
+Package pdftex.def Info: Immagini_Test/Test_5_img.PNG  used on input line 372.
 (pdftex.def)             Requested size: 576.65337pt x 472.8352pt.
 
-Overfull \hbox (70.24455pt too wide) in paragraph at lines 370--372
+Overfull \hbox (70.24455pt too wide) in paragraph at lines 371--373
 []  []
  []
 
@@ -619,15 +619,15 @@ Overfull \hbox (70.24455pt too wide) in paragraph at lines 370--372
 pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.384     \item V
-                 iene richiesto l'aumento per dodici volte del tempo di chiu... <./Immagini_Test/Test_5_img.PNG>]
+l.377 \newpage
+               <./Immagini_Test/Test_5_img.PNG>]
 <Immagini_Test/Test_6_img.PNG, id=218, 1291.07344pt x 896.59969pt>
 File: Immagini_Test/Test_6_img.PNG Graphic file (type png)
 <use Immagini_Test/Test_6_img.PNG>
-Package pdftex.def Info: Immagini_Test/Test_6_img.PNG  used on input line 396.
+Package pdftex.def Info: Immagini_Test/Test_6_img.PNG  used on input line 397.
 (pdftex.def)             Requested size: 576.65337pt x 400.45631pt.
 
-Overfull \hbox (70.24455pt too wide) in paragraph at lines 395--397
+Overfull \hbox (70.24455pt too wide) in paragraph at lines 396--398
 []  []
  []
 
@@ -635,15 +635,15 @@ Overfull \hbox (70.24455pt too wide) in paragraph at lines 395--397
 pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.407     \item V
-                 iene richiesta l’apertura del cancello generando un front... <./Immagini_Test/Test_6_img.PNG>]
+l.401 \newpage
+               <./Immagini_Test/Test_6_img.PNG>]
 <Immagini_Test/Test_7_img.PNG, id=230, 1293.33188pt x 1087.06125pt>
 File: Immagini_Test/Test_7_img.PNG Graphic file (type png)
 <use Immagini_Test/Test_7_img.PNG>
-Package pdftex.def Info: Immagini_Test/Test_7_img.PNG  used on input line 418.
+Package pdftex.def Info: Immagini_Test/Test_7_img.PNG  used on input line 420.
 (pdftex.def)             Requested size: 576.65337pt x 484.67792pt.
 
-Overfull \hbox (70.24455pt too wide) in paragraph at lines 417--419
+Overfull \hbox (70.24455pt too wide) in paragraph at lines 419--421
 []  []
  []
 
@@ -651,7 +651,7 @@ Overfull \hbox (70.24455pt too wide) in paragraph at lines 417--419
 pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.422 \end{document}
+l.424 \end{document}
                      <./Immagini_Test/Test_7_img.PNG>] (Sistemi-embedded_consegna_due.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -669,7 +669,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,9n,79p,920b,538s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\giuse\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Sistemi-embedded_consegna_due.pdf (22 pages, 1234751 bytes).
+Output written on Sistemi-embedded_consegna_due.pdf (22 pages, 1234324 bytes).
 PDF statistics:
  283 PDF objects out of 1000 (max. 8388607)
  61 named destinations out of 1000 (max. 500000)

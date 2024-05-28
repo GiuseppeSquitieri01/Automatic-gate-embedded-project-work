@@ -10,9 +10,9 @@
 \contentsline {section}{\numberline {2}Testing}{10}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Note al Testing}{10}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Test Case1: Opening/Closing}{10}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Test Case 2: Opening emergency (P1 is ON)}{11}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.3}Test Case 2: Opening emergency (P1 is ON)}{12}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Test Case 3: Closing emergency (P1 is ON)}{13}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Test Case 4: Obstacle during the Closing phase}{15}{subsection.2.5}%
 \contentsline {subsection}{\numberline {2.6}Test Case 5: Closing error (P2 is not ON)}{16}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}Test Case 6: }{17}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}Test Case 7: }{19}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.7}Test Case 6: }{18}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Test Case 7: }{20}{subsection.2.8}%
