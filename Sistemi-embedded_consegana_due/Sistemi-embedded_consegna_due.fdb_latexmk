@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1716895658.32769 "c:/Users/giuse/OneDrive/Documenti/GitHub/sistemi-embedded/Sistemi-embedded_consegana_due/Sistemi-embedded_consegna_due.tex" "Sistemi-embedded_consegna_due.pdf" "Sistemi-embedded_consegna_due" 1716895661.75779 0
+["pdflatex"] 1716902369.67154 "c:/Users/giuse/OneDrive/Documenti/GitHub/sistemi-embedded/Sistemi-embedded_consegana_due/Sistemi-embedded_consegna_due.tex" "Sistemi-embedded_consegna_due.pdf" "Sistemi-embedded_consegna_due" 1716902372.46928 0
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/tcrm1200.tfm" 993062508 1444 95ffe0f19b974d50849790c8225c7ef7 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -120,11 +120,12 @@
   "Immagini_Test/Test_5_img.PNG" 1716888461 180318 a89413c9595120030881f92e00f751ef ""
   "Immagini_Test/Test_6_img.PNG" 1716888461 150973 654fb0bd889baa789d06afe9c1ea31f4 ""
   "Immagini_Test/Test_7_img.PNG" 1716888461 188148 40a64836c5ad86436297d6170c955659 ""
-  "Sistemi-embedded_consegna_due.aux" 1716895661 5241 8445af2352d1a21c41f3f7ba076ac0f6 "pdflatex"
-  "Sistemi-embedded_consegna_due.out" 1716895661 2962 161724c3203a4c78872b0305f43b1e13 "pdflatex"
-  "Sistemi-embedded_consegna_due.tex" 1716895657 24991 9f69290b4507c6541434a44dc6d0d738 ""
-  "Sistemi-embedded_consegna_due.toc" 1716895661 1517 3154220206e5a045d509825e3b429da2 "pdflatex"
-  "c:/Users/giuse/OneDrive/Documenti/GitHub/sistemi-embedded/Sistemi-embedded_consegana_due/Sistemi-embedded_consegna_due.tex" 1716895657 24991 9f69290b4507c6541434a44dc6d0d738 ""
+  "Sistemi-embedded_consegna_due.aux" 1716902372 5343 7092ae7031f1e9109f313998928f7c15 "pdflatex"
+  "Sistemi-embedded_consegna_due.lof" 1716902372 1575 060c9e1a45bd3e55ddc1425e29874a5d "pdflatex"
+  "Sistemi-embedded_consegna_due.out" 1716902372 3107 d38e04bc3ac42e727c89d854f0251197 "pdflatex"
+  "Sistemi-embedded_consegna_due.tex" 1716902365 25136 2af0278a5eb0eca1244e3074d2593929 ""
+  "Sistemi-embedded_consegna_due.toc" 1716902372 1578 00178a62b24c9b481678e8f7b823e58d "pdflatex"
+  "c:/Users/giuse/OneDrive/Documenti/GitHub/sistemi-embedded/Sistemi-embedded_consegana_due/Sistemi-embedded_consegna_due.tex" 1716902365 25136 2af0278a5eb0eca1244e3074d2593929 ""
   "imm/Closed.png" 1716820906 67525 fc9527a9c577ef0e4fe1ac66009e5690 ""
   "imm/Closing.png" 1716819052 52813 388289f01bc84b6190b81ab69e76295e ""
   "imm/Emergency.png" 1716826616 42400 ab6a11480f856546128879bea296f56c ""
@@ -139,6 +140,7 @@
   "logo_uni.png" 1716886437 18890 f0685e3a05ed16739cb7f6c2c4915746 ""
   (generated)
   "Sistemi-embedded_consegna_due.aux"
+  "Sistemi-embedded_consegna_due.lof"
   "Sistemi-embedded_consegna_due.log"
   "Sistemi-embedded_consegna_due.out"
   "Sistemi-embedded_consegna_due.pdf"

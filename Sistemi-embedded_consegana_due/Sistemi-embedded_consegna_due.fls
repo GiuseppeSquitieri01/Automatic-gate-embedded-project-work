@@ -353,6 +353,10 @@ INPUT .\Immagini_Test\Test_7_img.PNG
 INPUT .\Immagini_Test\Test_7_img.PNG
 INPUT .\Immagini_Test\Test_7_img.PNG
 INPUT .\Immagini_Test\Test_7_img.PNG
+INPUT .\Sistemi-embedded_consegna_due.lof
+INPUT .\Sistemi-embedded_consegna_due.lof
+INPUT Sistemi-embedded_consegna_due.lof
+OUTPUT Sistemi-embedded_consegna_due.lof
 INPUT Sistemi-embedded_consegna_due.aux
 INPUT .\Sistemi-embedded_consegna_due.out
 INPUT .\Sistemi-embedded_consegna_due.out
