@@ -1,2 +1,9 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
+\contentsline {section}{\numberline {1}Implementazione}{2}{section.1}%
+\contentsline {section}{\numberline {2}Descrizione del Modello}{2}{section.2}%
+\contentsline {section}{\numberline {3}Introduzione al Core del Cancello}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Pulsante B1}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Pulsante B2 e B3}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Automatic Gate}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Emergency States}{8}{subsection.3.4}%

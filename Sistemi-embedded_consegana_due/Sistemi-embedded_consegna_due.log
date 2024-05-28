@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.4)  25 MAY 2024 09:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.4)  28 MAY 2024 09:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -300,24 +300,24 @@ File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
 ) (Sistemi-embedded_consegna_due.aux)
 \openout1 = `Sistemi-embedded_consegna_due.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
  (C:\Users\alfon\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count299
@@ -371,13 +371,13 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 79.
+Package hyperref Info: Link coloring OFF on input line 80.
 (Sistemi-embedded_consegna_due.out) (Sistemi-embedded_consegna_due.out)
 \@outlinefile=\write3
 \openout3 = `Sistemi-embedded_consegna_due.out'.
 
-LaTeX Info: Redefining \it@ocap on input line 79.
-LaTeX Info: Redefining \it@ccap on input line 79.
+LaTeX Info: Redefining \it@ocap on input line 80.
+LaTeX Info: Redefining \it@ccap on input line 80.
 
 
 File italian.ldf warning: 
@@ -385,22 +385,28 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting
-italian.ldf    on input line 79.
+italian.ldf    on input line 80.
 
 \c@lstlisting=\count305
-[1
-
-{C:/Users/alfon/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<logo_uni.png, id=9, 225.84375pt x 225.84375pt>
+<logo_uni.png, id=31, 225.84375pt x 225.84375pt>
 File: logo_uni.png Graphic file (type png)
 <use logo_uni.png>
-Package pdftex.def Info: logo_uni.png  used on input line 87.
+Package pdftex.def Info: logo_uni.png  used on input line 84.
 (pdftex.def)             Requested size: 266.14978pt x 266.18315pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 87.
+(Font)              <14.4> on input line 84.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 87.
- [2 <./logo_uni.png>] (Sistemi-embedded_consegna_due.toc)
+(Font)              <7> on input line 84.
+[1
+
+{C:/Users/alfon/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logo_uni.png>] (Sistemi-embedded_consegna_due.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 6.
+)
 \tf@toc=\write4
 \openout4 = `Sistemi-embedded_consegna_due.toc'.
 
@@ -408,27 +414,146 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.100 \newpage
-               [1] (Sistemi-embedded_consegna_due.aux)
+l.98 \newpage
+              [1]
+<Immagini_State_Flow/Vista_Generale.jpg, id=52, 1590.94376pt x 618.31pt>
+File: Immagini_State_Flow/Vista_Generale.jpg Graphic file (type jpg)
+<use Immagini_State_Flow/Vista_Generale.jpg>
+Package pdftex.def Info: Immagini_State_Flow/Vista_Generale.jpg  used on input line 118.
+(pdftex.def)             Requested size: 443.57848pt x 172.38971pt.
+ [2
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.129 
+       <./Immagini_State_Flow/Vista_Generale.jpg>]
+<Immagini_State_Flow/Pulsante_B1.png, id=59, 452.892pt x 329.43076pt>
+File: Immagini_State_Flow/Pulsante_B1.png Graphic file (type png)
+<use Immagini_State_Flow/Pulsante_B1.png>
+Package pdftex.def Info: Immagini_State_Flow/Pulsante_B1.png  used on input line 140.
+(pdftex.def)             Requested size: 443.57848pt x 322.664pt.
+<Immagini_State_Flow/Pulsante_B2.png, id=61, 558.28575pt x 385.44pt>
+File: Immagini_State_Flow/Pulsante_B2.png Graphic file (type png)
+<use Immagini_State_Flow/Pulsante_B2.png>
+Package pdftex.def Info: Immagini_State_Flow/Pulsante_B2.png  used on input line 150.
+(pdftex.def)             Requested size: 443.57848pt x 306.2469pt.
+ [3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.152 \end{figure}
+                   <./Immagini_State_Flow/Pulsante_B1.png>]
+<Immagini_State_Flow/Pulsante_B3.png, id=71, 533.5935pt x 391.4625pt>
+File: Immagini_State_Flow/Pulsante_B3.png Graphic file (type png)
+<use Immagini_State_Flow/Pulsante_B3.png>
+Package pdftex.def Info: Immagini_State_Flow/Pulsante_B3.png  used on input line 156.
+(pdftex.def)             Requested size: 443.57848pt x 325.43942pt.
+ [4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.159 
+       <./Immagini_State_Flow/Pulsante_B2.png>]
+<Immagini_State_Flow/Closing.png, id=78, 537.80925pt x 323.40825pt>
+File: Immagini_State_Flow/Closing.png Graphic file (type png)
+<use Immagini_State_Flow/Closing.png>
+Package pdftex.def Info: Immagini_State_Flow/Closing.png  used on input line 166.
+(pdftex.def)             Requested size: 443.57848pt x 266.75586pt.
+ [5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.169 
+       <./Immagini_State_Flow/Pulsante_B3.png>]
+<Immagini_State_Flow/Closed.png, id=85, 707.64375pt x 208.98074pt>
+File: Immagini_State_Flow/Closed.png Graphic file (type png)
+<use Immagini_State_Flow/Closed.png>
+Package pdftex.def Info: Immagini_State_Flow/Closed.png  used on input line 180.
+(pdftex.def)             Requested size: 443.57848pt x 130.99847pt.
+ [6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.185 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.185 
+       <./Immagini_State_Flow/Closing.png> <./Immagini_State_Flow/Closed.png>]
+<Immagini_State_Flow/Opening.png, id=96, 446.8695pt x 278.84175pt>
+File: Immagini_State_Flow/Opening.png Graphic file (type png)
+<use Immagini_State_Flow/Opening.png>
+Package pdftex.def Info: Immagini_State_Flow/Opening.png  used on input line 188.
+(pdftex.def)             Requested size: 443.57848pt x 276.80301pt.
+<Immagini_State_Flow/Open.png, id=97, 296.90926pt x 217.41225pt>
+File: Immagini_State_Flow/Open.png Graphic file (type png)
+<use Immagini_State_Flow/Open.png>
+Package pdftex.def Info: Immagini_State_Flow/Open.png  used on input line 196.
+(pdftex.def)             Requested size: 443.57848pt x 324.81047pt.
+ [7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.199 
+       <./Immagini_State_Flow/Opening.png>]
+<Immagini_State_Flow/Emergency_P1_Open.png, id=104, 346.29375pt x 259.56975pt>
+File: Immagini_State_Flow/Emergency_P1_Open.png Graphic file (type png)
+<use Immagini_State_Flow/Emergency_P1_Open.png>
+Package pdftex.def Info: Immagini_State_Flow/Emergency_P1_Open.png  used on input line 206.
+(pdftex.def)             Requested size: 443.57848pt x 332.50162pt.
+ [8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.209 
+       <./Immagini_State_Flow/Open.png>]
+<Immagini_State_Flow/Emergency_P1_Closed.png, id=111, 389.0535pt x 274.02374pt>
+File: Immagini_State_Flow/Emergency_P1_Closed.png Graphic file (type png)
+<use Immagini_State_Flow/Emergency_P1_Closed.png>
+Package pdftex.def Info: Immagini_State_Flow/Emergency_P1_Closed.png  used on input line 214.
+(pdftex.def)             Requested size: 443.57848pt x 312.44048pt.
+ [9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.217 
+       <./Immagini_State_Flow/Emergency_P1_Open.png>]
+<Immagini_State_Flow/Emergency.png, id=118, 469.755pt x 139.722pt>
+File: Immagini_State_Flow/Emergency.png Graphic file (type png)
+<use Immagini_State_Flow/Emergency.png>
+Package pdftex.def Info: Immagini_State_Flow/Emergency.png  used on input line 222.
+(pdftex.def)             Requested size: 443.57848pt x 131.93564pt.
+ [10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.226 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.226 \end{document}
+                     <./Immagini_State_Flow/Emergency_P1_Closed.png> <./Immagini_State_Flow/Emergency.png>] (Sistemi-embedded_consegna_due.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `Sistemi-embedded_consegna_due.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 1A7850BF48C7CB5A4EB70D23E26E5280;1033.
  ) 
 Here is how much of TeX's memory you used:
- 17076 strings out of 474424
- 300749 string characters out of 5741740
- 1929496 words of memory out of 5000000
- 39193 multiletter control sequences out of 15000+600000
- 560792 words of font info for 45 fonts, out of 8000000 for 9000
+ 17228 strings out of 474424
+ 304797 string characters out of 5741740
+ 1932496 words of memory out of 5000000
+ 39308 multiletter control sequences out of 15000+600000
+ 564221 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,79p,549b,493s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Sistemi-embedded_consegna_due.pdf (3 pages, 70353 bytes).
+ 75i,7n,79p,966b,476s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\alfon\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Sistemi-embedded_consegna_due.pdf (11 pages, 529411 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 158 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 117 words of extra memory for PDF output out of 10000 (max. 10000000)
 
