@@ -398,9 +398,17 @@ In Figura 17 sono riportate le varie fasi in Simulink Test.
     \label{fig:Test_6}
 \end{figure}
 \subsection{Test Case 7: }
-ciao
+In questo test, viene verificato che l'impostazione del tempo di chiusura automatico e il tempo di lavoro funzioni correttamente. I tempi vengono impostati da 10 a 120 secondi per entrambi i casi tramite i relativi pulsanti.
+
 \begin{itemize}
-    \item ciao
+    \item Il cancello automatico parte da uno stato di chiusura in cui la fotocellula \textbf{P2} non rileva nulla. In questa fase viene testato il lampeggio del LED giallo (yellow LED).
+    \item La fotocellula \textbf{P2} viene attivata entro il tempo di lavoro(iniziale di 10 secondi) e quindi il cancello passa allo stato \textbf{CLOSED}. In questo stato si controlla che tutti i LED siano spenti.
+    \item Viene richiesto l'aumento per undici volte del tempo di chiusura automatico e del tempo di lavoro generando un fronte di salita e poi uno di discesa con il segnale dei pulsanti \textbf{B2} e \textbf{B3}. Passando cosi da 10 secondi a 120 secondi in entrambi i casi.
+    \item Viene richiesta l’apertura del cancello generando un fronte di salita e poi uno di discesa con il segnale del pulsante \textbf{B1}.
+    \item Vengono attesi 120 secondi per verificare se la fotocellula \textbf{P2} non rileva nulla; ciò significa che il cancello è passato dallo stato di \textbf{CLOSED} allo stato di \textbf{OPEN} nel tempo desiderato.
+    \item La fotocellula \textbf{P2} non viene attivata entro il tempo di lavoro e quindi il cancello passa allo stato \textbf{OPEN}. In questo stato si controlla che tutti i LED siano accesi.
+    \item Quando è trascorso il tempo di chiusura automatico, impostato a 120 secondi, il sistema passa dallo stato \textbf{OPEN} allo stato di \textbf{CLOSING}. In questo modo si verifica se il tempo di chiusura è ritornato allo stato iniziale.
+    \item Si verifica che il cancello passi dallo stato di \textbf{CLOSING} allo stato di \textbf{CLOSED}. Nel caso in cui non si chiuda entro 120 secondi, il sistema passa in stato di errore e dopo ulteriori 10 secondi, si verifica l'accensione del LED rosso (\textbf{Red LED}).
 \end{itemize}
 
 In Figura 18 sono riportate le varie fasi in Simulink Test.
