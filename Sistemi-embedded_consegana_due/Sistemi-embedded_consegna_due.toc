@@ -1,2 +1,19 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
+\contentsline {section}{\numberline {1}Implementazione}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Descrizione del Modello}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Introduzione al Core del Cancello}{3}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Pulsante B1}{3}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Pulsante B2 e B3}{5}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Automatic Gate}{6}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}Emergency States}{8}{subsubsection.1.2.4}%
+\contentsline {section}{\numberline {2}Testing}{10}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Note al Testing}{10}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Test Case1: Opening/Closing}{10}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Test Case 2: Opening emergency (P1 is ON)}{12}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Test Case 3: Closing emergency (P1 is ON)}{13}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Test Case 4: Obstacle during the Closing phase}{15}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Test Case 5: Closing error (P2 is not ON)}{16}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Test Case 6: Cyclic time setting}{18}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Test Case 7: Working and closing time testing}{20}{subsection.2.8}%
+\contentsline {section}{Elenco delle figure}{22}{figure.18}%

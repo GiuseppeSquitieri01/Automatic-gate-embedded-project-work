@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.4)  25 MAY 2024 09:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.4)  29 MAY 2024 08:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -388,19 +388,25 @@ italian.ldf    See the documentation concerning the babel-italian typesetting
 italian.ldf    on input line 79.
 
 \c@lstlisting=\count305
-[1
-
-{C:/Users/alfon/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<logo_uni.png, id=9, 225.84375pt x 225.84375pt>
+<logo_uni.png, id=71, 225.84375pt x 225.84375pt>
 File: logo_uni.png Graphic file (type png)
 <use logo_uni.png>
-Package pdftex.def Info: logo_uni.png  used on input line 87.
+Package pdftex.def Info: logo_uni.png  used on input line 84.
 (pdftex.def)             Requested size: 266.14978pt x 266.18315pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 87.
+(Font)              <14.4> on input line 84.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 87.
- [2 <./logo_uni.png>] (Sistemi-embedded_consegna_due.toc)
+(Font)              <7> on input line 84.
+[1
+
+{C:/Users/alfon/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logo_uni.png>] (Sistemi-embedded_consegna_due.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 4.
+)
 \tf@toc=\write4
 \openout4 = `Sistemi-embedded_consegna_due.toc'.
 
@@ -408,27 +414,268 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.100 \newpage
-               [1] (Sistemi-embedded_consegna_due.aux)
+l.97 \newpage
+              [1]
+<imm/Vista_Generale.png, id=102, 715.17188pt x 266.49562pt>
+File: imm/Vista_Generale.png Graphic file (type png)
+<use imm/Vista_Generale.png>
+Package pdftex.def Info: imm/Vista_Generale.png  used on input line 116.
+(pdftex.def)             Requested size: 443.57848pt x 165.29063pt.
+ [2
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.120 \newpage
+               <./imm/Vista_Generale.png>] [3
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.169     \item \textbf
+                       {LONGPRESSED}: Stato transitorio che, quasi istantane...]
+<imm/Pulsante_B1.png, id=118, 452.892pt x 329.43076pt>
+File: imm/Pulsante_B1.png Graphic file (type png)
+<use imm/Pulsante_B1.png>
+Package pdftex.def Info: imm/Pulsante_B1.png  used on input line 176.
+(pdftex.def)             Requested size: 310.50357pt x 225.86479pt.
+ [4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.179 \newpage
+               <./imm/Pulsante_B1.png>]
+<imm/Pulsante_B2.png, id=127, 558.28575pt x 385.44pt>
+File: imm/Pulsante_B2.png Graphic file (type png)
+<use imm/Pulsante_B2.png>
+Package pdftex.def Info: imm/Pulsante_B2.png  used on input line 186.
+(pdftex.def)             Requested size: 354.86412pt x 244.99869pt.
+<imm/Pulsante_B3.png, id=128, 533.5935pt x 391.4625pt>
+File: imm/Pulsante_B3.png Graphic file (type png)
+<use imm/Pulsante_B3.png>
+Package pdftex.def Info: imm/Pulsante_B3.png  used on input line 192.
+(pdftex.def)             Requested size: 354.86412pt x 260.34915pt.
+ [5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.199 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.199 
+       <./imm/Pulsante_B2.png> <./imm/Pulsante_B3.png>]
+<imm/Closing.png, id=137, 537.80925pt x 323.40825pt>
+File: imm/Closing.png Graphic file (type png)
+<use imm/Closing.png>
+Package pdftex.def Info: imm/Closing.png  used on input line 202.
+(pdftex.def)             Requested size: 266.14978pt x 160.05055pt.
+<imm/Closed.png, id=138, 707.64375pt x 208.98074pt>
+File: imm/Closed.png Graphic file (type png)
+<use imm/Closed.png>
+Package pdftex.def Info: imm/Closed.png  used on input line 216.
+(pdftex.def)             Requested size: 354.86412pt x 104.79942pt.
+ [6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.221 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.221 
+       <./imm/Closing.png> <./imm/Closed.png>]
+<imm/Opening.png, id=149, 446.8695pt x 278.84175pt>
+File: imm/Opening.png Graphic file (type png)
+<use imm/Opening.png>
+Package pdftex.def Info: imm/Opening.png  used on input line 224.
+(pdftex.def)             Requested size: 221.78923pt x 138.39511pt.
+<imm/Open.png, id=150, 296.90926pt x 217.41225pt>
+File: imm/Open.png Graphic file (type png)
+<use imm/Open.png>
+Package pdftex.def Info: imm/Open.png  used on input line 232.
+(pdftex.def)             Requested size: 133.07489pt x 97.44313pt.
+ [7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.235 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.235 \newpage
+               <./imm/Opening.png> <./imm/Open.png>]
+<imm/Emergency_P1_Open.png, id=159, 346.29375pt x 259.56975pt>
+File: imm/Emergency_P1_Open.png Graphic file (type png)
+<use imm/Emergency_P1_Open.png>
+Package pdftex.def Info: imm/Emergency_P1_Open.png  used on input line 243.
+(pdftex.def)             Requested size: 221.78923pt x 166.25081pt.
+<imm/Emergency_P1_Closed.png, id=160, 389.0535pt x 274.02374pt>
+File: imm/Emergency_P1_Closed.png Graphic file (type png)
+<use imm/Emergency_P1_Closed.png>
+Package pdftex.def Info: imm/Emergency_P1_Closed.png  used on input line 251.
+(pdftex.def)             Requested size: 221.78923pt x 156.21187pt.
+ [8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.256 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.256 
+       <./imm/Emergency_P1_Open.png> <./imm/Emergency_P1_Closed.png>]
+<imm/Emergency.png, id=169, 469.755pt x 139.722pt>
+File: imm/Emergency.png Graphic file (type png)
+<use imm/Emergency.png>
+Package pdftex.def Info: imm/Emergency.png  used on input line 259.
+(pdftex.def)             Requested size: 443.57848pt x 131.93564pt.
+ [9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.263 \newpage
+               <./imm/Emergency.png>] [10]
+<Immagini_Test/Test_1_img.PNG, id=180, 1291.82625pt x 877.02657pt>
+File: Immagini_Test/Test_1_img.PNG Graphic file (type png)
+<use Immagini_Test/Test_1_img.PNG>
+Package pdftex.def Info: Immagini_Test/Test_1_img.PNG  used on input line 293.
+(pdftex.def)             Requested size: 576.65337pt x 391.4867pt.
+
+Overfull \hbox (70.24455pt too wide) in paragraph at lines 292--294
+[]  []
+ []
+
+[11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.297 \newpage
+               <./Immagini_Test/Test_1_img.PNG>]
+<Immagini_Test/Test_2_img.PNG, id=187, 1293.33188pt x 1135.24126pt>
+File: Immagini_Test/Test_2_img.PNG Graphic file (type png)
+<use Immagini_Test/Test_2_img.PNG>
+Package pdftex.def Info: Immagini_Test/Test_2_img.PNG  used on input line 316.
+(pdftex.def)             Requested size: 576.65337pt x 506.15948pt.
+
+Overfull \hbox (70.24455pt too wide) in paragraph at lines 315--317
+[]  []
+ []
+
+[12]
+<Immagini_Test/Test_3_img.PNG, id=193, 1285.80376pt x 1495.08563pt>
+File: Immagini_Test/Test_3_img.PNG Graphic file (type png)
+<use Immagini_Test/Test_3_img.PNG>
+Package pdftex.def Info: Immagini_Test/Test_3_img.PNG  used on input line 330.
+(pdftex.def)             Requested size: 576.65337pt x 670.52383pt.
+
+Overfull \hbox (70.24455pt too wide) in paragraph at lines 329--331
+[]  []
+ []
+
+
+LaTeX Warning: Float too large for page by 2.24542pt on input line 333.
+
+[13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.339 
+       <./Immagini_Test/Test_2_img.PNG>] [14
+pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.339 
+       <./Immagini_Test/Test_3_img.PNG>]
+<Immagini_Test/Test_4_img.PNG, id=206, 1277.52281pt x 669.2503pt>
+File: Immagini_Test/Test_4_img.PNG Graphic file (type png)
+<use Immagini_Test/Test_4_img.PNG>
+Package pdftex.def Info: Immagini_Test/Test_4_img.PNG  used on input line 352.
+(pdftex.def)             Requested size: 576.65337pt x 302.08914pt.
+
+Overfull \hbox (70.24455pt too wide) in paragraph at lines 351--353
+[]  []
+ []
+
+[15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.359 
+       <./Immagini_Test/Test_4_img.PNG>]
+<Immagini_Test/Test_5_img.PNG, id=213, 1283.54532pt x 1052.43187pt>
+File: Immagini_Test/Test_5_img.PNG Graphic file (type png)
+<use Immagini_Test/Test_5_img.PNG>
+Package pdftex.def Info: Immagini_Test/Test_5_img.PNG  used on input line 372.
+(pdftex.def)             Requested size: 576.65337pt x 472.8352pt.
+
+Overfull \hbox (70.24455pt too wide) in paragraph at lines 371--373
+[]  []
+ []
+
+[16] [17
+pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.377 \newpage
+               <./Immagini_Test/Test_5_img.PNG>]
+<Immagini_Test/Test_6_img.PNG, id=224, 1291.07344pt x 896.59969pt>
+File: Immagini_Test/Test_6_img.PNG Graphic file (type png)
+<use Immagini_Test/Test_6_img.PNG>
+Package pdftex.def Info: Immagini_Test/Test_6_img.PNG  used on input line 397.
+(pdftex.def)             Requested size: 576.65337pt x 400.45631pt.
+
+Overfull \hbox (70.24455pt too wide) in paragraph at lines 396--398
+[]  []
+ []
+
+[18] [19
+pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.401 \newpage
+               <./Immagini_Test/Test_6_img.PNG>]
+<Immagini_Test/Test_7_img.PNG, id=236, 1293.33188pt x 1087.06125pt>
+File: Immagini_Test/Test_7_img.PNG Graphic file (type png)
+<use Immagini_Test/Test_7_img.PNG>
+Package pdftex.def Info: Immagini_Test/Test_7_img.PNG  used on input line 420.
+(pdftex.def)             Requested size: 576.65337pt x 484.67792pt.
+
+Overfull \hbox (70.24455pt too wide) in paragraph at lines 419--421
+[]  []
+ []
+
+[20] [21
+pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.424 \newpage
+               <./Immagini_Test/Test_7_img.PNG>] (Sistemi-embedded_consegna_due.lof)
+\tf@lof=\write5
+\openout5 = `Sistemi-embedded_consegna_due.lof'.
+
+ [22] (Sistemi-embedded_consegna_due.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `Sistemi-embedded_consegna_due.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: A170FABDC1E92ED4257F6152E093D71F;3380.
  ) 
 Here is how much of TeX's memory you used:
- 17076 strings out of 474424
- 300749 string characters out of 5741740
- 1929496 words of memory out of 5000000
- 39193 multiletter control sequences out of 15000+600000
- 560792 words of font info for 45 fonts, out of 8000000 for 9000
+ 17338 strings out of 474424
+ 306304 string characters out of 5741740
+ 1946496 words of memory out of 5000000
+ 39385 multiletter control sequences out of 15000+600000
+ 564043 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,79p,549b,493s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Sistemi-embedded_consegna_due.pdf (3 pages, 70353 bytes).
+ 75i,9n,79p,976b,538s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\alfon\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/alfon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Sistemi-embedded_consegna_due.pdf (23 pages, 1163853 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 311 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 232 words of extra memory for PDF output out of 10000 (max. 10000000)
 
