@@ -161,7 +161,7 @@ Nel core del nostro sistema, troviamo vari stati che lavorano in parallelo: \tex
 
 \subsubsection{Pulsante B1}
 
-Descriviamo nel dettaglio lo stato del pulsante B1. Questo componente viene utilizzato per richiedere l'apertura o la chiusura del cancello e sono previsti tre super-stati: \textbf{RELEASED, PRESSED, LONGPRESSED}.
+Descriviamo nel dettaglio lo stato del pulsante B1. Questo componente viene utilizzato per richiedere l'apertura o la chiusura del cancello e sono previsti tre sotto-stati: \textbf{RELEASED, PRESSED, LONGPRESSED}.
 
 \begin{enumerate}
     \item \textbf{RELEASED}: Stato iniziale. Si passa allo stato \textbf{PRESSED} quando viene rilevata la pressione del pulsante B1.
@@ -195,7 +195,7 @@ Il Pulsante B2 è utile per regolare il tempo di chiusura automatica del cancell
 
 \subsubsection{Automatic Gate}
 
-Arriviamo ora a descrivere lo stato che implementa la logica di funzionamento. Innanzitutto, come scelta implementativa, consideriamo come Stato Iniziale lo stato \textbf{CLOSING}. Consideriamo quest'ultimo tale poiché le specifiche richiedono che al momento dell'attivazione del sistema, se il cancello è aperto, ovvero P2 è inattivo, quest'ultimo passi in uno stato di chiusura descritto appunto dal suddetto stato. All'interno troviamo due super-stati \textbf{YELLOW\_ON} e \textbf{YELLOW\_OFF} che descrivono il Toggle del LED Giallo che avviene con frequenza 0.5 Hz.
+Arriviamo ora a descrivere lo stato che implementa la logica di funzionamento. Innanzitutto, come scelta implementativa, consideriamo come Stato Iniziale lo stato \textbf{CLOSING}. Consideriamo quest'ultimo tale poiché le specifiche richiedono che al momento dell'attivazione del sistema, se il cancello è aperto, ovvero P2 è inattivo, quest'ultimo passi in uno stato di chiusura descritto appunto dal suddetto stato. All'interno troviamo due sotto-stati \textbf{YELLOW\_ON} e \textbf{YELLOW\_OFF} che descrivono il Toggle del LED Giallo che avviene con frequenza 0.5 Hz.
 
 \begin{figure}[H]
     \centering
@@ -203,7 +203,7 @@ Arriviamo ora a descrivere lo stato che implementa la logica di funzionamento. I
     \caption{Closing State.}
 \end{figure}
 
-\noindent Nel momento in cui il cancello si chiude completamente o è già chiuso (P2 è attivo), si passa allo stato \textbf{CLOSED}. In questo stato, tutti i LED sono spenti e al suo interno troviamo due super-stati: \textbf{OPEN\_DUR\_SETTING} e \textbf{WORK\_DUR\_SETTING} che descrivono il settaggio dei parametri del tempo di chiusura automatica e del tempo di lavoro, che può essere attuato solo se il sistema si trova in questo stato. Per descrivere questi stati interni prenderemo in esame \textbf{OPEN\_DUR\_SETTING}, poiché il discorso è analogo per \textbf{WORK\_DUR\_SETTING}. Quando viene premuto B2, viene generato un evento che poi viene catturato da quest'ultimo stato e viene effettuata un'operazione che modifica la variabile \textbf{OPEN\_DUR}: 
+\noindent Nel momento in cui il cancello si chiude completamente o è già chiuso (P2 è attivo), si passa allo stato \textbf{CLOSED}. In questo stato, tutti i LED sono spenti e al suo interno troviamo due sotto-stati: \textbf{OPEN\_DUR\_SETTING} e \textbf{WORK\_DUR\_SETTING} che descrivono il settaggio dei parametri del tempo di chiusura automatica e del tempo di lavoro, che può essere attuato solo se il sistema si trova in questo stato. Per descrivere questi stati interni prenderemo in esame \textbf{OPEN\_DUR\_SETTING}, poiché il discorso è analogo per \textbf{WORK\_DUR\_SETTING}. Quando viene premuto B2, viene generato un evento che poi viene catturato da quest'ultimo stato e viene effettuata un'operazione che modifica la variabile \textbf{OPEN\_DUR}: 
 
 \[
 \mathrm{OPEN\_DUR} = \mathrm{mod}((\mathrm{OPEN\_DUR}), 120) + 10
@@ -236,7 +236,7 @@ Questo perché i valori impostati hanno un range (10, 120).
 
 \subsubsection{Emergency States}
 
-Dallo stato \textbf{OPEN}, per tornare di nuovo in uno stato di chiusura, è possibile premere il pulsante B1 o attendere la chiusura automatica. Tuttavia, come specificato, il cancello non eseguirà il comando di chiusura se il sensore P1 è attivo, ma passerà nello stato \textbf{EMERGENCY\_P1\_OPEN}. Il sistema rimane in questo stato per 30 secondi o finché il sensore P1 non ritorna inattivo. Al suo interno troviamo due super-stati che descrivono il toggling del LED verde: \textbf{GREEN\_ON} e \textbf{GREEN\_OFF} con frequenza 1 Hz.
+Dallo stato \textbf{OPEN}, per tornare di nuovo in uno stato di chiusura, è possibile premere il pulsante B1 o attendere la chiusura automatica. Tuttavia, come specificato, il cancello non eseguirà il comando di chiusura se il sensore P1 è attivo, ma passerà nello stato \textbf{EMERGENCY\_P1\_OPEN}. Il sistema rimane in questo stato per 30 secondi a meno che il sensore P1 non ritorna inattivo. Al suo interno troviamo due sotto-stati che descrivono il toggling del LED verde: \textbf{GREEN\_ON} e \textbf{GREEN\_OFF} con frequenza 1 Hz.
 \vspace{1.5cm}
 \begin{figure}[H]
     \centering
@@ -375,7 +375,7 @@ Nella Figura 16 è illustrato un caso di test. È importante notare che, sebbene
 \end{figure}
 
 \newpage
-\subsection{Test Case 6: }
+\subsection{Test Case 6: Cyclic time setting}
 In questo test, viene verificato che l'impostazione del tempo di chiusura automatico e il tempo di lavoro funzionino in maniera ciclica. Una volta raggiunto il massimo tempo impostabile (120 secondi), ritorna al tempo iniziale (10 secondi).
 
 \begin{itemize}
@@ -399,7 +399,7 @@ In Figura 17 sono riportate le varie fasi in Simulink Test.
     \label{fig:Test_6}
 \end{figure}
 \newpage
-\subsection{Test Case 7: }
+\subsection{Test Case 7: Working and closing time testing}
 In questo test, viene verificato che l'impostazione del tempo di chiusura automatico e il tempo di lavoro funzioni correttamente. I tempi vengono impostati da 10 a 120 secondi per entrambi i casi tramite i relativi pulsanti.
 
 \begin{itemize}
