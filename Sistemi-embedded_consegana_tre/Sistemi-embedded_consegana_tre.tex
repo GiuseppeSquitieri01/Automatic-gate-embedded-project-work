@@ -125,11 +125,6 @@ La configurazione dei pin può essere vista nella successiva tabella:
     \label{tab:variables}
     \end{table}
 
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=1\textwidth]{snippet/include.png}
-        \caption{Include of the system.}
-    \end{figure}
 
 \newpage
 \subsection{Generazione del codice (Embedded coder)}
@@ -142,20 +137,25 @@ Una volta configurata la scheda ed aver accertato che tutti i componenti siano f
     \item {\textbf{Import codice}} A questo punto si importano i tre file nel progetto configurato in \textbf{STM32CubeIDE} e si procede alla build del progetto per assicurarsi che i file siano senza errori.
     \item {\textbf{Main}} L'ultima parte da effettuare è quella di configurare il file \textit{main.c}. Nel main sono stati inclusi i file .h importati in precedenza, successivamente sono state create due funzioni per la lettura e la scrittura degli input e degli output ed infine è stata definita la sequenza di azioni da eseguire nel while infinito. Nello snippet di codice successivo è mostrato tutto il codice inserito.
 \end{itemize}
-
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{snippet/include.png}
+    \caption{Include of the system.}
+\end{figure}
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{snippet/input_output.png}
     \caption{Input and output of the system.}
 \end{figure}
-\newpage
-\subsection{Testing}
-Una volta esportato il codice sulla scheda \textbf{STM-32 NUCLEO-G474RE} c'è il bisogno di testare se tutto funzione, in particolare sono stati ripetuti tutti i test eseguiti sul modello, successivamente sono indicati i risultati
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{snippet/main.png}
     \caption{Testing.}
 \end{figure}
+\newpage
+\subsection{Testing}
+Una volta esportato il codice sulla scheda \textbf{STM-32 NUCLEO-G474RE} c'è il bisogno di testare se tutto funzione, in particolare sono stati ripetuti tutti i test eseguiti sul modello, successivamente sono indicati i risultati
+
 \newpage
 \addcontentsline{toc}{section}{Elenco delle figure}
 \listoffigures
