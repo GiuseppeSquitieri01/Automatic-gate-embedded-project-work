@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.6)  30 MAY 2024 11:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.6)  30 MAY 2024 11:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -297,7 +297,11 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 File: l3backend-pdftex.def 2024-04-11 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count299
 \l__pdf_internal_box=\box57
-) (Sistemi-embedded_consegana_tre.aux)
+) (Sistemi-embedded_consegana_tre.aux
+
+LaTeX Warning: Label `tab:variables' multiply defined.
+
+)
 \openout1 = `Sistemi-embedded_consegana_tre.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
@@ -388,7 +392,7 @@ italian.ldf    See the documentation concerning the babel-italian typesetting
 italian.ldf    on input line 79.
 
 \c@lstlisting=\count306
-<logo_uni.png, id=22, 225.84375pt x 225.84375pt>
+<logo_uni.png, id=23, 225.84375pt x 225.84375pt>
 File: logo_uni.png Graphic file (type png)
 <use logo_uni.png>
 Package pdftex.def Info: logo_uni.png  used on input line 84.
@@ -421,7 +425,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has 
                                                   \__shipout_drop_firstpage_...
 l.129 \newpage
               ]
-<snippet/include.png, id=47, 257.46187pt x 64.74188pt>
+<snippet/include.png, id=48, 257.46187pt x 64.74188pt>
 File: snippet/include.png Graphic file (type png)
 <use snippet/include.png>
 Package pdftex.def Info: snippet/include.png  used on input line 142.
@@ -431,7 +435,7 @@ Overfull \hbox (13.992pt too wide) in paragraph at lines 141--143
 []  []
  []
 
-<snippet/input_output.png, id=49, 495.8525pt x 196.23312pt>
+<snippet/input_output.png, id=50, 495.8525pt x 196.23312pt>
 File: snippet/input_output.png Graphic file (type png)
 <use snippet/input_output.png>
 Package pdftex.def Info: snippet/input_output.png  used on input line 147.
@@ -441,7 +445,7 @@ Overfull \hbox (23.09709pt too wide) in paragraph at lines 146--148
 []  []
  []
 
-<snippet/main.png, id=50, 301.62688pt x 265.49188pt>
+<snippet/main.png, id=51, 301.62688pt x 265.49188pt>
 File: snippet/main.png Graphic file (type png)
 <use snippet/main.png>
 Package pdftex.def Info: snippet/main.png  used on input line 152.
@@ -466,7 +470,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.155 \newpage
-               <./snippet/input_output.png> <./snippet/main.png>] [5] (Sistemi-embedded_consegana_tre.lof)
+               <./snippet/input_output.png> <./snippet/main.png>] [5
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.177 \newpage
+              ] (Sistemi-embedded_consegana_tre.lof)
 \tf@lof=\write5
 \openout5 = `Sistemi-embedded_consegana_tre.lof'.
 
@@ -475,21 +484,25 @@ l.155 \newpage
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `Sistemi-embedded_consegana_tre.out' has not changed.
-(rerunfilecheck)             Checksum: 80CCF72E2127A015B3679227C56CA277;881.
+(rerunfilecheck)             Checksum: F1372A984D6E8796473C380A29779FD9;874.
  ) 
 Here is how much of TeX's memory you used:
- 17163 strings out of 474369
- 298196 string characters out of 5750330
+ 17165 strings out of 474369
+ 298212 string characters out of 5750330
  1933754 words of memory out of 5000000
- 39310 multiletter control sequences out of 15000+600000
+ 39311 multiletter control sequences out of 15000+600000
  564390 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,580b,480s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,79p,580b,480s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\giuse\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Sistemi-embedded_consegana_tre.pdf (7 pages, 161168 bytes).
+Output written on Sistemi-embedded_consegana_tre.pdf (7 pages, 163179 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
+ 113 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
